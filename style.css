@@ -18,6 +18,9 @@ body {
     text-shadow: black 3px 3px;
     text-align: center;
 }
+.orangehover:hover {
+    color:orange;
+}
 * {
     font-family: "Comic Sans MS";
     font-size: 100%; 
