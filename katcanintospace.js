@@ -47,12 +47,12 @@ function calculateTimeSinceEvent(eventDate, endDate = null) {
   window.onload = function () { // Example event date
     var path = window.location.pathname;
     var page = path.split("/").pop();
-    if (page == "index.html") {
+    //if (page == "index.html") {
       displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago');
       displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago');
-      for (elementx of document.getElementsByClassName("datex")) {
-        console.log(elementx);
-        elementx.innerText = displayTimeSinceEvent(elementx.innerText);
-      }
-    }
+      //for (elementx of document.getElementsByClassName("datex")) {
+      //  console.log(elementx);
+      //  elementx.innerText = displayTimeSinceEvent(elementx.innerText);
+      //}
+    //}
   }
