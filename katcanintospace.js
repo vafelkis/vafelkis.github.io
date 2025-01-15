@@ -39,14 +39,14 @@ function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null,
         language = "en"
     }
     let result = "";
-    if (language == "en") {
+    if (language === "en") {
         result = `${years} years, ${months} months and ${days} days ago`;
     }
-    else if (language == "lt") {
+    else if (language === "lt") {
 
         result = `${years} metų, ${months} mėnesių ir ${days} dienų`;
     }
-    else if (language == "ru") {
+    else if (language === "ru") {
 
         result = `${years} лет, ${months} месяцев и ${days} дней`;
     }
