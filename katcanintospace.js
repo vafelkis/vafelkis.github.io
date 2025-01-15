@@ -39,27 +39,27 @@ function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null,
         language = "en"
     }
     let result = "";
-    console.log("a")
-    if (language = "en") {
+    console.log("a");
+    if (language == "en") {
         result = `${years} years, ${months} months and ${days} days ago`;
-    console.log("b")
-}
-    else if (language ="lt") {
+        console.log("b");
+    }
+    else if (language == "lt") {
 
         result = `${years} metų, ${months} mėnesių ir ${days} dienų`;
-    console.log("c")
-}
-    else if (language = "ru") {
+        console.log("c");
+    }
+    else if (language == "ru") {
 
         result = `${years} лет, ${months} месяцев и ${days} дней`;
-    console.log("d")
-}
+        console.log("d");
+    }
 
 
 
     if (elementId == null) return result;
     document.getElementById(elementId).innerText = result;
-    console.log("e")
+    console.log("e");
 }
 
 
@@ -81,41 +81,38 @@ function russian() {
     document.getElementById("langel-wip").innerText = "[не работает...]";
     document.getElementById("langel-bccreation").innerText = "БК";
     document.getElementById("langel-boatcreation").innerText = "БОАТ";
-    for (let elemnt of document.getElementsByName("langel-since").values())
-        {
+    for (let elemnt of document.getElementsByName("langel-since").values()) {
         elemnt.innerText = "от";
-        }
+    }
     document.getElementById("russianbut").innerText = "русский [выбрано]";
     document.getElementById("lithuanianbut").innerText = "lietuvių";
     document.getElementById("englishbut").innerText = "english";
-    displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago', language="ru");
-    displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', language="ru");
+    displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago', language = "ru");
+    displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', language = "ru");
 }
 function lithuanian() {
     document.getElementById("langel-wip").innerText = "[dar ruošiama...]";
     document.getElementById("langel-bccreation").innerText = "bc sukūrimas";
     document.getElementById("langel-boatcreation").innerText = "boat'o įkūrimas";
-    for (let elemnt of document.getElementsByName("langel-since").values())
-        {
+    for (let elemnt of document.getElementsByName("langel-since").values()) {
         elemnt.innerText = "nuo";
-        }
+    }
     document.getElementById("russianbut").innerText = "русский";
     document.getElementById("lithuanianbut").innerText = "lietuvių [pasirinkta]";
     document.getElementById("englishbut").innerText = "english";
-    displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago', language="lt");
-    displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', language="lt");
+    displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago', language = "lt");
+    displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', language = "lt");
 }
 function english() {
     document.getElementById("langel-wip").innerText = "[work in progress...]";
     document.getElementById("langel-bccreation").innerText = "creation of bc";
     document.getElementById("langel-boatcreation").innerText = "creation of boat";
-    for (let elemnt of document.getElementsByName("langel-since").values())
-    {
-    elemnt.innerText = "since";
+    for (let elemnt of document.getElementsByName("langel-since").values()) {
+        elemnt.innerText = "since";
     }
     document.getElementById("russianbut").innerText = "русский";
     document.getElementById("lithuanianbut").innerText = "lietuvių";
     document.getElementById("englishbut").innerText = "english [selected]";
-    displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago', language="en");
-    displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', language="en");
+    displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago', language = "en");
+    displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', language = "en");
 }
