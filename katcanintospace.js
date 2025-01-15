@@ -101,7 +101,7 @@ function lithuanian() {
     document.getElementById("lithuanianbut").innerText = "lietuvių [pasirinkta]";
     document.getElementById("englishbut").innerText = "english";
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago',null, "lt");
-    displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', null, lt");
+    displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', null, "lt");
 }
 function english() {
     document.getElementById("langel-wip").innerText = "[work in progress...]";
@@ -112,6 +112,9 @@ function english() {
     }
     document.getElementById("russianbut").innerText = "русский";
     document.getElementById("lithuanianbut").innerText = "lietuvių";
+
+
+
     document.getElementById("englishbut").innerText = "english [selected]";
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago', null, "en");
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', null, "en");
