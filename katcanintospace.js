@@ -35,7 +35,7 @@ function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null,
     // If the event date is invalid, exit early
     if (!time) return;
     const { years, months, days } = time;
-    if (this.language == null) {
+    if (language == null) {
         language = "en"
     }
     let result = "";
