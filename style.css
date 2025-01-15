@@ -7,10 +7,30 @@ body {
     background-attachment: scroll !important;
     /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
 }
+.flag {
+    box-shadow: -2px 2px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
+    outline: 1px black solid;
+}
 #slavaboat {
     font-family: "Comic Sans MS";
-    font-size: 500%; 
+    font-size: 500% !important;
     color: white;
     text-shadow: black 3px 3px;
+    text-align: center;
+}
+* {
+    font-family: "Comic Sans MS";
+    font-size: 100%; 
+    color: white;
+    text-shadow: black 3px 3px;
+    text-align: center;
+}
+.headersex {
+    font-family: "Comic Sans MS";
+    font-size: 250%; 
+    color: white;
+    text-shadow: black 3px 3px;
+    text-shadow: white 0px 0px 3px;
+    text-shadow: white 0px 0px 3px;
     text-align: center;
 }
