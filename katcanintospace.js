@@ -39,22 +39,27 @@ function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null,
         language = "en"
     }
     let result = "";
+    console.log("a")
     if (language === "en") {
         result = `${years} years, ${months} months and ${days} days ago`;
-    }
+    console.log("b")
+}
     else if (language === "lt") {
 
         result = `${years} metų, ${months} mėnesių ir ${days} dienų`;
-    }
+    console.log("c")
+}
     else if (language === "ru") {
 
         result = `${years} лет, ${months} месяцев и ${days} дней`;
-    }
+    console.log("d")
+}
 
 
 
     if (elementId == null) return result;
     document.getElementById(elementId).innerText = result;
+    console.log("e")
 }
 
 
