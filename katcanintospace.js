@@ -40,15 +40,15 @@ function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null,
     }
     let result = "";
     if (language == "en") {
-        let result = `${years} years, ${months} months and ${days} days ago`;
+        result = `${years} years, ${months} months and ${days} days ago`;
     }
     else if (language == "lt") {
 
-        let result = `${years} metų, ${months} mėnesių ir ${days} dienų`;
+        result = `${years} metų, ${months} mėnesių ir ${days} dienų`;
     }
     else if (language == "ru") {
 
-        let result = `${years} лет, ${months} месяцев и ${days} дней`;
+        result = `${years} лет, ${months} месяцев и ${days} дней`;
     }
 
 
