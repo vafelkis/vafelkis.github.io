@@ -9,6 +9,8 @@ body {
 }
 #slavaboat {
     font-family: "Comic Sans MS";
-    font-size: 300%; 
+    font-size: 700%; 
+    color: white;
+    text-shadow: black 3px 3px 3px;
     text-align: center;
 }
