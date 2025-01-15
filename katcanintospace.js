@@ -84,7 +84,7 @@ function russian() {
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', language="ru");
 }
 function lithuanian() {
-    document.getElementById("langel-wip").innerText = "[dar ruošiama...;
+    document.getElementById("langel-wip").innerText = "[dar ruošiama...]";
     document.getElementById("langel-bccreation").innerText = "bc sukūrimas";
     document.getElementById("langel-boatcreation").innerText = "boat'o įkūrimas";
     document.getElementById("langel-since").innerText = "nuo";
