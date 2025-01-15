@@ -13,7 +13,7 @@ body {
 }
 #slavaboat {
     font-family: "Comic Sans MS";
-    font-size: 500% !important;
+    font-size: 300% !important;
     color: white;
     text-shadow: black 3px 3px;
     text-align: center;
@@ -24,14 +24,14 @@ body {
 }
 * {
     font-family: "Comic Sans MS";
-    font-size: 170%; 
+    font-size: 130%; 
     color: white;
     text-shadow: black 3px 3px;
     text-align: center;
 }
 .headersex {
     font-family: "Comic Sans MS";
-    font-size: 300%; 
+    font-size: 200%; 
     color: white;
     text-shadow: black 3px 3px;
     text-shadow: white 0px 0px 3px;
