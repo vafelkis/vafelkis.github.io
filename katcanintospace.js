@@ -76,7 +76,10 @@ function russian() {
     document.getElementById("langel-wip").innerText = "[не работает...]";
     document.getElementById("langel-bccreation").innerText = "БК";
     document.getElementById("langel-boatcreation").innerText = "БОАТ";
-    document.getElementById("langel-since").innerText = "от";
+    for (elemnt in document.getElementsByName("langel-since").values())
+        {
+        elemnt.innerText = "от";
+        }
     document.getElementById("russianbut").innerText = "русский [выбрано]";
     document.getElementById("lithuanianbut").innerText = "lietuvių";
     document.getElementById("englishbut").innerText = "english";
@@ -87,7 +90,10 @@ function lithuanian() {
     document.getElementById("langel-wip").innerText = "[dar ruošiama...]";
     document.getElementById("langel-bccreation").innerText = "bc sukūrimas";
     document.getElementById("langel-boatcreation").innerText = "boat'o įkūrimas";
-    document.getElementById("langel-since").innerText = "nuo";
+    for (elemnt in document.getElementsByName("langel-since").values())
+        {
+        elemnt.innerText = "nuo";
+        }
     document.getElementById("russianbut").innerText = "русский";
     document.getElementById("lithuanianbut").innerText = "lietuvių [pasirinkta]";
     document.getElementById("englishbut").innerText = "english";
@@ -98,7 +104,10 @@ function english() {
     document.getElementById("langel-wip").innerText = "[work in progress...]";
     document.getElementById("langel-bccreation").innerText = "creation of bc";
     document.getElementById("langel-boatcreation").innerText = "creation of boat";
-    document.getElementById("langel-since").innerText = "since";
+    for (elemnt in document.getElementsByName("langel-since").values())
+    {
+    elemnt.innerText = "since";
+    }
     document.getElementById("russianbut").innerText = "русский";
     document.getElementById("lithuanianbut").innerText = "lietuvių";
     document.getElementById("englishbut").innerText = "english [selected]";
