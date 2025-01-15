@@ -19,7 +19,8 @@ body {
     text-align: center;
 }
 .orangehover:hover {
-    color:orange;
+    color:lightblue;
+    cursor:grab;
 }
 * {
     font-family: "Comic Sans MS";
