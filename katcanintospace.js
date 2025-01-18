@@ -107,6 +107,7 @@ function english() {
     document.getElementById("langel-wip").innerText = "[work in progress...]";
     document.getElementById("langel-bccreation").innerText = "creation of bc";
     document.getElementById("langel-boatcreation").innerText = "creation of boat";
+    document.getElementById("langel-vilnius").innerText = "vilnius";
     for (let elemnt of document.getElementsByName("langel-since").values()) {
         elemnt.innerText = "since";
     }
