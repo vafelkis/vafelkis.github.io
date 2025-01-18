@@ -124,6 +124,6 @@ let date2 = document.getElementById("date2");
 function startclock() {
     const now = new Date();
     date1.innerText = `${ now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}:${now.getSeconds().toString().padStart(2, '0')}`
-    date2.innerText =`${now.getFullYear().toString()}:${now.getMonth().toString().padStart(2, '0')}:${now.getDay().toString().padStart(2, '0')}`
+    date2.innerText =`${now.getFullYear().toString()}:${(now.getMonth()+1).toString().padStart(2, '0')}:${now.getDate().toString().padStart(2, '0')}`
 }
 setInterval(startclock, 1000); 
