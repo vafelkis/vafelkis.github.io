@@ -1,8 +1,8 @@
 html,
 body {
     height: 100%;
-    padding: 0;
-    margin: 0;
+    padding: 20px;
+    margin: 20px;
     background-image: url("source.gif");
     background-repeat:round;
     background-attachment: scroll !important;
