@@ -38,10 +38,12 @@ body {
     text-align: center;
 }
 sub {
-    font-size: 30%; 
+    font-size: 70%; 
 }
 h2 {
     font-size: 250%; 
+    margin: 0px;
+    padding: 0px;
 }
 .headersex {
     font-family: "Comic Sans MS";
