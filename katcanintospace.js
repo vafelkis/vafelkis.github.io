@@ -71,10 +71,12 @@ window.onload = function () { // Example event date
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago');
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago');
 
-    if ((new Date()).getHours() > 19)
-    {
-        document.body.style.backgroundImage = "url(\"nightwatchtower.gif\") !important";    
-        document.getElementById("altbodyhtml").style.backgroundImage = "url(\"nightwatchtower.gif\") !important";
+    if ((new Date()).getHours() > 19) {
+        document.body.style.backgroundImage = "url('nightwatchtower.gif')";
+        document.body.style.setProperty('background-image', 'url("nightwatchtower.gif")', 'important');
+
+        document.getElementById("altbodyhtml").style.backgroundImage = "url('nightwatchtower.gif')";
+        document.getElementById("altbodyhtml").style.setProperty('background-image', 'url("nightwatchtower.gif")', 'important');
     }
     //for (elementx of document.getElementsByClassName("datex")) {
     //  console.log(elementx);
@@ -97,7 +99,7 @@ function russian() {
     document.getElementById("englishbut").innerText = "english";
     document.getElementById("langel-introduction").innerHTML = "<h2>введение</h2>привет, я <b>katrewkate</b> <sub>[обычно сокращается до kat; kate; ktrwkat, в проектах обычно пишется белым]</sub>, с альтернативными именами: <b>vafelkis</b> <sub>[сокращается до vaf, в творческих проектах и других работах обычно пишется оранжевым]</sub>. другие псевдонимы устарели или больше не используются, и упоминаться здесь не будут. добро пожаловать на этот сайт, здесь вы найдете много всего, от информации о предыдущих проектах до статистики, возможно, даже фотографии, кто знает? вот так.</p>";
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago', null, "ru");
-    displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago',null, "ru");
+    displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', null, "ru");
 }
 function lithuanian() {
     document.getElementById("langel-wip").innerText = "[dar ruošiama...]";
@@ -113,7 +115,7 @@ function lithuanian() {
     document.getElementById("langel-links").innerText = "linkai";
     document.getElementById("englishbut").innerText = "english";
 
-    displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago',null, "lt");
+    displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago', null, "lt");
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', null, "lt");
 }
 function english() {
@@ -138,16 +140,16 @@ function english() {
 let date1 = document.getElementById("date1");
 let date2 = document.getElementById("date2");
 function startclock() {
-    const nowvln = new Date().toLocaleString('en-GB', { 
-        timeZone: 'Europe/Vilnius', 
-        year: 'numeric', 
-        month: '2-digit', 
-        day: '2-digit', 
-        hour: '2-digit', 
-        minute: '2-digit', 
-        second: '2-digit', 
+    const nowvln = new Date().toLocaleString('en-GB', {
+        timeZone: 'Europe/Vilnius',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
         hour12: false // 24-hour format
-      });
+    });
     const [date, time] = nowvln.split(', ');
     const [day, month, year] = date.split('/');
     date1.innerText = `${year}-${month}-${day}`
