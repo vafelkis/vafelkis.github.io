@@ -86,8 +86,10 @@ function russian() {
     }
     document.getElementById("russianbut").innerText = "русский [выбрано]";
     document.getElementById("lithuanianbut").innerText = "lietuvių";
+    document.getElementById("langel-links").innerText = "линки";
     document.getElementById("langel-vilnius").innerText = "вильнюс";
     document.getElementById("englishbut").innerText = "english";
+    document.getElementById("langel-introduction").innerHTML = "<h2>введение</h2>привет, я <b>katrewkate</b> <sub>[обычно сокращается до kat; kate; ktrwkat, в проектах обычно пишется белым]</sub>, с альтернативными именами: <b>vafelkis</b> <sub>[сокращается до vaf, в творческих проектах и других работах обычно пишется оранжевым]</sub>. другие псевдонимы устарели или больше не используются, и упоминаться здесь не будут. добро пожаловать на этот сайт, здесь вы найдете много всего, от информации о предыдущих проектах до статистики, возможно, даже фотографии, кто знает? вот так.</p>";
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago', null, "ru");
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago',null, "ru");
 }
@@ -101,7 +103,10 @@ function lithuanian() {
     document.getElementById("russianbut").innerText = "русский";
     document.getElementById("langel-vilnius").innerText = "vilnius";
     document.getElementById("lithuanianbut").innerText = "lietuvių [pasirinkta]";
+    document.getElementById("langel-introduction").innerHTML = "<h2>įvadas</h2>labas, aš <b>katrewkate</b> <sub>[dažniausiai trumpinima kat; kate; ktrwkat, projektuose užrašyta baltai]</sub>, alternatyviai gali būti <b>vafelkis</b> <sub>[trumpinima vaf, rašoma oranžine spalva]</sub>. kitos pravardės nevartojamos ir todėl nebus minimos. sveiki atvykę, čia rasite daug ko, nuo praeitų projektų iki gal net statistikų, gal foto, kas žino? tai va.</p>";
+    document.getElementById("langel-links").innerText = "linkai";
     document.getElementById("englishbut").innerText = "english";
+
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago',null, "lt");
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', null, "lt");
 }
@@ -110,6 +115,8 @@ function english() {
     document.getElementById("langel-bccreation").innerText = "creation of bc";
     document.getElementById("langel-boatcreation").innerText = "creation of boat";
     document.getElementById("langel-vilnius").innerText = "vilnius";
+    document.getElementById("langel-links").innerText = "links";
+    document.getElementById("langel-introduction").innerHTML = "<h2>introduction</h2>hi, i'm <b>katrewkate</b> <sub>[albeit usually shortened to kat; kate; ktrwkat, in projects usually written in white]</sub>, with alternate names being: <b>vafelkis</b> <sub>[shortened to vaf, on creations and other projects usually written in orange]</sub>. other aliases are discontinued or are obsolete and will not be mentioned here. welcome to this website, here you will find a lot of things, anything ranging from information of previous projects to statistics, maybe even photos, who fucking knows? that's right.</p>";
     for (let elemnt of document.getElementsByName("langel-since").values()) {
         elemnt.innerText = "since";
     }
