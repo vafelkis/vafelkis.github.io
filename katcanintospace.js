@@ -132,7 +132,7 @@ function startclock() {
         second: '2-digit', 
         hour12: false // 24-hour format
       });
-    const [date, time] = dateInVilnius.split(', ');
+    const [date, time] = nowvln.split(', ');
     date1.innerText = date.replace(/\//g, '-');
     date2.innerText = time;
 }
