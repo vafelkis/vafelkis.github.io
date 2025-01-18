@@ -40,6 +40,9 @@ body {
 sub {
     font-size: 30%; 
 }
+h2 {
+    font-size: 250%; 
+}
 .headersex {
     font-family: "Comic Sans MS";
     font-size: 200%; 
