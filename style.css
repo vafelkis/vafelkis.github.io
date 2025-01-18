@@ -23,6 +23,13 @@ body {
     color:lightblue;
     cursor:grab;
 }
+.lightblue {
+    color:lightblue;
+}
+.lightblue:hover {
+    color: blue;
+    cursor: grab;
+}
 
 @font-face {
     font-family: 'VCR OSD Mono'; /* Name you choose for your font */
