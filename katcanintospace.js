@@ -121,7 +121,7 @@ function english() {
         elemnt.innerText = "since";
     }
     document.getElementById("russianbut").innerText = "русский";
-    document.getElementById("lithuanianbut").innerText = "lietuvių";
+    document.getElementById("lithuanianbut").innerText = "lietuvių"; //
 
 
 
