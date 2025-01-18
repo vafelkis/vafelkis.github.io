@@ -119,3 +119,11 @@ function english() {
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago', null, "en");
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', null, "en");
 }
+let date1 = document.getElementById("date1");
+let date2 = document.getElementById("date2");
+function startclock() {
+    const now = new Date();
+    date1.innerText = `${ now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}:${now.getSeconds().toString().padStart(2, '0')}`
+    date2.innerText =`${now.getFullYear().toString()}:${now.getMonth().toString().padStart(2, '0')}:${now.getDay().toString().padStart(2, '0')}`
+}
+setInterval(startclock, 1000); 
