@@ -39,3 +39,12 @@ body {
     text-shadow: white 0px 0px 3px;
     text-align: center;
 }
+.headersex2 {
+    font-family: "VCR OSD Mono";
+    font-size: 300%; 
+    color: white;
+    text-shadow: black 3px 3px;
+    text-shadow: black 0px 0px 3px;
+    text-shadow: black 0px 0px 5px;
+    text-align: center;
+}
