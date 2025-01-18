@@ -86,6 +86,7 @@ function russian() {
     }
     document.getElementById("russianbut").innerText = "русский [выбрано]";
     document.getElementById("lithuanianbut").innerText = "lietuvių";
+    document.getElementById("langel-vilnius").innerText = "вильнюс";
     document.getElementById("englishbut").innerText = "english";
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago', null, "ru");
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago',null, "ru");
@@ -98,6 +99,7 @@ function lithuanian() {
         elemnt.innerText = "nuo";
     }
     document.getElementById("russianbut").innerText = "русский";
+    document.getElementById("langel-vilnius").innerText = "vilnius";
     document.getElementById("lithuanianbut").innerText = "lietuvių [pasirinkta]";
     document.getElementById("englishbut").innerText = "english";
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago',null, "lt");
