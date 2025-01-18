@@ -73,8 +73,8 @@ window.onload = function () { // Example event date
 
     if ((new Date()).getHours() > 19)
     {
-        document.body.style.backgroundImage = "url(\"nightwatchtower.gif\")";    
-        document.getElementById("altbodyhtml").style.backgroundImage = "url(\"nightwatchtower.gif\")";
+        document.body.style.backgroundImage = "url(\"nightwatchtower.gif\") !important";    
+        document.getElementById("altbodyhtml").style.backgroundImage = "url(\"nightwatchtower.gif\") !important";
     }
     //for (elementx of document.getElementsByClassName("datex")) {
     //  console.log(elementx);
