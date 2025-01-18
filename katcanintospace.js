@@ -75,9 +75,6 @@ window.onload = function () { // Example event date
     console.log(noetter);
     if (noetter > 19 || noetter < 5) {
         console.log("oui baguette bonjour")
-        document.body.style.backgroundImage = "url('nightwatchtower.gif')";
-        document.body.style.setProperty('background-image', 'url("nightwatchtower.gif")', 'important');
-
         document.getElementById("altbodyhtml").style.backgroundImage = "url('nightwatchtower.gif')";
         document.getElementById("altbodyhtml").style.setProperty('background-image', 'url("nightwatchtower.gif")', 'important');
     }

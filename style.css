@@ -3,10 +3,13 @@ body {
     height: 100%;
     padding: 20px;
     margin: 20px;
-    background-image: url("source.gif");
+    
     background-repeat:round;
     background-attachment: scroll !important;
     /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
+}
+html { 
+    background-image: url("source.gif") !important;
 }
 .flag {
     box-shadow: -2px 2px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
@@ -41,6 +44,7 @@ body {
     font-family: "Comic Sans MS";
     font-size: 130%; 
     color: white;
+    background: none;
     text-shadow: black 3px 3px;
     text-align: center;
 }
