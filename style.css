@@ -23,6 +23,13 @@ body {
     color:lightblue;
     cursor:grab;
 }
+
+@font-face {
+    font-family: 'VCR OSD Mono'; /* Name you choose for your font */
+    src: url('VCR_OSD_MONO.ttf') format('truetype');
+    font-weight: normal; /* Optional, specify weight */
+    font-style: normal;  /* Optional, specify style */
+}
 * {
     font-family: "Comic Sans MS";
     font-size: 130%; 
