@@ -70,8 +70,11 @@ window.onload = function () { // Example event date
     //if (page == "index.html") {
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago');
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago');
-
-    if ((new Date()).getHours() > 19) {
+    let maythernggods = new Date();
+    let noetter = maythernggods.getHours();
+    console.log(noetter);
+    if (noetter > 19) {
+        console.log("oui baguette bonjour")
         document.body.style.backgroundImage = "url('nightwatchtower.gif')";
         document.body.style.setProperty('background-image', 'url("nightwatchtower.gif")', 'important');
 
