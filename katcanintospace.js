@@ -73,7 +73,7 @@ window.onload = function () { // Example event date
     let maythernggods = new Date();
     let noetter = maythernggods.getHours();
     console.log(noetter);
-    if (noetter > 19) {
+    if (noetter > 19 || noetter < 5) {
         console.log("oui baguette bonjour")
         document.body.style.backgroundImage = "url('nightwatchtower.gif')";
         document.body.style.setProperty('background-image', 'url("nightwatchtower.gif")', 'important');
