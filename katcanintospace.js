@@ -70,6 +70,10 @@ window.onload = function () { // Example event date
     //if (page == "index.html") {
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago');
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago');
+
+    if ((new Date()).getHours() > 19)
+    {
+        document.body.style.backgroundImage = "url(\"nightwatchtower.gif\")";    }
     //for (elementx of document.getElementsByClassName("datex")) {
     //  console.log(elementx);
     //  elementx.innerText = displayTimeSinceEvent(elementx.innerText);
