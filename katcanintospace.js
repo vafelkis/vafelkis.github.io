@@ -133,7 +133,8 @@ function startclock() {
         hour12: false // 24-hour format
       });
     const [date, time] = nowvln.split(', ');
-    date1.innerText = date.replace(/\//g, '-');
+    const [day, month, year] = date.split('/');
+    date1.innerText = `${year}-${month}-${day}`
     date2.innerText = time;
 }
 setInterval(startclock, 1000); 
