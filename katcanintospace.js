@@ -122,8 +122,18 @@ function english() {
 let date1 = document.getElementById("date1");
 let date2 = document.getElementById("date2");
 function startclock() {
-    const now = new Date();
-    date1.innerText = `${ now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}:${now.getSeconds().toString().padStart(2, '0')}`
-    date2.innerText =`${now.getFullYear().toString()}:${(now.getMonth()+1).toString().padStart(2, '0')}:${now.getDate().toString().padStart(2, '0')}`
+    const nowvln = new Date().toLocaleString('en-GB', { 
+        timeZone: 'Europe/Vilnius', 
+        year: 'numeric', 
+        month: '2-digit', 
+        day: '2-digit', 
+        hour: '2-digit', 
+        minute: '2-digit', 
+        second: '2-digit', 
+        hour12: false // 24-hour format
+      });
+    const [date, time] = dateInVilnius.split(', ');
+    date1.innerText = date.replace(/\//g, '-');
+    date2.innerText = time;
 }
 setInterval(startclock, 1000); 
