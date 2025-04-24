@@ -12,6 +12,9 @@ body {
 html { 
     background-image: url("nyanshitrealtalk.gif") !important;
 }
+.sigma {
+    text-align: center;
+}
 @font-face {
     font-family: 'VCR OSD Mono'; /* Name you choose for your font */
     src: url('VCR_OSD_MONO.ttf') format('truetype');
