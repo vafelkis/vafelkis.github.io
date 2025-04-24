@@ -22,6 +22,7 @@ i {
 }
 code {
     background-color: rgb(0, 17, 53);
+    border-radius: 20% 5px 5px 5px 5px;
 }
 @font-face {
     font-family: 'VCR OSD Mono'; /* Name you choose for your font */
