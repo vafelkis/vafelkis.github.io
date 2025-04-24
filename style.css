@@ -5,6 +5,7 @@ body {
     margin: 20px;
     
     background-repeat:round;
+    background-size: contain;
     background-attachment: scroll !important;
     /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
 }
@@ -62,6 +63,7 @@ h2 {
     color: white;
     text-shadow: black 3px 3px;
     text-shadow: white 0px 0px 3px;
+    cursor: default;
     text-decoration: none;
     text-shadow: white 0px 0px 3px;
     text-align: center;
@@ -71,6 +73,7 @@ h2 {
     font-size: 200%; 
     text-decoration: none;
     color: white;
+    cursor: default;
     text-shadow: black 3px 3px;
     text-shadow: white 0px 0px 3px;
     text-shadow: white 0px 0px 3px;
