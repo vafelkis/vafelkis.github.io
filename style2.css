@@ -17,6 +17,9 @@ html {
 sub {
     font-size: 50% !important;
 }
+i {
+    font-size: 85% !important;
+}
 code {
     background-color: rgb(0, 17, 53);
 }
