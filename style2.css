@@ -4,8 +4,8 @@ body {
     padding: 20px;
     margin: 20px;
     
-    background-repeat:round;
-    background-size: 200% 200%;
+    background-repeat:repeat;
+    background-size: 600px 561px;
     background-attachment: scroll !important;
     /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
 }
