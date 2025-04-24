@@ -5,7 +5,7 @@ body {
     margin: 20px;
     
     background-repeat:round;
-    background-size: contain;
+    background-size: 500px;
     background-attachment: scroll !important;
     /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
 }
