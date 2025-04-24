@@ -15,16 +15,6 @@ html {
     box-shadow: -2px 2px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
     outline: 1px black solid;
 }
-.normala
-{
-    cursor:default;
-    color:white;
-}
-.normala:hover
-{
-    cursor:default;
-    color:white;
-}
 #slavaboat {
     font-family: "Comic Sans MS";
     font-size: 300% !important;
@@ -67,6 +57,15 @@ h2 {
     padding: 0px;
 }
 .headersex {
+    font-family: "Comic Sans MS";
+    font-size: 200%; 
+    color: white;
+    text-shadow: black 3px 3px;
+    text-shadow: white 0px 0px 3px;
+    text-shadow: white 0px 0px 3px;
+    text-align: center;
+}
+.headersex:hover {
     font-family: "Comic Sans MS";
     font-size: 200%; 
     color: white;
