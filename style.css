@@ -15,6 +15,16 @@ html {
     box-shadow: -2px 2px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
     outline: 1px black solid;
 }
+.normala
+{
+    cursor:default;
+    color:white;
+}
+.normala:hover
+{
+    cursor:default;
+    color:white;
+}
 #slavaboat {
     font-family: "Comic Sans MS";
     font-size: 300% !important;
