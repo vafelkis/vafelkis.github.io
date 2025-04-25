@@ -20,6 +20,10 @@ sub {
 i {
     font-size: 85% !important;
 }
+ol,ul {
+    margin-left: 10px;
+    font-size: 75%;
+}
 code {
     background-color: rgb(0, 17, 53);
     border: 3px solid rgb(0, 9, 29);
