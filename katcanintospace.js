@@ -157,9 +157,14 @@ function startclock() {
     date2.innerText = time;
 }
 const audio = document.getElementById("msc");
-const txtaud = document.getElementById("stopmsc")
+const txtaud = document.getElementById("stopmsc");
 function playmsc() {
-    audio.play();
+    setTimeout(function() {
+  // Code you want to run after 5 seconds
+  audio.play();
+    }, 5000);
+    txtaud.innerText = "stop background music:3"
+    
 }
 function stopmsc() {
 
