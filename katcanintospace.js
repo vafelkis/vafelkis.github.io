@@ -28,6 +28,14 @@ function calculateTimeSinceEvent(eventDate, endDate = null) {
     return { years, months, days };
 }
 
+function playmsc() {
+      const audio = document.getElementById("msc");
+      audio.play();
+    }
+function stopmsc() {
+    const audio = document.getElementById("msc");
+    audio.pause();
+}
 // Function to display time since event
 function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null, language = null) {
     const time = calculateTimeSinceEvent(eventDate, endEventDate);
