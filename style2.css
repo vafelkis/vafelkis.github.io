@@ -26,6 +26,12 @@ code {
     border-radius: 5px;
     font-size: 85%;
 }
+.aqua {
+    color: aqua;
+}
+.green {
+    color:lime;
+}
 @font-face {
     font-family: 'VCR OSD Mono'; /* Name you choose for your font */
     src: url('VCR_OSD_MONO.ttf') format('truetype');
