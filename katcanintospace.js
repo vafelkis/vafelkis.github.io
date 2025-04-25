@@ -28,20 +28,7 @@ function calculateTimeSinceEvent(eventDate, endDate = null) {
     return { years, months, days };
 }
 
-const audio = document.getElementById("msc");
-function playmsc() {
-    audio.play();
-}
-function stopmsc() {
 
-    if (audio.paused) {
-        audio.play();
-        toggleText.innerText = "stop background music:3";
-    } else {
-        audio.pause();
-        toggleText.innerText = "continue background music:3";
-    }
-}
 // Function to display time since event
 function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null, language = null) {
     const time = calculateTimeSinceEvent(eventDate, endEventDate);
@@ -168,5 +155,20 @@ function startclock() {
     const [day, month, year] = date.split('/');
     date1.innerText = `${year}-${month}-${day}`
     date2.innerText = time;
+}
+const audio = document.getElementById("msc");
+const txtaud = document.getElementById("stopmsc")
+function playmsc() {
+    audio.play();
+}
+function stopmsc() {
+
+    if (audio.paused) {
+        audio.play();
+        txtaud.innerText = "stop background music:3";
+    } else {
+        audio.pause();
+        txtaud.innerText = "continue background music:3";
+    }
 }
 setInterval(startclock, 1000); 
