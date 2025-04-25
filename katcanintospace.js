@@ -28,13 +28,19 @@ function calculateTimeSinceEvent(eventDate, endDate = null) {
     return { years, months, days };
 }
 
+const audio = document.getElementById("msc");
 function playmsc() {
-      const audio = document.getElementById("msc");
-      audio.play();
-    }
+    audio.play();
+}
 function stopmsc() {
-    const audio = document.getElementById("msc");
-    audio.pause();
+
+    if (audio.paused) {
+        audio.play();
+        toggleText.innerText = "stop background music:3";
+    } else {
+        audio.pause();
+        toggleText.innerText = "continue background music:3";
+    }
 }
 // Function to display time since event
 function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null, language = null) {
