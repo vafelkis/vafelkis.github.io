@@ -24,16 +24,16 @@ code {
     background-color: rgb(0, 17, 53);
     border: 3px solid rgb(0, 9, 29);
     border-radius: 5px;
-    font-size: 65%;
+    font-size: 75%;
 }
 .aqua {
     color: aqua !important;
     text-shadow:none !important;
-    font-size: 65% !important;
+    font-size: 75% !important;
 }
 .green {
     color:lime !important;
-    font-size: 65% !important;
+    font-size: 75% !important;
     text-shadow:none !important;
 }
 @font-face {
