@@ -88,8 +88,9 @@ window.onload = function () { // Example event date
 
 function russian() {
     document.getElementById("langel-wip").innerText = "[не работает...]";
-    document.getElementById("langel-bccreation").innerText = "БК";
-    document.getElementById("langel-boatcreation").innerText = "БОАТ";
+    document.getElementById("langel-bccreation").innerText = "БК уже";
+    document.getElementById("langel-boatcreation").innerText = "БОАТ уже";
+    document.getElementById("langel-websitecreation").innerText = "Сайт уже";
     for (let elemnt of document.getElementsByName("langel-since").values()) {
         elemnt.innerText = "от";
     }
@@ -106,6 +107,7 @@ function lithuanian() {
     document.getElementById("langel-wip").innerText = "[dar ruošiama...]";
     document.getElementById("langel-bccreation").innerText = "bc sukūrimas";
     document.getElementById("langel-boatcreation").innerText = "boat'o įkūrimas";
+    document.getElementById("langel-websitecreation").innerText = "puslapio įkūrimas:3";
     for (let elemnt of document.getElementsByName("langel-since").values()) {
         elemnt.innerText = "nuo";
     }
@@ -123,6 +125,7 @@ function english() {
     document.getElementById("langel-wip").innerText = "[work in progress...]";
     document.getElementById("langel-bccreation").innerText = "creation of bc";
     document.getElementById("langel-boatcreation").innerText = "creation of boat";
+    document.getElementById("langel-websitecreation").innerText = "creation of this website";
     document.getElementById("langel-vilnius").innerText = "vilnius";
     document.getElementById("langel-links").innerText = "links";
     document.getElementById("langel-introduction").innerHTML = "<h2>introduction</h2>hi, i'm <b>katrewkate</b> <sub>[albeit usually shortened to kat; kate; ktrwkat, in projects usually written in white]</sub>, with alternate names being: <b>vafelkis</b> <sub>[shortened to vaf, on creations and other projects usually written in orange]</sub>. other aliases are discontinued or are obsolete and will not be mentioned here. welcome to this website, here you will find a lot of things, anything ranging from information of previous projects to statistics, maybe even photos, who fucking knows? that's right.</p>";
