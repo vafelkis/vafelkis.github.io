@@ -1,0 +1,27 @@
+html,
+body {
+    height: 100%;
+    padding: 20px;
+    margin: 20px;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat:repeat;
+    background-attachment: scroll !important;
+    /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
+}
+html { 
+    background-image: url("nyanshitrealtalk.gif") !important;
+}
+* {
+    font-family: "Comic Sans MS";
+    font-size: 130%; 
+    color: white;
+    background: none;
+    text-shadow: black 3px 3px;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 0px !important;
+}
