@@ -71,6 +71,7 @@ window.onload = function () { // Example event date
     //if (page == "index.html") {
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago');
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago');
+    displayTimeSinceEvent(new Date("2025-01-15"), 'websitecreationago');
     let maythernggods = new Date();
     let noetter = maythernggods.getHours();
     console.log(noetter);
@@ -102,6 +103,7 @@ function russian() {
     document.getElementById("langel-introduction").innerHTML = "<h2>введение</h2>привет, я <b>katrewkate</b> <sub>[обычно сокращается до kat; kate; ktrwkat, в проектах обычно пишется белым]</sub>, с альтернативными именами: <b>vafelkis</b> <sub>[сокращается до vaf, в творческих проектах и других работах обычно пишется оранжевым]</sub>. другие псевдонимы устарели или больше не используются, и упоминаться здесь не будут. добро пожаловать на этот сайт, здесь вы найдете много всего, от информации о предыдущих проектах до статистики, возможно, даже фотографии, кто знает? вот так.</p>";
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago', null, "ru");
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', null, "ru");
+    displayTimeSinceEvent(new Date("2025-01-15"), 'websitecreationago', null, "ru");
 }
 function lithuanian() {
     document.getElementById("langel-wip").innerText = "[dar ruošiama...]";
@@ -120,6 +122,7 @@ function lithuanian() {
 
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago', null, "lt");
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', null, "lt");
+    displayTimeSinceEvent(new Date("2025-01-15"), 'websitecreationago', null, "lt");
 }
 function english() {
     document.getElementById("langel-wip").innerText = "[work in progress...]";
@@ -139,6 +142,7 @@ function english() {
 
     document.getElementById("englishbut").innerText = "english [selected]";
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago', null, "en");
+    displayTimeSinceEvent(new Date("2025-01-15"), 'websitecreationago', null, "en");
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', null, "en");
 }
 let date1 = document.getElementById("date1");
