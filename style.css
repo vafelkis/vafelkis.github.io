@@ -63,22 +63,20 @@ html {
     font-style: normal;
     /* Optional, specify style */
 }
-.splash {
+  .splash {
     position: absolute;
-    top: 20%;
-    /* adjust as needed */
+    top: -2.5rem;       /* position above the link */
     left: 50%;
-    rotate: 45;
-    transform: translateX(-50%);
-    color: yellow;
-    font-size: clamp(2rem, 6vw, 5rem);
+    transform: translateX(-50%) scale(1);
+    color: orange;
+    font-family: "Minecraft";
+    font-size: 2rem;
+    pointer-events: none; /* so it doesn’t block clicks */
     transform-origin: center center;
     animation: splashPulse 2s ease-in-out infinite;
-    pointer-events: none;
-    /* Let clicks pass through */
-    font-family: "Minecraft" !important;
-    font-weight: normal;
-}
+    user-select: none;
+    white-space: nowrap;
+    z-index: 2;
 * {
     font-family: "Comic Sans MS";
     font-size: 130%; 
