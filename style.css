@@ -43,10 +43,10 @@ html {
 }
 @keyframes splashPulse {
   0%, 100% {
-    transform: translate(-5%, -10%) scale(0.8) rotate(30deg);
+    transform: translate(-5%, -10%) scale(0.6) rotate(30deg);
   }
   50% {
-    transform: translate(-5%, -10%) scale(0.5) rotate(30deg);
+    transform: translate(-5%, -10%) scale(0.35) rotate(30deg);
   }
 }
 
@@ -63,7 +63,7 @@ html {
     position: absolute;
     bottom: 6rem;     /* position above the link */
     left: 45%;
-    transform: translate(-5%, -10%) rotate(30deg) scale(0.8);
+    transform: translate(-5%, -10%) rotate(30deg) scale(0.6);
     color: yellow;
     font-family: "Minecraft";
     font-size: 2rem;
