@@ -62,7 +62,6 @@ html {
     position: absolute;
     top: -2.5rem;       /* position above the link */
     left: 50%;
-    rotate: ;
     transform: translateX(-50%) scale(1);
     color: orange;
     font-family: "Minecraft";
@@ -73,6 +72,7 @@ html {
     user-select: none;
     white-space: nowrap;
     z-index: 2;
+  }
 * {
     font-family: "Comic Sans MS";
     font-size: 130%; 
