@@ -16,28 +16,6 @@ html {
     background-image: url("nice shit.gif") !important;
 }
 
-.splash {
-    position: absolute;
-    top: 20%;
-    /* adjust as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    color: yellow;
-    font-size: clamp(2rem, 6vw, 5rem);
-    transform-origin: center;
-    animation: splashPulse 2s ease-in-out infinite;
-    pointer-events: none;
-    /* Let clicks pass through */
-    font-family: "Minecraft";
-    font-weight: normal;
-}
-
-.scaledpl {
-    width: clamp(100px, 20vw, 300px);
-    height: auto;
-    display: block;
-    margin: 0 auto 1rem;
-}
 
 @keyframes splashPulse {
     0% {
@@ -61,6 +39,28 @@ html {
     /* Optional, specify weight */
     font-style: normal;
     /* Optional, specify style */
+}
+.splash {
+    position: absolute;
+    top: 20%;
+    /* adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    color: yellow;
+    font-size: clamp(2rem, 6vw, 5rem);
+    transform-origin: center;
+    animation: splashPulse 2s ease-in-out infinite;
+    pointer-events: none;
+    /* Let clicks pass through */
+    font-family: "Minecraft" !important;
+    font-weight: normal;
+}
+
+.scaledpl {
+    width: clamp(100px, 20vw, 300px);
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
 }
 
 * {
