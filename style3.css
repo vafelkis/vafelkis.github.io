@@ -7,40 +7,67 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-repeat:repeat;
+    background-repeat: repeat;
     background-attachment: scroll !important;
     /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
 }
-html { 
+
+html {
     background-image: url("nice shit.gif") !important;
 }
+
 .splash {
-      color: yellow;
-      font-size: 3rem;
-      font-weight: bold;
-      transform-origin: center;
-      animation: splashPulse 2s ease-in-out infinite;
+    color: yellow;
+    font-size: clamp(2rem, 6vw, 5rem);
+    transform-origin: center;
+    font-family: "Minecraft";
+    font-weight: normal;
+    animation: splashPulse 2s ease-in-out infinite;
+}
+.scaledpl {
+  width: clamp(100px, 20vw, 300px);
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem;
+}
+@keyframes splashPulse {
+    0% {
+        transform: scale(1);
     }
 
-    @keyframes splashPulse {
-      0% {
-        transform: scale(1);
-      }
-      50% {
+    50% {
         transform: scale(0.8);
-      }
-      100% {
-        transform: scale(1);
-      }
     }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@font-face {
+    font-family: 'Minecvraft';
+    /* Name you choose for your font */
+    src: url('Minecraftchmc-dBlX.ttf') format('truetype');
+    font-weight: normal;
+    /* Optional, specify weight */
+    font-style: normal;
+    /* Optional, specify style */
+}
+
 * {
     font-family: "Comic Sans MS";
-    font-size: 130%; 
+    font-size: 130%;
     color: white;
     background: none;
     text-shadow: black 3px 3px;
     text-align: center;
 }
-h1,h2,h3,h4,h5,h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     margin-bottom: 0px !important;
 }
