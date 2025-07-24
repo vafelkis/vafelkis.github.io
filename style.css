@@ -61,10 +61,10 @@ html {
 }
   .splash {
     position: absolute;
-    top: -2.5rem;       /* position above the link */
+    top: -5.5rem;       /* position above the link */
     left: 50%;
     transform: translateX(-50%) rotate(45deg) scale(1);
-    color: orange;
+    color: yellow;
     font-family: "Minecraft";
     font-size: 2rem;
     pointer-events: none; /* so it doesn’t block clicks */
