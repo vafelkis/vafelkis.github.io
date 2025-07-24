@@ -63,12 +63,13 @@ function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null,
     console.log("e");
 }
 
-
+const bish = ["whoever reads is 'coustic", "check out Pancair Development Faciltes!", "dont forget to checkout vucic", "have you went to misc?", "press on the b!", "good things start with b, boat, blyat.. bodka, bilnius!", "Bilnius", "eurobeat in the 26", "aproved by gogel", "bbbbbb"]
+const stext = bish[Math.floor(Math.random() * bish.length)];
 // Auto-run on page load
 window.onload = function () { // Example event date
     var path = window.location.pathname;
     var page = path.split("/").pop();
-    //if (page == "index.html") {
+    //if (page === "index.html") {
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago');
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago');
     displayTimeSinceEvent(new Date("2025-01-15"), 'websitecreationago');
@@ -85,6 +86,7 @@ window.onload = function () { // Example event date
     //  elementx.innerText = displayTimeSinceEvent(elementx.innerText);
     //}
     //}
+    document.getElementById("splash").innerText = stext;
 }
 
 function russian() {
@@ -183,6 +185,7 @@ if (txtaud.innerText.trim() !== "")
     }
     
 }
+
 function stopmsc() {
 
     if (audio.paused) {
