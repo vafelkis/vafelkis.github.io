@@ -61,7 +61,7 @@ html {
 }
   .splash {
     position: absolute;
-    bottom: 5rem;     /* position above the link */
+    bottom: 6rem;     /* position above the link */
     left: 45%;
     transform: translate(-5%, -10%) rotate(30deg) scale(0.8);
     color: yellow;
