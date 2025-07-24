@@ -40,6 +40,44 @@ html {
     font-weight: normal; /* Optional, specify weight */
     font-style: normal;  /* Optional, specify style */
 }
+@keyframes splashPulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@font-face {
+    font-family: 'Minecvraft';
+    /* Name you choose for your font */
+    src: url('Minecraftchmc-dBlX.ttf') format('truetype');
+    font-weight: normal;
+    /* Optional, specify weight */
+    font-style: normal;
+    /* Optional, specify style */
+}
+.splash {
+    position: absolute;
+    top: 20%;
+    /* adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    color: yellow;
+    font-size: clamp(2rem, 6vw, 5rem);
+    transform-origin: center;
+    animation: splashPulse 2s ease-in-out infinite;
+    pointer-events: none;
+    /* Let clicks pass through */
+    font-family: "Minecraft" !important;
+    font-weight: normal;
+}
 * {
     font-family: "Comic Sans MS";
     font-size: 130%; 
