@@ -41,17 +41,12 @@ html {
     font-style: normal;  /* Optional, specify style */
 }
 @keyframes splashPulse {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(0.8);
-    }
-
-    100% {
-        transform: scale(1);
-    }
+  0%, 100% {
+    transform: translateX(-50%) scale(1) rotate(45deg);
+  }
+  50% {
+    transform: translateX(-50%) scale(0.8) rotate(45deg);
+  }
 }
 
 @font-face {
@@ -67,6 +62,7 @@ html {
     position: absolute;
     top: -2.5rem;       /* position above the link */
     left: 50%;
+    rotate: ;
     transform: translateX(-50%) scale(1);
     color: orange;
     font-family: "Minecraft";
