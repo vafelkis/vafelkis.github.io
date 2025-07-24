@@ -21,6 +21,7 @@ html {
     color: white;
     text-shadow: black 3px 3px;
     text-align: center;
+    position: relative;
 }
 .orangehover:hover {
     color:lightblue;
@@ -62,7 +63,7 @@ html {
     position: absolute;
     top: -2.5rem;       /* position above the link */
     left: 50%;
-    transform: translateX(-50%) scale(1);
+    transform: translateX(-50%) rotate(45deg) scale(1);
     color: orange;
     font-family: "Minecraft";
     font-size: 2rem;
