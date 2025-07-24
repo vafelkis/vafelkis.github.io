@@ -36,7 +36,7 @@ html {
       color: white;
       font-family: "VCR OSD Mono";
       text-shadow: black 3px 3px;
-      animation: scroll-left 10s linear infinite;
+      animation: scroll-left 30s linear infinite;
     }
 
     @keyframes scroll-left {
