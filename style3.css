@@ -14,6 +14,25 @@ body {
 html { 
     background-image: url("nice shit.gif") !important;
 }
+.splash {
+      color: yellow;
+      font-size: 3rem;
+      font-weight: bold;
+      transform-origin: center;
+      animation: splashPulse 2s ease-in-out infinite;
+    }
+
+    @keyframes splashPulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(0.8);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
 * {
     font-family: "Comic Sans MS";
     font-size: 130%; 
