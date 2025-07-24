@@ -68,10 +68,11 @@ html {
     top: 20%;
     /* adjust as needed */
     left: 50%;
+    rotate: 45;
     transform: translateX(-50%);
     color: yellow;
     font-size: clamp(2rem, 6vw, 5rem);
-    transform-origin: center;
+    transform-origin: center center;
     animation: splashPulse 2s ease-in-out infinite;
     pointer-events: none;
     /* Let clicks pass through */
