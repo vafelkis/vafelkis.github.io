@@ -174,6 +174,13 @@ if (txtaud.innerText.trim() !== "")
         {
     txtaud.innerText = "stop background music:3"
         }
+    else {
+        let wtv = txtaud.getAttribute("src");
+        if (wtv === "2abc.png")
+        {
+            txtaud.setAttribute("src", "2abc_ntsc.png");
+        }
+    }
     
 }
 function stopmsc() {
@@ -184,12 +191,26 @@ function stopmsc() {
         {
         txtaud.innerText = "stop background music:3";
         }
+        else {
+        let wtv = txtaud.getAttribute("src");
+        if (wtv === "2abc.png")
+        {
+            txtaud.setAttribute("src", "2abc_ntsc.png");
+        }
+    }
     } else {
         audio.pause();
         if (txtaud.innerText.trim() !== "")
         {
         txtaud.innerText = "continue background music:3";
         }
+        else {
+        let wtv = txtaud.getAttribute("src");
+        if (wtv === "2abc_ntsc.png")
+        {
+            txtaud.setAttribute("src", "2abc.png");
+        }
+    }
     }
 }
 setInterval(startclock, 1000); 
