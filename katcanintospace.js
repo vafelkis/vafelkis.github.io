@@ -170,17 +170,26 @@ function playmsc() {
   // Code you want to run after 5 seconds
   audio.play();
     }, 5000);
+if (txtaud.innerText.trim() !== "")
+        {
     txtaud.innerText = "stop background music:3"
+        }
     
 }
 function stopmsc() {
 
     if (audio.paused) {
         audio.play();
+        if (txtaud.innerText.trim() !== "")
+        {
         txtaud.innerText = "stop background music:3";
+        }
     } else {
         audio.pause();
+        if (txtaud.innerText.trim() !== "")
+        {
         txtaud.innerText = "continue background music:3";
+        }
     }
 }
 setInterval(startclock, 1000); 
