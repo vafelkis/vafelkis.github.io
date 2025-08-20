@@ -63,7 +63,7 @@ function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null,
     console.log("e");
 }
 
-const bish = ["whoever reads is 'coustic", "check out Pancair Development Faciltes!", "dont forget to checkout vucic", "have you went to misc?", "press on the b!", "good things start with b, boat, blyat.. bodka, bilnius!", "Bilnius", "eurobeat in the 26", "aproved by gogel", "bbbbbb"]
+const bish = ["whoever reads is 'coustic", "check out Pancair Development Faciltes!", "dont forget to checkout vucic", "have you went to misc?","good things start with b, boat, blyat.. bodka, bilnius!", "Bilnius", "eurobeat in the 26", "aproved by gogel", "bbbbbb"]
 const stext = bish[Math.floor(Math.random() * bish.length)];
 // Auto-run on page load
 window.onload = function () { // Example event date
