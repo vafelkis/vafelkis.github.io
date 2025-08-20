@@ -178,9 +178,9 @@ if (txtaud.innerText.trim() !== "")
         }
     else {
         let wtv = txtaud.getAttribute("src");
-        if (wtv === "2abc.png")
+        if (wtv === "../2abc.png")
         {
-            txtaud.setAttribute("src", "2abc_ntsc.png");
+            txtaud.setAttribute("src", "../2abc_ntsc.png");
         }
     }
     
@@ -196,9 +196,9 @@ function stopmsc() {
         }
         else {
         let wtv = txtaud.getAttribute("src");
-        if (wtv === "2abc.png")
+        if (wtv === "../2abc.png")
         {
-            txtaud.setAttribute("src", "2abc_ntsc.png");
+            txtaud.setAttribute("src", "../2abc_ntsc.png");
         }
     }
     } else {
