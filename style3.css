@@ -21,11 +21,11 @@ html {
     font-weight: normal; /* Optional, specify weight */
     font-style: normal;  /* Optional, specify style */
 }
-.gallerydiv img {
-  width: 70%;
-  height: 100%;
-  font-size: 100%;
-}
+/* .gallerydiv img {*/
+/*   width: 70%;*/
+/*   height: 100%;*/
+/*   font-size: 100%;*/
+/* }*/
 .scrolldiv {
       width: 100%;
       overflow: hidden;
