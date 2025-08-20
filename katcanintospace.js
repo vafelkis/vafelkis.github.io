@@ -209,9 +209,9 @@ function stopmsc() {
         }
         else {
         let wtv = txtaud.getAttribute("src");
-        if (wtv === "2abc_ntsc.png")
+        if (wtv === "../2abc_ntsc.png")
         {
-            txtaud.setAttribute("src", "2abc.png");
+            txtaud.setAttribute("src", "../2abc.png");
         }
     }
     }
