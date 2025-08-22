@@ -73,7 +73,7 @@ function skibidi()
     {
         selected = katlogo[Math.floor(Math.random() * katlogo.length)];
     }
-        document.getElementById("katrewkatelogo").setAttribute("src", "../" + selected);
+        document.getElementById("katrewkatelogo").setAttribute("src", "../"*(path.split("/").length-1) + selected);
 }
 window.onreset.bind(skibidi());
 // Auto-run on page load
