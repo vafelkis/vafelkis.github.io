@@ -67,7 +67,6 @@ const bish = ["whoever reads is 'coustic", "check out Pancair Development Facilt
 const stext = bish[Math.floor(Math.random() * bish.length)];
 const katlogo = ["katlogo.png","katlogoalt1.png","katlogoalt2.png"];
 let selected = "ng";
-window.onreset.bind(skibidi());
 function skibidi()
 {
     if (selected === "ng")
@@ -76,6 +75,7 @@ function skibidi()
     }
         document.getElementById("katrewkatelogo").setAttribute("src", "../" + selected);
 }
+window.onreset.bind(skibidi());
 // Auto-run on page load
 window.onload = function () { // Example event date
     var path = window.location.pathname;
