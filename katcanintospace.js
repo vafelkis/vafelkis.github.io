@@ -66,7 +66,11 @@ function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null,
 const bish = ["whoever reads is 'coustic", "check out Pancair Development Faciltes!", "dont forget to checkout vucic", "have you went to misc?","good things start with b, boat, blyat.. bodka, bilnius!", "Bilnius", "eurobeat in the 26", "aproved by gogel", "bbbbbb"]
 const stext = bish[Math.floor(Math.random() * bish.length)];
 const katlogo = ["katlogo.png","katlogoalt1.png","katlogoalt2.png"];
-document.getElementById("katrewkatelogo").setAttribute("src", "../" + katlogo[Math.floor(Math.random() * katlogo.length)]);
+
+function skibidi()
+{
+    document.getElementById("katrewkatelogo").setAttribute("src", "../" + katlogo[Math.floor(Math.random() * katlogo.length)]);
+}
 // Auto-run on page load
 window.onload = function () { // Example event date
     var path = window.location.pathname;
@@ -75,6 +79,7 @@ window.onload = function () { // Example event date
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago');
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago');
     displayTimeSinceEvent(new Date("2025-01-15"), 'websitecreationago');
+    
     let maythernggods = new Date();
     let noetter = maythernggods.getHours();
     console.log(noetter);
