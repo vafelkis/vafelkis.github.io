@@ -69,11 +69,11 @@ const katlogo = ["katlogo.png","katlogoalt1.png","katlogoalt2.png"];
 let selected = "ng";
 function skibidi()
 {
-    if (selected !== "ng")
+    if (selected === "ng")
     {
         selected = katlogo[Math.floor(Math.random() * katlogo.length)];
-        document.getElementById("katrewkatelogo").setAttribute("src", "../" + selected);
     }
+        document.getElementById("katrewkatelogo").setAttribute("src", "../" + selected);
 }
 // Auto-run on page load
 window.onload = function () { // Example event date
