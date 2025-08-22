@@ -75,7 +75,7 @@ function skibidi()
     }
         document.getElementById("katrewkatelogo").setAttribute("src", "../"*(path.split("/").length-1) + selected);
 }
-window.onreset.bind(skibidi);
+window.onreset = skibidi();
 // Auto-run on page load
 window.onload = function () { // Example event date
     var path = window.location.pathname;
