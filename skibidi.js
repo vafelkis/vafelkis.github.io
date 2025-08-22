@@ -1,4 +1,5 @@
 let selected = "ng";
+const katlogo = ["katlogo.png","katlogoalt1.png","katlogoalt2.png"];
 function skibidi()
 {
     if (selected === "ng")

@@ -65,17 +65,7 @@ function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null,
 
 const bish = ["whoever reads is 'coustic", "check out Pancair Development Faciltes!", "dont forget to checkout vucic", "have you went to misc?","good things start with b, boat, blyat.. bodka, bilnius!", "Bilnius", "eurobeat in the 26", "aproved by gogel", "bbbbbb"]
 const stext = bish[Math.floor(Math.random() * bish.length)];
-const katlogo = ["katlogo.png","katlogoalt1.png","katlogoalt2.png"];
-let selected = "ng";
-function skibidi()
-{
-    if (selected === "ng")
-    {
-        selected = katlogo[Math.floor(Math.random() * katlogo.length)];
-    }
-        document.getElementById("katrewkatelogo").setAttribute("src", "../"*(path.split("/").length-1) + selected);
-}
-window.onreset = skibidi();
+
 // Auto-run on page load
 window.onload = function () { // Example event date
     var path = window.location.pathname;
