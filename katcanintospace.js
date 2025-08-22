@@ -67,6 +67,7 @@ const bish = ["whoever reads is 'coustic", "check out Pancair Development Facilt
 const stext = bish[Math.floor(Math.random() * bish.length)];
 const katlogo = ["katlogo.png","katlogoalt1.png","katlogoalt2.png"];
 let selected = "ng";
+window.onreset.bind(skibidi());
 function skibidi()
 {
     if (selected === "ng")
