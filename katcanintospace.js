@@ -66,7 +66,7 @@ function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null,
 const bish = ["whoever reads is 'coustic", "check out Pancair Development Faciltes!", "dont forget to checkout vucic", "have you went to misc?","good things start with b, boat, blyat.. bodka, bilnius!", "Bilnius", "eurobeat in the 26", "aproved by gogel", "bbbbbb"]
 const stext = bish[Math.floor(Math.random() * bish.length)];
 const katlogo = ["katlogo.png","katlogoalt1.png","katlogoalt2.png"];
-Boolean isloaded = false;
+let isloaded = false;
 function skibidi()
 {
     if (!isloaded)  {
