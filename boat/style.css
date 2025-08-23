@@ -13,11 +13,17 @@ body {
 }
 
 html {
-    background-image: url("nice shit.gif") !important;
+    background-image: url("../ka8zh5tqwc991.gif") !important;
 }
 @font-face {
     font-family: 'VCR OSD Mono'; /* Name you choose for your font */
-    src: url('VCR_OSD_MONO.ttf') format('truetype');
+    src: url('../VCR_OSD_MONO.ttf') format('truetype');
+    font-weight: normal; /* Optional, specify weight */
+    font-style: normal;  /* Optional, specify style */
+}
+@font-face {
+    font-family: 'Comic Sans MS'; /* Name you choose for your font */
+    src: url('../Comic Sans MS.ttf') format('truetype');
     font-weight: normal; /* Optional, specify weight */
     font-style: normal;  /* Optional, specify style */
 }
@@ -52,12 +58,7 @@ html {
       }
     }
 
-@font-face {
-    font-family: 'Comic Sans MS'; /* Name you choose for your font */
-    src: url('Comic Sans MS.ttf') format('truetype');
-    font-weight: normal; /* Optional, specify weight */
-    font-style: normal;  /* Optional, specify style */
-}
+
 .scaledpl {
     width: clamp(300px, 20vw, 1000px);
     height: auto;

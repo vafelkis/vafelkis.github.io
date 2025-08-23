@@ -30,6 +30,12 @@ code {
     border-radius: 5px;
     font-size: 85%;
 }
+@font-face {
+    font-family: 'Comic Sans MS'; /* Name you choose for your font */
+    src: url('Comic Sans MS.ttf') format('truetype');
+    font-weight: normal; /* Optional, specify weight */
+    font-style: normal;  /* Optional, specify style */
+}
 .aqua {
     color: aqua !important;
     text-shadow:none !important;
