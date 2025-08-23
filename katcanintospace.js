@@ -28,7 +28,11 @@ function calculateTimeSinceEvent(eventDate, endDate = null) {
     return { years, months, days };
 }
 
-
+function sigma()
+{
+    const va = document.getElementById("swoosh")
+    va.play();
+}
 // Function to display time since event
 function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null, language = null) {
     const time = calculateTimeSinceEvent(eventDate, endEventDate);
