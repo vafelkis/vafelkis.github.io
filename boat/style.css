@@ -65,6 +65,10 @@ html {
     display: block;
     margin: 0 auto 1rem;
 }
+.orangehover:hover {
+    color:lightblue;
+    cursor:grab;
+}
 .flag {
     box-shadow: -2px 2px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
     outline: 1px black solid;
