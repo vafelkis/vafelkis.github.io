@@ -28,22 +28,11 @@ function calculateTimeSinceEvent(eventDate, endDate = null) {
     return { years, months, days };
 }
 
-function sigma()
-{
+function sigma() {
     const va = document.getElementById("swoosh")
+
+    va.currentTime = 0;
     va.play();
-      if(va.duration > 0){
-
-                va.currentTime = 0;
-                va.play();
-
-            }else{
-
-                //not playing
-
-                va.play();    
-
-            }
 }
 // Function to display time since event
 function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null, language = null) {
@@ -79,7 +68,7 @@ function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null,
     console.log("e");
 }
 
-const bish = ["whoever reads is 'coustic", "check out Pancair Development Faciltes!", "dont forget to checkout vucic", "have you went to misc?","good things start with b, boat, blyat.. bodka, bilnius!", "Bilnius", "eurobeat in the 26", "aproved by gogel", "bbbbbb"]
+const bish = ["whoever reads is 'coustic", "check out Pancair Development Faciltes!", "dont forget to checkout vucic", "have you went to misc?", "good things start with b, boat, blyat.. bodka, bilnius!", "Bilnius", "eurobeat in the 26", "aproved by gogel", "bbbbbb"]
 const stext = bish[Math.floor(Math.random() * bish.length)];
 
 // Auto-run on page load
@@ -90,7 +79,7 @@ window.onload = function () { // Example event date
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago');
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago');
     displayTimeSinceEvent(new Date("2025-01-15"), 'websitecreationago');
-    
+
     let maythernggods = new Date();
     let noetter = maythernggods.getHours();
     console.log(noetter);
@@ -106,8 +95,8 @@ window.onload = function () { // Example event date
     //}
     console.log("sigma");
     document.getElementById("splash").innerText = stext;
-    
-    
+
+
 
 }
 
@@ -190,52 +179,46 @@ function startclock() {
 const audio = document.getElementById("msc");
 const txtaud = document.getElementById("stopmsc");
 function playmsc() {
-    setTimeout(function() {
-  // Code you want to run after 5 seconds
-  audio.play();
+    setTimeout(function () {
+        // Code you want to run after 5 seconds
+        audio.play();
     }, 5000);
-if (txtaud.innerText.trim() !== "")
-        {
-    txtaud.innerText = "stop background music:3"
-        }
+    if (txtaud.innerText.trim() !== "") {
+        txtaud.innerText = "stop background music:3"
+    }
     else {
         let wtv = txtaud.getAttribute("src");
-        if (wtv === "../2abc.png")
-        {
+        if (wtv === "../2abc.png") {
             txtaud.setAttribute("src", "../2abc_ntsc.png");
         }
     }
-    
+
 }
 
 function stopmsc() {
 
     if (audio.paused) {
         audio.play();
-        if (txtaud.innerText.trim() !== "")
-        {
-        txtaud.innerText = "stop background music:3";
+        if (txtaud.innerText.trim() !== "") {
+            txtaud.innerText = "stop background music:3";
         }
         else {
-        let wtv = txtaud.getAttribute("src");
-        if (wtv === "../2abc.png")
-        {
-            txtaud.setAttribute("src", "../2abc_ntsc.png");
+            let wtv = txtaud.getAttribute("src");
+            if (wtv === "../2abc.png") {
+                txtaud.setAttribute("src", "../2abc_ntsc.png");
+            }
         }
-    }
     } else {
         audio.pause();
-        if (txtaud.innerText.trim() !== "")
-        {
-        txtaud.innerText = "continue background music:3";
+        if (txtaud.innerText.trim() !== "") {
+            txtaud.innerText = "continue background music:3";
         }
         else {
-        let wtv = txtaud.getAttribute("src");
-        if (wtv === "../2abc_ntsc.png")
-        {
-            txtaud.setAttribute("src", "../2abc.png");
+            let wtv = txtaud.getAttribute("src");
+            if (wtv === "../2abc_ntsc.png") {
+                txtaud.setAttribute("src", "../2abc.png");
+            }
         }
-    }
     }
 }
 setInterval(startclock, 1000); 
