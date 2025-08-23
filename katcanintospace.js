@@ -32,6 +32,18 @@ function sigma()
 {
     const va = document.getElementById("swoosh")
     va.play();
+      if(va.duration > 0){
+
+                va.currentTime = 0;
+                va.play();
+
+            }else{
+
+                //not playing
+
+                va.play();    
+
+            }
 }
 // Function to display time since event
 function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null, language = null) {
