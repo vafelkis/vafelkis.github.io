@@ -28,11 +28,14 @@ function calculateTimeSinceEvent(eventDate, endDate = null) {
     return { years, months, days };
 }
 
-function sigma() {
+function sigma(href) {
     const va = document.getElementById("swoosh")
 
     va.currentTime = 0;
     va.play();
+    va.onended.bind(window.location.assign("new_url"))
+    ;
+
 }
 // Function to display time since event
 function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null, language = null) {
