@@ -33,8 +33,7 @@ function sigma(href) {
 
     va.currentTime = 0;
     va.play();
-    va.onended.bind(window.location.assign("new_url"))
-    ;
+    va.onended.bind(window.location.assign("https://vafelkis.github.io" + href));
 
 }
 // Function to display time since event
