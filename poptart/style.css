@@ -15,64 +15,19 @@ body {
 html {
     background-image: url("../coolleaf.gif") !important;
 }
-@font-face {
-    font-family: 'VCR OSD Mono'; /* Name you choose for your font */
-    src: url('../VCR_OSD_MONO.ttf') format('truetype');
-    font-weight: normal; /* Optional, specify weight */
-    font-style: normal;  /* Optional, specify style */
-}
-@font-face {
-    font-family: 'Comic Sans MS'; /* Name you choose for your font */
-    src: url('../Comic Sans MS.ttf') format('truetype');
-    font-weight: normal; /* Optional, specify weight */
-    font-style: normal;  /* Optional, specify style */
-}
+
 /* .gallerydiv img {*/
 /*   width: 70%;*/
 /*   height: 100%;*/
 /*   font-size: 100%;*/
 /* }*/
-.scrolldiv {
-      width: 100%;
-      overflow: hidden;
-      background: rgb(255, 0, 0);
-      color: white;
-      white-space: nowrap;
-      box-sizing: border-box;
-    }
-    .scrolltext {
-      display: inline-block;
-      padding-left: 100%;
-      color: white;
-      font-family: "VCR OSD Mono";
-      text-shadow: black 3px 3px;
-      animation: scroll-left 60s linear infinite;
-    }
-
-    @keyframes scroll-left {
-      0% {
-        transform: translateX(0%);
-      }
-      100% {
-        transform: translateX(-100%);
-      }
-    }
-
-
 .scaledpl {
     width: clamp(300px, 20vw, 1000px);
     height: auto;
     display: block;
     margin: 0 auto 1rem;
 }
-.orangehover:hover {
-    color:lightblue;
-    cursor:grab;
-}
-.flag {
-    box-shadow: -2px 2px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
-    outline: 1px black solid;
-}
+
 * {
     font-family: "Comic Sans MS";
     font-size: 130%;
