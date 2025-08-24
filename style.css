@@ -50,21 +50,7 @@ html {
   }
 }
 
-@font-face {
-    font-family: 'Minecvraft';
-    /* Name you choose for your font */
-    src: url('Minecraftchmc-dBlX.ttf') format('truetype');
-    font-weight: normal;
-    /* Optional, specify weight */
-    font-style: normal;
-    /* Optional, specify style */
-}
-@font-face {
-    font-family: 'Comic Sans MS'; /* Name you choose for your font */
-    src: url('Comic Sans MS.ttf') format('truetype');
-    font-weight: normal; /* Optional, specify weight */
-    font-style: normal;  /* Optional, specify style */
-}
+
   .splash {
     position: absolute;
     bottom: 6rem;     /* position above the link */

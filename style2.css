@@ -30,12 +30,7 @@ code {
     border-radius: 5px;
     font-size: 85%;
 }
-@font-face {
-    font-family: 'Comic Sans MS'; /* Name you choose for your font */
-    src: url('Comic Sans MS.ttf') format('truetype');
-    font-weight: normal; /* Optional, specify weight */
-    font-style: normal;  /* Optional, specify style */
-}
+
 .aqua {
     color: aqua !important;
     text-shadow:none !important;
@@ -46,12 +41,7 @@ code {
     font-size: 85% !important;
     text-shadow:none !important;
 }
-@font-face {
-    font-family: 'VCR OSD Mono'; /* Name you choose for your font */
-    src: url('VCR_OSD_MONO.ttf') format('truetype');
-    font-weight: normal; /* Optional, specify weight */
-    font-style: normal;  /* Optional, specify style */
-}
+
 *,h2,h1,h3,h4,h5 {
     font-family: "VCR OSD Mono";
     font-size: 130%; 
@@ -62,8 +52,4 @@ code {
 }
 h1,h2,h3,h4,h5,h6 {
     margin-bottom: 0px !important;
-}
-.orangehover:hover {
-    color:lightblue;
-    cursor:grab;
 }
