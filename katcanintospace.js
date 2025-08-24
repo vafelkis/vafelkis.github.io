@@ -78,6 +78,7 @@ const stext = bish[Math.floor(Math.random() * bish.length)];
 // Auto-run on page load
 window.onload = function () { // Example event date
     var path = window.location.pathname;
+    document.body.innerHTML = "<div style=\'width='100%'; height='11px'; background:'orange'; font-size:10px;>sigma boi rizz</div>\'"+ document.body.innerHTML;
     var page = path.split("/").pop();
     //if (page === "index.html") {
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago');
