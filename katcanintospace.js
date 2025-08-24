@@ -1,3 +1,7 @@
+
+let date1 = document.getElementById("date1");
+let date2 = document.getElementById("date2");
+
 function calculateTimeSinceEvent(eventDate, endDate = null) {
     let now = new Date();
     let event = new Date(eventDate);
@@ -163,8 +167,7 @@ function english() {
     displayTimeSinceEvent(new Date("2025-01-15"), 'websitecreationago', null, "en");
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', null, "en");
 }
-let date1 = document.getElementById("date1");
-let date2 = document.getElementById("date2");
+
 function startclock() {
     const nowvln = new Date().toLocaleString('en-GB', {
         timeZone: 'Europe/Vilnius',
