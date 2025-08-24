@@ -12,7 +12,7 @@
     padding-left: 100%;
     color: white;
     text-shadow: black 3px 3px;
-    animation: scroll-left 60s linear infinite;
+    animation: scroll-left 45s linear infinite;
 }
 
 @keyframes scroll-left {

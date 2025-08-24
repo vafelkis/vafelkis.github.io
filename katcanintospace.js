@@ -78,7 +78,7 @@ const stext = bish[Math.floor(Math.random() * bish.length)];
 // Auto-run on page load
 window.onload = function () { // Example event date
     var path = window.location.pathname;
-    document.body.innerHTML = "<style>#topmessage {  position: fixed !important;  top: 0 !important;  left: 0 !important;  width: 100% !important;  background: orange !important;  color: white !important;  text-align: center !important;  padding: 0px !important;  z-index: 999999 !important;  font-size: 6px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext'>katdustries is currently offering a sponsorship program, anyone who wants to contribute to the website and become a sponsor [misc page], contact katrewkate.</div></div>"+ document.body.innerHTML;
+    document.body.innerHTML = "<style>#topmessage {  position: fixed !important;  top: 0 !important;  left: 0 !important;  width: 100% !important;  background: orange !important;  color: white !important;  text-align: center !important;  padding: 0px !important;  z-index: 999999 !important;  font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext'>katdustries is currently offering a sponsorship program, anyone who wants to contribute to the website and become a sponsor [misc page], contact katrewkate.</div></div>"+ document.body.innerHTML;
     var page = path.split("/").pop();
      //if (page === "index.html") {
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago');
