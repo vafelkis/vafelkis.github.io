@@ -81,7 +81,7 @@ const stext = bish[Math.floor(Math.random() * bish.length)];
 // Auto-run on page load
 window.onload = function () { // Example event date
     var path = window.location.pathname; // the background below: orange for warning, red for red, duh
-    document.body.insertAdjacentHTML("afterbegin", "<style>#topmessage {  position: fixed !important;  top: 0 !important;  left: 0 !important;  width: 100% !important;  background: red !important;  color: white !important;  text-align: center !important;  padding: 0px !important;  z-index: 999999 !important;  font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext'>!! aTTENTION !! the katdustries building has been breached by 9 masked mates with baloons, the perpetuautors are unknown. pls contact the po po if you have information. BREAKING NEWS! KATS CURRENCY EXCHANGE CRASHES, KATS VALUE TO SC DROPS BY 98% IN THE LAST FIVE DAYS.</div></div>");
+    document.body.insertAdjacentHTML("afterbegin", "<style>#topmessage {  position: fixed !important;  top: 0 !important;  left: 0 !important;  width: 100% !important;  background: lightblue !important;  color: white !important;  text-align: center !important;  padding: 0px !important;  z-index: 999999 !important;  font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext'>DFIKFKFKEIOJSTY IRTY JIEJIYRT JIDTYHKMCGJIDCYUJRTIEY JE</div></div>");
     console.log("started")
     //if (page === "index.html") {
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago');
