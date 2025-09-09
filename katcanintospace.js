@@ -1,5 +1,3 @@
- function oksigmabanner() {
-    document.body.insertAdjacentHTML("afterbegin", "<style>#topmessage {  position: fixed !important;  top: 0 !important;  left: 0 !important;  width: 100% !important;  background: lightblue !important;  color: white !important;  text-align: center !important;  padding: 0px !important;  z-index: 999999 !important;  font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext'>DFIKFKFKEIOJSTY IRTY JIEJIYRT JIDTYHKMCGJIDCYUJRTIEY JE, если вы этого читаете, тогда вы незнаю, какие-то лунатики вообще хахахаха:) удачи вам всем!</div></div>"); }
 let date1 = document.getElementById("date1");
 let date2 = document.getElementById("date2");
 
@@ -83,6 +81,7 @@ const stext = bish[Math.floor(Math.random() * bish.length)];
 // Auto-run on page load
 window.onload = function () { // Example event date
     console.log("started")
+    document.body.insertAdjacentHTML("afterbegin", "<style>#topmessage {  position: fixed !important;  top: 0 !important;  left: 0 !important;  width: 100% !important;  background: lightblue !important;  color: white !important;  text-align: center !important;  padding: 0px !important;  z-index: 999999 !important;  font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext'>DFIKFKFKEIOJSTY IRTY JIEJIYRT JIDTYHKMCGJIDCYUJRTIEY JE, если вы этого читаете, тогда вы незнаю, какие-то лунатики вообще хахахаха:) удачи вам всем!</div></div>");
     //if (page === "index.html") {
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago');
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago');
