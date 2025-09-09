@@ -59,12 +59,12 @@ function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null,
     }
     else if (language == "lt") {
 
-        result = `${years} metų, ${months} mėnesių ir ${days} dienų`;
+        result = `prieš ${years} metų, ${months} mėnesių ir ${days} dienų`;
         console.log("c");
     }
     else if (language == "ru") {
 
-        result = `${years} лет, ${months} месяцев и ${days} дней`;
+        result = `${years} лет, ${months} месяцев и ${days} дней назад`;
         console.log("d");
     }
 
