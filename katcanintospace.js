@@ -160,7 +160,7 @@ function english() {
     document.getElementById("langel-bccreation").innerText = "creation of bc";
     document.getElementById("langel-boatcreation").innerText = "creation of boat";
     document.getElementById("langel-websitecreation").innerText = "creation of this website";
-    document.getElementById("langel-websitecreation").innerText = "birth of katman1993?";
+    document.getElementById("langel-katdob").innerText = "birth of katman1993?";
     document.getElementById("langel-vilnius").innerText = "vilnius";
     document.getElementById("langel-links").innerText = "links";
     document.getElementById("langel-introduction").innerHTML = "<h2>introduction</h2>hi, i'm <b>katrewkate</b> <sub>[albeit usually shortened to kat; kate; ktrwkat, in projects usually written in white]</sub>, with alternate names being: <b>vafelkis</b> <sub>[shortened to vaf, on creations and other projects usually written in orange]</sub>. other aliases are discontinued or are obsolete and will not be mentioned here. welcome to this website, here you will find a lot of things, anything ranging from information of previous projects to statistics, maybe even photos, who fucking knows? that's right.</p>";
