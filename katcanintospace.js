@@ -1,3 +1,6 @@
+document.getElementById("loadshit").onload = function () {
+    document.body.insertAdjacentHTML("afterbegin", "<style>#topmessage {  position: fixed !important;  top: 0 !important;  left: 0 !important;  width: 100% !important;  background: lightblue !important;  color: white !important;  text-align: center !important;  padding: 0px !important;  z-index: 999999 !important;  font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext'>DFIKFKFKEIOJSTY IRTY JIEJIYRT JIDTYHKMCGJIDCYUJRTIEY JE, если вы этого читаете, тогда вы незнаю, какие-то лунатики вообще хахахаха:) удачи вам всем!</div></div>");
+}
 let date1 = document.getElementById("date1");
 let date2 = document.getElementById("date2");
 
@@ -197,9 +200,7 @@ function startclock() {
 }
 const audio = document.getElementById("msc");
 const txtaud = document.getElementById("stopmsc");
-document.getElementById("loadshit").onload = function () {
-    document.body.insertAdjacentHTML("afterbegin", "<style>#topmessage {  position: fixed !important;  top: 0 !important;  left: 0 !important;  width: 100% !important;  background: lightblue !important;  color: white !important;  text-align: center !important;  padding: 0px !important;  z-index: 999999 !important;  font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext'>DFIKFKFKEIOJSTY IRTY JIEJIYRT JIDTYHKMCGJIDCYUJRTIEY JE, если вы этого читаете, тогда вы незнаю, какие-то лунатики вообще хахахаха:) удачи вам всем!</div></div>");
-}
+
 function playmsc() {
     setTimeout(function () {
         // Code you want to run after 5 seconds
