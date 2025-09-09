@@ -87,6 +87,9 @@ window.onload = function () { // Example event date
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago');
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago');
     displayTimeSinceEvent(new Date("2025-01-15"), 'websitecreationago');
+    displayTimeSinceEvent(new Date("2007-09-26"), 'katdob');
+    
+
 
     setInterval(startclock, 1000);
     let maythernggods = new Date();
@@ -115,6 +118,7 @@ function russian() {
     document.getElementById("langel-bccreation").innerText = "БК уже";
     document.getElementById("langel-boatcreation").innerText = "БОАТ уже";
     document.getElementById("langel-websitecreation").innerText = "Сайт уже";
+    document.getElementById("langel-katdob").innerText = "пизда, кат родился";
     for (let elemnt of document.getElementsByName("langel-since").values()) {
         elemnt.innerText = "от";
     }
@@ -125,6 +129,7 @@ function russian() {
     document.getElementById("englishbut").innerText = "english";
     document.getElementById("langel-introduction").innerHTML = "<h2>введение</h2>привет, я <b>katrewkate</b> <sub>[обычно сокращается до kat; kate; ktrwkat, в проектах обычно пишется белым]</sub>, с альтернативными именами: <b>vafelkis</b> <sub>[сокращается до vaf, в творческих проектах и других работах обычно пишется оранжевым]</sub>. другие псевдонимы устарели или больше не используются, и упоминаться здесь не будут. добро пожаловать на этот сайт, здесь вы найдете много всего, от информации о предыдущих проектах до статистики, возможно, даже фотографии, кто знает? вот так.</p>";
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago', null, "ru");
+    displayTimeSinceEvent(new Date("2007-09-26"), 'katdob', null, "ru");
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', null, "ru");
     displayTimeSinceEvent(new Date("2025-01-15"), 'websitecreationago', null, "ru");
 }
@@ -133,6 +138,8 @@ function lithuanian() {
     document.getElementById("langel-bccreation").innerText = "bc sukūrimas";
     document.getElementById("langel-boatcreation").innerText = "boat'o įkūrimas";
     document.getElementById("langel-websitecreation").innerText = "puslapio įkūrimas:3";
+    document.getElementById("langel-katdob").innerText = "katman1993 gimė prieš";
+
     for (let elemnt of document.getElementsByName("langel-since").values()) {
         elemnt.innerText = "nuo";
     }
@@ -145,6 +152,7 @@ function lithuanian() {
 
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago', null, "lt");
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', null, "lt");
+    displayTimeSinceEvent(new Date("2007-09-26"), 'katdob', null, "lt");
     displayTimeSinceEvent(new Date("2025-01-15"), 'websitecreationago', null, "lt");
 }
 function english() {
@@ -152,6 +160,7 @@ function english() {
     document.getElementById("langel-bccreation").innerText = "creation of bc";
     document.getElementById("langel-boatcreation").innerText = "creation of boat";
     document.getElementById("langel-websitecreation").innerText = "creation of this website";
+    document.getElementById("langel-websitecreation").innerText = "birth of katman1993?";
     document.getElementById("langel-vilnius").innerText = "vilnius";
     document.getElementById("langel-links").innerText = "links";
     document.getElementById("langel-introduction").innerHTML = "<h2>introduction</h2>hi, i'm <b>katrewkate</b> <sub>[albeit usually shortened to kat; kate; ktrwkat, in projects usually written in white]</sub>, with alternate names being: <b>vafelkis</b> <sub>[shortened to vaf, on creations and other projects usually written in orange]</sub>. other aliases are discontinued or are obsolete and will not be mentioned here. welcome to this website, here you will find a lot of things, anything ranging from information of previous projects to statistics, maybe even photos, who fucking knows? that's right.</p>";
@@ -166,6 +175,7 @@ function english() {
     document.getElementById("englishbut").innerText = "english [selected]";
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago', null, "en");
     displayTimeSinceEvent(new Date("2025-01-15"), 'websitecreationago', null, "en");
+    displayTimeSinceEvent(new Date("2007-09-26"), 'katdob', null, "en");
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', null, "en");
 }
 
