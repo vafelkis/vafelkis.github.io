@@ -137,7 +137,7 @@ function lithuanian() {
     document.getElementById("langel-bccreation").innerText = "bc sukūrimas";
     document.getElementById("langel-boatcreation").innerText = "boat'o įkūrimas";
     document.getElementById("langel-websitecreation").innerText = "puslapio įkūrimas:3";
-    document.getElementById("langel-katdob").innerText = "katman1993 gimė prieš";
+    document.getElementById("langel-katdob").innerText = "katman1993 gimė";
 
     for (let elemnt of document.getElementsByName("langel-since").values()) {
         elemnt.innerText = "nuo";
