@@ -64,7 +64,7 @@ function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null,
     }
     else if (language == "ru") {
 
-        result = `${years} лет, ${months} месяцев и ${days} дней назад`;
+        result = `${years} года, ${months} месяца и ${days} дней назад`;
         console.log("d");
     }
 
