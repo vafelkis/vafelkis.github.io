@@ -1,11 +1,5 @@
 html,
 body {
-    
-    /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
-}
-
-#undersigma {
-    background-image: url("../ka8zh5tqwc991.gif") !important;
     height: 100%;
     padding: 20px;
     margin: 20px;
@@ -15,19 +9,25 @@ body {
     background-size: cover;
     background-repeat: repeat;
     background-attachment: scroll !important;
+    /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
 }
+
+html {
+    background-image: url("../../4.gif") !important;
+}
+
 /* .gallerydiv img {*/
 /*   width: 70%;*/
 /*   height: 100%;*/
 /*   font-size: 100%;*/
 /* }*/
-
 .scaledpl {
     width: clamp(300px, 20vw, 1000px);
     height: auto;
     display: block;
     margin: 0 auto 1rem;
 }
+
 * {
     font-family: "Comic Sans MS";
     font-size: 130%;

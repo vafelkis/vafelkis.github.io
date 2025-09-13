@@ -13,35 +13,28 @@ body {
 }
 
 html {
-    background-image: url("../4.gif") !important;
-}
-
-/* .gallerydiv img {*/
-/*   width: 70%;*/
-/*   height: 100%;*/
-/*   font-size: 100%;*/
-/* }*/
-.scaledpl {
-    width: clamp(300px, 20vw, 1000px);
-    height: auto;
-    display: block;
-    margin: 0 auto 1rem;
+    background-image: url("../chisel.png") !important;
+    z-index: 0;
+    background-size: 100px;
+    background-repeat: repeat;
 }
 
 * {
-    font-family: "Comic Sans MS";
-    font-size: 130%;
+    font-family: "Minecraft";
+    position: relative;
     color: white;
     background: none;
     text-shadow: black 3px 3px;
-    text-align: center;
+    z-index: 2;
 }
+body {
+    font-size: 40px;
+}
+h1 {
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin-bottom: 0px !important;
+    margin: 0 !important; 
+    gap: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+    font-size: 140%;
 }
