@@ -99,6 +99,13 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'NikkYou';
+    src: url('NikkyouSans-mLKax.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 .flag {
     box-shadow: -2px 2px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
     outline: 1px black solid;
