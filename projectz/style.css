@@ -1,0 +1,37 @@
+html,
+body {
+    height: 100%;
+    padding: 20px;
+    margin: 20px;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll !important;
+    /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
+}
+html {
+    background-color: rgb(7, 29, 0) !important;
+    z-index: 0;
+}
+
+* {
+    font-family: "ArialPixel";
+    position: relative;
+    color: rgb(111, 255, 98) !important;
+    background: none;
+    text-shadow: black 3px 3px;
+    z-index: 2;
+}
+body {
+    font-size: 40px;
+}
+h1 {
+
+    margin: 0 !important; 
+    gap: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+    font-size: 140%;
+}
