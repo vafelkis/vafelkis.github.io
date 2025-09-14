@@ -71,6 +71,15 @@
     font-style: normal;
     /* Optional, specify style */
 }
+@font-face {
+    font-family: '7seg';
+    /* Name you choose for your font */
+    src: url('Segment7Standard.otf') format('opentype');
+    font-weight: normal;
+    /* Optional, specify weight */
+    font-style: normal;
+    /* Optional, specify style */
+}
 
 @font-face {
     font-family: 'ArialNova';
