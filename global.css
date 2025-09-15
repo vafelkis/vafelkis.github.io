@@ -106,6 +106,61 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Mc2';
+    src: url('MINECRAFTREGULAR-BMG3.OTF') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mc2';
+    src: url('MINECRAFTBOLD-NMK1.OTF') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mc2';
+    src: url('MINECRAFTITALIC-R8MO.OTF') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+  .splash {
+    position:absolute;
+    display:flex;
+    transform:  scale(0.6) rotate(30deg);
+    text-align: left;
+    justify-self: left;
+    color: yellow;
+    transform-origin: left bottom;
+    align-items: center;
+    bottom: 80%;
+    left: 60%;
+    font-family: "Minecraft";
+    font-size: 60px;
+    pointer-events: none; /* so it doesn’t block clicks */
+    animation: splashPulse 2s ease-in-out infinite;
+    user-select: none;
+    white-space: nowrap;
+    z-index: 2;
+  }
+
+  @keyframes splashPulse {
+  0%, 100% {
+    transform: scale(0.6) rotate(30deg);
+  }
+  50% {
+    transform:  scale(0.35) rotate(30deg);
+  }
+}
+
+@font-face {
+    font-family: 'Mc2';
+    src: url('MINECRAFTBOLDITALIC-1Y1E.OTF') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
 .flag {
     box-shadow: -2px 2px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
     outline: 1px black solid;
