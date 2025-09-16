@@ -11,6 +11,16 @@ body {
     background-attachment: scroll !important;
     /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
 }
+th, tr, td {
+    outline: 2px white solid;
+    padding: 5px;
+    
+}
+table {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
 .overlay {
       position: fixed;
       top: 0;
