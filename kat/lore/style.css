@@ -51,6 +51,8 @@ html {
     color: white;
     background: none;
     text-shadow: black 3px 3px;
+    scroll-behavior:smooth;
+    scrollbar-width: none;
     z-index: 2;
 }
 body {
