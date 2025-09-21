@@ -200,8 +200,15 @@ function startclock() {
     });
     const [date, time] = nowvln.split(', ');
     const [day, month, year] = date.split('/');
+    if (Math.floor(Math.random() * 20) == 18)
+    {
     date1.innerText = `${year}-${month}-${day}`
     date2.innerText = time;
+    }
+    else {
+        date1.innerText = `hi, world :)`
+    date2.innerText = "bilnius on top";
+    }
     console.log(`${year}-${month}-${day}` + " " + time)
 
 }
