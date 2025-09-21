@@ -99,8 +99,8 @@
         const seconds = String(datez.getSeconds()).padStart(2, '0');
         datez = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
         fetch('https://api.github.com/repos/vafelkis/vafelkis.github.io/contributors?anon=true').then(response => response.json()).then(data => {
-            amnt = data[0].contributions;
-            console.log(datez); document.getElementById("got").innerHTML = "version: " + `${amnt+16} ~ ${commitver}` + "<br><i style='all:inherit; font-style: italic;'>" +
+            amnt = data[0].contributions + data[1].contributions;
+            console.log(datez); document.getElementById("got").innerHTML = "version: " + `${amnt} ~ ${commitver}` + "<br><i style='all:inherit; font-style: italic;'>" +
                 datez + "</i><br>" + "\"" + commitmsg + "\"";
         })
     });
