@@ -1,7 +1,7 @@
 let date1 = document.getElementById("date1");
 let date2 = document.getElementById("date2");
 
-document.body.insertAdjacentHTML("afterbegin", "<style>#topmessage {  position: fixed !important;  top: 0 !important;  left: 0 !important;  width: 100% !important;  background: orange !important;  color: white !important;  text-align: center !important;  padding: 0px !important;  z-index: 999999 !important;  font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext' style='font-size: 25px;' id='topbannerad' >katrewdustries will be temporarily closed from the 19th to the 21st due to lack of employees, and the ceo going on vacation. for more information, pls check message us on discord: @katrewkate or contact us via email: notstrixx@gmail.com; have a nice day :)</div></div>");
+document.body.insertAdjacentHTML("afterbegin", "<style>#topmessage {  position: fixed !important;  top: 0 !important;  left: 0 !important;  width: 100% !important;  background: lightblue !important;  color: white !important;  text-align: center !important;  padding: 0px !important;  z-index: 999999 !important;  font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext' style='font-size: 25px;' id='topbannerad' >katrewdustries is celebrating boat's first anniversary! pls see boat / news pages for more information. 🎂🍰🍰🎂🍥🎉🎉🎉 BIRTHDAY UPDATE COMING OUT SOON! 🎂🍰🍰🎂🍥🎉🎉🎉</div></div>");
 
 const fmt = Intl.DateTimeFormat({timeZone: 'Europe/Vilnius'});
 function calculateTimeSinceEvent(eventDate, endDate = null) {
