@@ -91,7 +91,7 @@
         date = datez.replace(`Z`, ` `);
         datez = new Date(datez);
         datez.setHours(date.getHours() + 3);
-        const year = dateObj.getFullYear();
+        const year = datez.getFullYear();
         const month = String(datez.getMonth() + 1).padStart(2, '0');
         const day = String(datez.getDate()).padStart(2, '0');
         const hours = String(datez.getHours()).padStart(2, '0');
