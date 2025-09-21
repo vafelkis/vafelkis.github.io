@@ -27,7 +27,7 @@
         
         <h1>creator's profile</h1>
         <script>
-    fetch('https://api.github.com/users/vafelkis').then(response => response.json()).then(data => {  const card = `<img src='${data.avatar_url}' style='width:300px;border-radius:50%;'>  <h2 style='gap: 0; padding: 0; margin: 0;'>${data.name || data.login}</h2>    ${data.bio || 'no bio.'}    <br> ${data.public_repos} repos<br>${data.followers} followers`;  document.body.insertAdjacentHTML("beforeend", card);});
+    fetch('https://api.github.com/users/vafelkis').then(response => response.json()).then(data => {  const card = `<img src='${data.avatar_url}' style='width:300px;border-radius:50%; padding:15px; padding-bottom: 0 !important;'>  <h2 style='gap: 0; padding: 0 !important; margin: 0;'>${data.name || data.login}</h2>    ${data.bio || 'no bio.'}    <br> ${data.public_repos} repos<br>${data.followers} followers`;  document.body.insertAdjacentHTML("beforeend", card);});
   </script>
 </body>
 <script src="../katcanintospace.js"></script>
