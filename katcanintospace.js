@@ -200,7 +200,7 @@ function startclock() {
     });
     const [date, time] = nowvln.split(', ');
     const [day, month, year] = date.split('/');
-    if (Math.floor(Math.random() * 20) === 18) {
+    if (Math.floor(Math.random() * 100) === 18) {
         date1.innerText = `hi, world :)`
         date2.innerText = "bilnius on top";
     }
