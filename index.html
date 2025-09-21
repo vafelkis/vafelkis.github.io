@@ -97,10 +97,10 @@
         const hours = String(datez.getHours()).padStart(2, '0');
         const minutes = String(datez.getMinutes()).padStart(2, '0');
         const seconds = String(datez.getSeconds()).padStart(2, '0');
-        date = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+        datez = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 
         console.log(datez); document.getElementById("got").innerHTML = "version: " + commitver + "<br><i style='all:inherit; font-style: italic;'>" +
-            date + "</i><br>" + "\"" + commitmsg + "\"";
+            datez + "</i><br>" + "\"" + commitmsg + "\"";
 
     }
     );
