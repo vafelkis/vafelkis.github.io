@@ -60,8 +60,14 @@
         <div
             style="margin: 10px 10px 10px 10px; padding: 4px; font-size: 20px; line-gap-override: 15px !important; text-shadow: 1px 1px 0px black !important; color: rgb(0, 162, 255) !important;">
             coming updates: idfk :) come back later<br><br>more pages, updated sponsors, MUSHROOMTEA UPDATE FFS, more
-            power, and also, perhaps more product-related features? this is of course, the plan.<br><br><br><br><div style="all:inherit;vertical-align: bottom; justify-content: end;"><img src="../waold.png" class="flag" width="120"
-                height="60"><br><i id="got" style="all: unset; vertical-align: bottom; justify-content: end; word-wrap: break-word;"></i><div style="all:inherit;font-size: 16px; margin: 0 !important; padding: 0 !important; color: rgb(0, 102, 255);">proudly @ bilnius</div></div>
+            power, and also, perhaps more product-related features? this is of course, the plan.<br><br><br><br>
+            <div style="all:inherit;vertical-align: bottom; justify-content: end;"><img src="../waold.png" class="flag"
+                    width="120" height="60"><br><i id="got"
+                    style="all: unset; vertical-align: bottom; justify-content: end; word-wrap: break-word;"></i>
+                <div
+                    style="all:inherit;font-size: 16px; margin: 0 !important; padding: 0 !important; color: rgb(0, 102, 255);">
+                    proudly @ bilnius</div>
+            </div>
         </div>
     </div>
     <br><img src="bird-birb.gif" height="300px" width="300px" style="outline: 5px solid white;"><br>welkommen europa
@@ -81,21 +87,20 @@
     datez = "";
     commitmsg = "";
     fetch('https://api.github.com/repos/vafelkis/vafelkis.github.io/commits').then(response => response.json()).then(data => {
-        commitver = data[0].sha.slice(0, 7); datez = data[0].commit.author.date;  commitmsg = data[0].commit.message; console.log(commitver); console.log(commitmsg);
+        commitver = data[0].sha.slice(0, 7); datez = data[0].commit.author.date; commitmsg = data[0].commit.message; console.log(commitver); console.log(commitmsg);
         date = datez.replace(`Z`, ` `);
-        date.setHours(date.getHours() + 3);
         const year = dateObj.getFullYear();
-const month = String(dateObj.getMonth() + 1).padStart(2, '0');
-const day = String(dateObj.getDate()).padStart(2, '0');
-const hours = String(dateObj.getHours()).padStart(2, '0');
-const minutes = String(dateObj.getMinutes()).padStart(2, '0');
-const seconds = String(dateObj.getSeconds()).padStart(2, '0');
-       date = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
- 
-        console.log(datez); document.getElementById("got").innerHTML = "version: "+commitver  + "<br><i style='all:inherit; font-style: italic;'>" + 
-            date + "</i><br>" + "\"" +commitmsg + "\"";
+        const month = String(dateObj.getMonth() + 1).padStart(2, '0');
+        const day = String(dateObj.getDate()).padStart(2, '0');
+        const hours = String(dateObj.getHours() +3).padStart(2, '0');
+        const minutes = String(dateObj.getMinutes()).padStart(2, '0');
+        const seconds = String(dateObj.getSeconds()).padStart(2, '0');
+        date = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 
-        }
+        console.log(datez); document.getElementById("got").innerHTML = "version: " + commitver + "<br><i style='all:inherit; font-style: italic;'>" +
+            date + "</i><br>" + "\"" + commitmsg + "\"";
+
+    }
     );
 
 
