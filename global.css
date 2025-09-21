@@ -10,6 +10,11 @@
     white-space: nowrap;
     box-sizing: border-box;
 }
+*::selection {
+    background: rgba(133, 86, 0, 0.445);
+    border-radius: 20px;
+    text-shadow: 0px 0px 3px white;
+}
 #somethingz:hover  {
                 background: #a86500;
                 transition: background-color 0.3s;
