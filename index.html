@@ -87,8 +87,8 @@
     datez = "";
     commitmsg = "";
     amnt = 0;
-    fetch('https://api.github.com/repos/vafelkis/vafelkis.github.io/commits?per_page=10000').then(response => response.json()).then(data => {
-        commitver = data[0].sha.slice(0, 7); datez = data[0].commit.author.date; amnt=data.length; commitmsg = data[0].commit.message; console.log(commitver); console.log(commitmsg);
+    fetch('https://api.github.com/repos/vafelkis/vafelkis.github.io/commits?per_page=1').then(response => response.json()).then(data => {
+        commitver = data[0].sha.slice(0, 7); datez = data[0].commit.author.date;commitmsg = data[0].commit.message; console.log(commitver); console.log(commitmsg);
         date = datez.replace(`Z`, ` `);
         datez = new Date(datez);
         const year = datez.getFullYear();
@@ -98,12 +98,12 @@
         const minutes = String(datez.getMinutes()).padStart(2, '0');
         const seconds = String(datez.getSeconds()).padStart(2, '0');
         datez = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
-
-        console.log(datez); document.getElementById("got").innerHTML = "version: " + `${amnt} ~ ${commitver}` + "<br><i style='all:inherit; font-style: italic;'>" +
-            datez + "</i><br>" + "\"" + commitmsg + "\"";
-
-    }
-    );
+        fetch('https://api.github.com/repos/vafelkis/vafelkis.github.io/contributors?anon=true').then(response => response.json()).then(data => {
+            amnt = data[0].contributions;
+            console.log(datez); document.getElementById("got").innerHTML = "version: " + `${amnt} ~ ${commitver}` + "<br><i style='all:inherit; font-style: italic;'>" +
+                datez + "</i><br>" + "\"" + commitmsg + "\"";
+        })
+    });
 
 
 </script>
