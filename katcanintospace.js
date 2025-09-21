@@ -96,7 +96,7 @@ window.onload = function () { // Example event date
     let maythernggods = new Date();
     let noetter = maythernggods.getHours();
     console.log(noetter);
-        if (noetter > 19 || noetter < 5) {
+    if (noetter > 19 || noetter < 5) {
         console.log("oui baguette bonjour")
         document.getElementById("altbodyhtml").style.backgroundImage = "url('nightwatchtower.gif')";
         document.getElementById("katrewkatelogo").setAttribute("src", "katlogo.png");
@@ -200,14 +200,14 @@ function startclock() {
     });
     const [date, time] = nowvln.split(', ');
     const [day, month, year] = date.split('/');
-    if (Math.floor(Math.random() * 20) == 18)
-    {
-    date1.innerText = `${year}-${month}-${day}`
-    date2.innerText = time;
+    if (Math.floor(Math.random() * 20) === 18) {
+        date1.innerText = `hi, world :)`
+        date2.innerText = "bilnius on top";
     }
     else {
-        date1.innerText = `hi, world :)`
-    date2.innerText = "bilnius on top";
+
+        date1.innerText = `${year}-${month}-${day}`
+        date2.innerText = time;
     }
     console.log(`${year}-${month}-${day}` + " " + time)
 
