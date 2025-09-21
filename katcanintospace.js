@@ -3,7 +3,7 @@ let date2 = document.getElementById("date2");
 
 document.body.insertAdjacentHTML("afterbegin", "<style>#topmessage {  position: fixed !important;  top: 0 !important;  left: 0 !important;  width: 100% !important;  background: lightblue !important;  color: white !important;  text-align: center !important;  padding: 0px !important;  z-index: 999999 !important;  font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext' style='font-size: 25px;' id='topbannerad' >katrewdustries is celebrating boat's first anniversary! pls see boat / news pages for more information. 🎂🍰🍰🎂🍥🎉🎉🎉 BIRTHDAY UPDATE COMING OUT SOON! 🎂🍰🍰🎂🍥🎉🎉🎉</div></div>");
 
-const fmt = Intl.DateTimeFormat({timeZone: 'Europe/Vilnius'});
+const fmt = Intl.DateTimeFormat({ timeZone: 'Europe/Vilnius' });
 function calculateTimeSinceEvent(eventDate, endDate = null) {
     let now = new Date();
     let event = new Date(eventDate);
@@ -89,17 +89,24 @@ window.onload = function () { // Example event date
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago');
     displayTimeSinceEvent(new Date("2025-01-15"), 'websitecreationago');
     displayTimeSinceEvent(new Date("2007-09-26"), 'katdob');
-    
+
 
 
     setInterval(startclock, 500);
     let maythernggods = new Date();
     let noetter = maythernggods.getHours();
     console.log(noetter);
-    if (noetter > 19 || noetter < 5) {
+        if (noetter > 19 || noetter < 5) {
         console.log("oui baguette bonjour")
         document.getElementById("altbodyhtml").style.backgroundImage = "url('nightwatchtower.gif')";
+        document.getElementById("katrewkatelogo").setAttribute("src", "katlogo.png");
         document.getElementById("altbodyhtml").style.setProperty('background-image', 'url("nightwatchtower.gif")', 'important');
+        document.querySelectorAll('.orangez').forEach((elem) => {
+            console.log(elem.innerText);
+            elem.classList.remove("orangez");
+            elem.classList.add("lightblue");
+
+        });
     }
     //for (elementx of document.getElementsByClassName("datex")) {
     //  console.log(elementx);
