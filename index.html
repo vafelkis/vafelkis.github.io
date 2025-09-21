@@ -89,12 +89,14 @@
     fetch('https://api.github.com/repos/vafelkis/vafelkis.github.io/commits').then(response => response.json()).then(data => {
         commitver = data[0].sha.slice(0, 7); datez = data[0].commit.author.date; commitmsg = data[0].commit.message; console.log(commitver); console.log(commitmsg);
         date = datez.replace(`Z`, ` `);
+        datez = new Date(datez);
+        datez.setHours(date.getHours() + 3);
         const year = dateObj.getFullYear();
-        const month = String(dateObj.getMonth() + 1).padStart(2, '0');
-        const day = String(dateObj.getDate()).padStart(2, '0');
-        const hours = String(dateObj.getHours() +3).padStart(2, '0');
-        const minutes = String(dateObj.getMinutes()).padStart(2, '0');
-        const seconds = String(dateObj.getSeconds()).padStart(2, '0');
+        const month = String(datez.getMonth() + 1).padStart(2, '0');
+        const day = String(datez.getDate()).padStart(2, '0');
+        const hours = String(datez.getHours()).padStart(2, '0');
+        const minutes = String(datez.getMinutes()).padStart(2, '0');
+        const seconds = String(datez.getSeconds()).padStart(2, '0');
         date = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 
         console.log(datez); document.getElementById("got").innerHTML = "version: " + commitver + "<br><i style='all:inherit; font-style: italic;'>" +
