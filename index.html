@@ -91,7 +91,6 @@
         commitver = data[0].sha.slice(0, 7); datez = data[0].commit.author.date; amnt=data.length; commitmsg = data[0].commit.message; console.log(commitver); console.log(commitmsg);
         date = datez.replace(`Z`, ` `);
         datez = new Date(datez);
-        datez.setHours(datez.getHours() + 3);
         const year = datez.getFullYear();
         const month = String(datez.getMonth() + 1).padStart(2, '0');
         const day = String(datez.getDate()).padStart(2, '0');
