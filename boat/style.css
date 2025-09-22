@@ -1,6 +1,8 @@
 html,
 body {
     background-image: url("../ka8zh5tqwc991.gif") !important;
+    background-size: contain;
+    justify-content: center;
     
     /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
 }
@@ -10,7 +12,20 @@ body {
 /*   height: 100%;*/
 /*   font-size: 100%;*/
 /* }*/
-
+tr, td {
+    outline: 5px rgba(190, 146, 0, 0.438) solid;
+    outline-offset: -1px;
+    background-color: rgba(128, 94, 0, 0.37);
+    padding: 5px;
+    
+}
+th{
+    outline: 5px rgba(255, 196, 0, 0.664) solid;
+    outline-offset: -1px;
+    background-color: rgba(207, 152, 0, 0.616);
+    padding: 5px;
+    
+}
 .scaledpl {
     width: clamp(300px, 20vw, 1000px);
     height: auto;

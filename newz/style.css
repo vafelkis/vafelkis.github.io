@@ -1,0 +1,27 @@
+html,
+body {
+    height: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    background: linear-gradient(45deg, rgb(49, 49, 49) 0%, rgb(34, 34, 34) 100%);
+    padding: 0;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll !important;
+    /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
+}
+/*.covered:hover {
+    filter: none;
+    transition: filter 1s;
+}
+.covered {
+    transition: filter 1s;
+    filter: blur(10px);
+}*/
+* {
+    font-family: "merriweather";
+    color:white;
+    font-weight: bold !important;
+}

@@ -89,15 +89,19 @@
     amnt = 0;
     fetch('https://api.github.com/repos/vafelkis/vafelkis.github.io/commits?per_page=1').then(response => response.json()).then(data => {
         commitver = data[0].sha.slice(0, 7); datez = data[0].commit.author.date;commitmsg = data[0].commit.message; console.log(commitver); console.log(commitmsg);
-        date = datez.replace(`Z`, ` `);
-        datez = new Date(datez);
-        const year = datez.getFullYear();
-        const month = String(datez.getMonth() + 1).padStart(2, '0');
-        const day = String(datez.getDate()).padStart(2, '0');
-        const hours = String(datez.getHours()).padStart(2, '0');
-        const minutes = String(datez.getMinutes()).padStart(2, '0');
-        const seconds = String(datez.getSeconds()).padStart(2, '0');
-        datez = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+       const nowvln = new Date(datez).toLocaleString('en-GB', {
+        timeZone: 'Europe/Vilnius',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: false // 24-hour format
+    });
+    const [date, time] = nowvln.split(', ');
+    const [day, month, year] = date.split('/');
+        datez = `${year}-${month}-${day}, ${time}`;
         fetch('https://api.github.com/repos/vafelkis/vafelkis.github.io/contributors?anon=true').then(response => response.json()).then(data => {
             amnt = data[0].contributions + data[1].contributions;
             console.log(datez); document.getElementById("got").innerHTML = "version: " + `${amnt} ~ ${commitver}` + "<br><i style='all:inherit; font-style: italic;'>" +
