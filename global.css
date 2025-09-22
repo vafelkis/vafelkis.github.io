@@ -1,7 +1,6 @@
 * {
     scroll-behavior:smooth;
     scrollbar-width: none;
-    overflow:visible;
 }
 .scrolldiv {
     width: 100%;
