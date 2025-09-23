@@ -12,6 +12,14 @@ body {
     background-attachment: scroll !important;
     /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
 }
+
+.sigmahover
+{
+    color: #ffa929;
+}
+.sigmahover:hover {
+    color:#d87a00
+}
 /*.covered:hover {
     filter: none;
     transition: filter 1s;

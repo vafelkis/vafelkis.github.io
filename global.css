@@ -17,6 +17,38 @@
     font-style: italic;
     text-shadow: 0px 0px 3px white, 0px 0px 6px white;
 }
+
+input[type="checkbox"] 
+{
+    background-image: url("chkdef.png");
+    appearance: none;      
+    height: 20px;
+    width: 20px;
+    margin: auto 0;
+    background-size: cover;
+}
+input[type="checkbox"]:checked
+{
+    background-image: url("chkchkd.png");
+    background-size: cover;
+
+}
+
+input[type="radio"] 
+{
+    background-image: url("chkdef.png");
+    appearance: none;      
+    height: 20px;
+    width: 20px;
+    margin: auto 0;
+    background-size: cover;
+}
+input[type="radio"]:checked
+{
+    transition: background-image 0.3s;
+    background-image: url("chkchkd.png");
+    background-size: cover;
+}
 #somethingz:hover  {
                 background: #a86500;
                 transition: background-color 0.3s;
