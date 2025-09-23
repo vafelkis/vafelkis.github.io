@@ -83,6 +83,8 @@ const stext = bish[Math.floor(Math.random() * bish.length)];
 
 // Auto-run on page load
 window.onload = function () { // Example event date
+    const box = document.getElementById('loading');
+    box.classList.add('sigmaxxx');
     console.log("started")
     //if (page === "index.html") {
     displayTimeSinceEvent(new Date("2024-09-19"), 'boatcreationdateago');
