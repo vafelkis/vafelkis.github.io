@@ -23,7 +23,6 @@
 @keyframes sigmazc {
   from {
     opacity: 1;
-    background: black;
     transform: translateY(0);
   }
   to {
