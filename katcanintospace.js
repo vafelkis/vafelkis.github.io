@@ -235,12 +235,12 @@ function playmsc() {
 
 }
 
-function stopmsc() {
+function stopmsc(before = null, after = null) {
 
     if (audio.paused) {
         audio.play();
         if (txtaud.innerText.trim() !== "") {
-            txtaud.innerText = "stop background music:3";
+            txtaud.innerText = after || "stop background music:3";
         }
         else {
             let wtv = txtaud.getAttribute("src");
@@ -251,7 +251,7 @@ function stopmsc() {
     } else {
         audio.pause();
         if (txtaud.innerText.trim() !== "") {
-            txtaud.innerText = "continue background music:3";
+            txtaud.innerText = before || "continue background music:3";
         }
         else {
             let wtv = txtaud.getAttribute("src");
