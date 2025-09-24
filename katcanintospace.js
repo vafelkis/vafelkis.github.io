@@ -1,7 +1,7 @@
 let date1 = document.getElementById("date1");
 let date2 = document.getElementById("date2");
 
-document.body.insertAdjacentHTML("afterbegin", '<div id="loading" style="position:fixed; display:flex; height: 100%; width: 100%; left: 0; top:0; background: #010b29; z-index: 999999; text-align: center;"><div style="margin: auto auto;" >loading...<br><a style="all:unset; font-size: 80%;">do not panic if it looks stuck.</a></div></div>');
+document.body.insertAdjacentHTML("afterbegin", '<div id="loading" style="position:fixed; scroll:none; display:flex; height: 100%; width: 100%; left: 0; top:0; background: linear-gradient(45deg, #010b29c2 0%, #010b2993 100%); z-index: 999999; text-align: center;"><div style="margin: auto auto;" >loading...<br><a style="all:unset; font-size: 80%;">do not panic if it looks stuck / site looks broken.<br>the website will look incomplete, while loading.</a></div></div>');
 document.body.insertAdjacentHTML("afterbegin", "<style>#topmessage {  position: fixed !important;  top: 0 !important;  left: 0 !important;  width: 100% !important;  background: lightblue !important;  color: white !important;  text-align: center !important;  padding: 0px !important;  z-index: 999999 !important;  font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext' style='font-size: 25px;' id='topbannerad' >katrewdustries is celebrating boat's first anniversary! pls see boat / news pages for more information. 🎂🍰🍰🎂🍥🎉🎉🎉 BIRTHDAY UPDATE CAME OUT ALREADY, GO CHECK IT OUT. REWARDS LIMITED TO A WEEK! 🎂🍰🍰🎂🍥🎉🎉🎉</div></div>");
 
 const fmt = Intl.DateTimeFormat({ timeZone: 'Europe/Vilnius' });
