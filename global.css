@@ -131,6 +131,12 @@ input[type="radio"]:checked
     /* Optional, specify style */
 }
 @font-face {
+    font-family: '95w';
+    src: url('W95FA.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: '7seg';
     /* Name you choose for your font */
     src: url('Segment7Standard.otf') format('opentype');
