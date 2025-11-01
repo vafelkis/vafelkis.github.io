@@ -1,17 +1,33 @@
+* {
+    font-family: "merriweather";
+    color:white;
+    z-index: 999;
+}
 html,
 body {
     height: 100%;
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    
     margin: 0;
-    background: linear-gradient(45deg, rgb(49, 49, 49) 0%, rgb(34, 34, 34) 100%);
     padding: 0;
-    background-size: cover;
-    background-repeat: repeat;
-    background-attachment: scroll !important;
     /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
 }
+body {
+    background: url('../orangesunset.gif');
+    background-size: cover;
+    background-attachment: scroll !important;
+    background-repeat: no-repeat;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.background {
+                position: fixed !important;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(45deg, rgba(0, 0, 0, 0.897) 0%, rgba(255, 174, 0, 0.192) 100%);
+                z-index: 2;
+        }
 
 .sigmahover
 {
@@ -28,8 +44,3 @@ body {
     transition: filter 1s;
     filter: blur(10px);
 }*/
-* {
-    font-family: "merriweather";
-    color:white;
-    font-weight: bold !important;
-}
