@@ -82,8 +82,22 @@ function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null,
 const bish = ["whoever reads is 'coustic", "check out Pancair Development Faciltes!", "dont forget to checkout vucic", "have you went to misc?", "good things start with b, boat, blyat.. bodka, bilnius!", "Bilnius", "eurobeat in the 26", "aproved by gogel", "bbbbbb", "welcome to the real world.", "do not support andrwe tate", "ba bla bla bla", "YAPPPPPPPPPP", "welcome from 1984", "if you read, you gey.", "check out new shi bro.", "live, laugh, love vlc", "sigma reader", "wtf bro", "HAHAHAHA"]
 const stext = bish[Math.floor(Math.random() * bish.length)];
 
-// Auto-run on page load
-window.onload = function () { // Example event date
+window.onload = function () { 
+    for (element of document.getElementsByClassName("dateagodays")) {
+        console.log(element.id);
+        el = document.getElementById(`${element.id}-agoel`)
+        const time = calculateTimeSinceEvent(element.innerText, new Date());
+
+        if (!time) return;
+        const { years, months, days } = time;
+        let result = "";
+        console.log("a");
+        result = `(${years} yrs, ${months} mnths, ${days} d ago)`;
+        console.log("b");
+
+        el.innerText = result;
+        console.log("e");
+    }
     const box = document.getElementById('loading');
     box.classList.add('sigmaxxx');
     console.log("started")
@@ -123,6 +137,8 @@ window.onload = function () { // Example event date
 
 
 }
+
+
 
 function russian() {
     document.getElementById("langel-wip").innerText = "[не работает...]";
