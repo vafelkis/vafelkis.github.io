@@ -23,10 +23,12 @@ html {
     margin: 0 auto 1rem;
 }
 *,html,body,h1,h2,h3,h4,h5,h6,div,p,a {
+    font-family: "Comic Sans MS";
+}
+* {
     font-size: 130%;
     color: white;
     background: none;
-    font-family: "Comic Sans MS";
     text-shadow: black 3px 3px;
     text-align: center;
 }
