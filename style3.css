@@ -21,6 +21,15 @@ html {
 
         
 }
+.sigmahover {
+    all:unset;
+    color: rgb(146, 213, 255);
+}
+.sigmahover:hover {
+    color: #4dbbff; cursor: grab;
+        
+}
+
 .n {
     font-family: 'Comic Sans MS';
 }
