@@ -267,13 +267,13 @@ input[type="radio"]:checked
 }
 @font-face {
     font-family: 'Comic Sans MS'; /* Name you choose for your font */
-    src: url('/COMICB.TTF') format('truetype');
+    src: url('/COMICBD.TTF') format('truetype');
     font-weight: bold; /* Optional, specify weight */
     font-style: normal;  /* Optional, specify style */
 }
 @font-face {
     font-family: 'Comic Sans MS'; /* Name you choose for your font */
-    src: url('/COMICBZ.TTF') format('truetype');
+    src: url('/COMICZ.TTF') format('truetype');
     font-weight: bold; /* Optional, specify weight */
     font-style: italic;  /* Optional, specify style */
 }
