@@ -22,13 +22,11 @@ html {
     display: block;
     margin: 0 auto 1rem;
 }
-*, div, h1, h2,h3,h4,h5,h6,a,p {
-    font-family: "Comic Sans MS" !important;
-}
 * {
     font-size: 130%;
     color: white;
     background: none;
+    font-family: "Comic Sans MS" !important;
     text-shadow: black 3px 3px;
     text-align: center;
 }
