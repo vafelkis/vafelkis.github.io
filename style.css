@@ -20,7 +20,7 @@ html {
     filter: 
     drop-shadow( 0 0 10px rgba(255, 255, 255, 0.486))
     drop-shadow( 0 0 5px rgba(255, 255, 255, 0.651))
-    drop-shadow( 0 0 20px rgba(255, 255, 255, 0.404));
+    drop-shadow( 0 0 20px rgba(255, 255, 255, 0.404)) blur(2px);
   }
   100% {
     filter: 
