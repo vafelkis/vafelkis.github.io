@@ -22,7 +22,7 @@ html {
     display: block;
     margin: 0 auto 1rem;
 }
-* {
+*,html,body,h1,h2,h3,h4,h5,h6,div,p,a {
     font-size: 130%;
     color: white;
     background: none;
