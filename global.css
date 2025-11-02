@@ -34,7 +34,7 @@
 }
 input[type="checkbox"] 
 {
-    background-image: url("chkdef.png");
+    background-image: url("/chkdef.png");
     appearance: none;      
     filter: drop-shadow(3px 3px 0px black );
     height: 20px;
@@ -44,14 +44,14 @@ input[type="checkbox"]
 }
 input[type="checkbox"]:checked
 {
-    background-image: url("chkchkd.png");
+    background-image: url("/chkchkd.png");
     background-size: cover;
 
 }
 
 input[type="radio"] 
 {
-    background-image: url("chkdef.png");
+    background-image: url("/chkdef.png");
     appearance: none;      
     height: 20px;
     filter: drop-shadow(3px 3px 0px black );
@@ -62,7 +62,7 @@ input[type="radio"]
 input[type="radio"]:checked
 {
     transition: background-image 0.3s;
-    background-image: url("chkchkd.png");
+    background-image: url("/chkchkd.png");
     background-size: cover;
 }
 #somethingz:hover  {
@@ -124,7 +124,7 @@ input[type="radio"]:checked
 @font-face {
     font-family: 'Minecraft';
     /* Name you choose for your font */
-    src: url('Minecraftchmc-dBlX.ttf') format('truetype');
+    src: url('/Minecraftchmc-dBlX.ttf') format('truetype');
     font-weight: normal;
     /* Optional, specify weight */
     font-style: normal;
@@ -132,14 +132,14 @@ input[type="radio"]:checked
 }
 @font-face {
     font-family: '95w';
-    src: url('W95FA.otf') format('opentype');
+    src: url('/W95FA.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: '7seg';
     /* Name you choose for your font */
-    src: url('Segment7Standard.otf') format('opentype');
+    src: url('/Segment7Standard.otf') format('opentype');
     font-weight: normal;
     /* Optional, specify weight */
     font-style: normal;
@@ -149,7 +149,7 @@ input[type="radio"]:checked
 @font-face {
     font-family: 'merriweather';
     /* Name you choose for your font */
-    src: url('Merriweather-Regular.ttf') format('truetype');
+    src: url('/Merriweather-Regular.ttf') format('truetype');
     font-weight: normal;
     /* Optional, specify weight */
     font-style: normal;
@@ -158,45 +158,45 @@ input[type="radio"]:checked
 
 @font-face {
     font-family: 'ArialNova';
-    src: url('ARIALNOVA.TTF') format('truetype');
+    src: url('/ARIALNOVA.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'TimesNewRoman';
-    src: url('TIMES.TTF') format('truetype');
+    src: url('/TIMES.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'ArialPixel';
-    src: url('ARIAL-PIXEL.OTF') format('opentype');
+    src: url('/ARIAL-PIXEL.OTF') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'NikkYou';
-    src: url('NikkyouSans-mLKax.ttf') format('truetype');
+    src: url('/NikkyouSans-mLKax.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Mc2';
-    src: url('MINECRAFTREGULAR-BMG3.OTF') format('opentype');
+    src: url('/MINECRAFTREGULAR-BMG3.OTF') format('opentype');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
     font-family: 'Mc2';
-    src: url('MINECRAFTBOLD-NMK1.OTF') format('opentype');
+    src: url('/MINECRAFTBOLD-NMK1.OTF') format('opentype');
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: 'Mc2';
-    src: url('MINECRAFTITALIC-R8MO.OTF') format('opentype');
+    src: url('/MINECRAFTITALIC-R8MO.OTF') format('opentype');
     font-weight: 400;
     font-style: italic;
 }
@@ -231,7 +231,7 @@ input[type="radio"]:checked
 
 @font-face {
     font-family: 'Mc2';
-    src: url('MINECRAFTBOLDITALIC-1Y1E.OTF') format('opentype');
+    src: url('/MINECRAFTBOLDITALIC-1Y1E.OTF') format('opentype');
     font-weight: 700;
     font-style: italic;
 }
@@ -249,31 +249,31 @@ input[type="radio"]:checked
 
 @font-face {
     font-family: 'VCR OSD Mono'; /* Name you choose for your font */
-    src: url('../VCR_OSD_MONO.ttf') format('truetype');
+    src: url('/VCR_OSD_MONO.ttf') format('truetype');
     font-weight: normal; /* Optional, specify weight */
     font-style: normal;  /* Optional, specify style */
 }
 @font-face {
     font-family: 'Comic Sans MS'; /* Name you choose for your font */
-    src: url('../Comic Sans MS.ttf') format('truetype');
+    src: url('/Comic Sans MS.ttf') format('truetype');
     font-weight: normal; /* Optional, specify weight */
     font-style: normal;  /* Optional, specify style */
 }
 @font-face {
     font-family: 'Comic Sans MS'; /* Name you choose for your font */
-    src: url('../COMICI.TTF') format('truetype');
+    src: url('/COMICI.TTF') format('truetype');
     font-weight: normal; /* Optional, specify weight */
     font-style: italic;  /* Optional, specify style */
 }
 @font-face {
     font-family: 'Comic Sans MS'; /* Name you choose for your font */
-    src: url('../COMICB.TTF') format('truetype');
+    src: url('/COMICB.TTF') format('truetype');
     font-weight: 700; /* Optional, specify weight */
     font-style: normal;  /* Optional, specify style */
 }
 @font-face {
     font-family: 'Comic Sans MS'; /* Name you choose for your font */
-    src: url('../COMICBZ.TTF') format('truetype');
+    src: url('/COMICBZ.TTF') format('truetype');
     font-weight: 700; /* Optional, specify weight */
     font-style: italic;  /* Optional, specify style */
 }
