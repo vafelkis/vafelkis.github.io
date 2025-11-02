@@ -23,9 +23,7 @@ td,th {
 ol {
     text-align: left;
 }
-.n {
-    font-family: 'Comic Sans MS';
-}
+
 .overlay {
       position: fixed;
       top: 0;
