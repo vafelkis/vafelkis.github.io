@@ -19,6 +19,10 @@ html {
 .card1 {
         transition: background 0.2s ease-in-out, border-radius 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 
+        
+}
+.n {
+    font-family: 'Comic Sans MS';
 }
 .card1:hover {
     
