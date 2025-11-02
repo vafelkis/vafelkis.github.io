@@ -11,6 +11,24 @@ body {
 html { 
     background-image: url("source.gif") !important;
 }
+@keyframes glowingpulse {
+  0% {
+    filter: 
+    drop-shadow( 0 0 10px rgba(255, 255, 255, 0.486));
+  }
+  50% {
+    filter: 
+    drop-shadow( 0 0 10px rgba(255, 255, 255, 0.486))
+    drop-shadow( 0 0 5px rgba(255, 255, 255, 0.651))
+    drop-shadow( 0 0 20px rgba(255, 255, 255, 0.404));
+  }
+  100% {
+    filter: 
+    drop-shadow( 0 0 10px rgba(255, 255, 255, 0.486));
+
+  }
+}
+
 .flag {
     box-shadow: -2px 2px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
     outline: 1px black solid;
