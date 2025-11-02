@@ -16,6 +16,17 @@ html {
     background-image: url("nice shit.gif") !important;
 }
 
+.card1 {
+        transition: background 0.2s ease-in-out, border-radius 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+}
+.card1:hover {
+    
+    background: rgba(0, 0, 0, 0.342);
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    transition: background 0.2s ease-in-out, border-radius 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
 .scaledpl {
     width: clamp(300px, 20vw, 1000px);
     height: auto;
