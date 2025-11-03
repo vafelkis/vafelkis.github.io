@@ -29,7 +29,10 @@ html {
     color: #4dbbff; cursor: grab;
         
 }
-
+.crossed
+{
+    all:unset; text-decoration:line-through; text-decoration-thickness: 3px;
+}
 .sigmahover1 {
     all:unset;
     color: rgb(255, 212, 132);
