@@ -138,15 +138,48 @@ window.onload = function () {
 
 
 }
-document.body.insertAdjacentHTML("afterbegin", '<div style="position: fixed; top: 0;right: 0;width: 2vh;height: 100vh;background: rgba(255, 255, 255, 0.199); margin: 0;padding: 0;box-sizing: border-box; z-index: 9999;"><div id="scrollamt" style="background: rgba(255, 255, 255, 0.7); width:100%; height: 0;"></div></div>')
+document.body.insertAdjacentHTML("afterbegin", '<div id="scrollthing" style="position: fixed; top: 0;right: 0;width: 2vh;height: 100vh;background: rgba(255, 255, 255, 0.199); margin: 0;padding: 0;box-sizing: border-box; z-index: 9999;"><div id="scrollamt" style="background: rgba(255, 255, 255, 0.7); width:100%; height: 0;"></div></div>')
+const scrollbar = document.getElementById('scrollamt');
+const scrollthing = document.getElementById('scrollthing');
 
 function resizescroll() {
                 const scrollPosition = window.scrollY;
                 const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
-                document.getElementById("scrollamt").style.height = `${scrollPosition / scrollableHeight * 100}%`;
+                scrollbar.style.height = `${scrollPosition / scrollableHeight * 100}%`;
         }
 window.addEventListener('scroll', resizescroll);
+scrollthing.addEventListener('click', function(event) {
+    const rect = scrollthing.getBoundingClientRect();
+    const y = event.clientY - rect.top;
+    const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const scrollPercent = y / rect.height;
+    window.scrollTo(0, scrollPercent * scrollableHeight);
+    console.log("yes")
+});
+let isDragging = false;
+let startY;
+let startScroll;
+scrollamt.addEventListener('mousedown', (e) => {
+    isDragging = true;
+    startY = e.clientY;
+    startScroll = window.scrollY;
+    e.preventDefault();
+});
 
+window.addEventListener('mousemove', (e) => {
+    if (!isDragging) return;
+
+    const deltaY = e.clientY - startY;
+    const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const trackHeight = window.innerHeight;
+    const scrollDelta = (deltaY / trackHeight) * scrollableHeight;
+
+    window.scrollTo(0, startScroll + scrollDelta);
+});
+
+window.addEventListener('mouseup', () => {
+    isDragging = false;
+});
 window.addEventListener('resize', resizescroll);
 
 function russian() {
