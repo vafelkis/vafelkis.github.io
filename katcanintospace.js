@@ -138,7 +138,7 @@ window.onload = function () {
 
 
 }
-document.body.insertAdjacentHTML("afterbegin", '<div style="position: fixed; top: 0;right: 0;width: 2vh;height: 100vh;background: rgba(255, 255, 255, 0.199); margin: 0;padding: 0;box-sizing: border-box; z-index: 9999;"><div id="scrollamt" style="background: white; width:100%; height: 0;"></div></div>')
+document.body.insertAdjacentHTML("afterbegin", '<div style="position: fixed; top: 0;right: 0;width: 2vh;height: 100vh;background: rgba(255, 255, 255, 0.199); margin: 0;padding: 0;box-sizing: border-box; z-index: 9999;"><div id="scrollamt" style="background: rgba(255, 255, 255, 0.7); width:100%; height: 0;"></div></div>')
 
 function resizescroll() {
                 const scrollPosition = window.scrollY;
