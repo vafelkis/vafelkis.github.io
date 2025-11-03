@@ -83,6 +83,7 @@ const bish = ["whoever reads is 'coustic", "check out Pancair Development Facilt
 const stext = bish[Math.floor(Math.random() * bish.length)];
 
 window.onload = function () { 
+    
     for (element of document.getElementsByClassName("dateagodays")) {
         console.log(element.id);
         el = document.getElementById(`${element.id}-agoel`)
@@ -137,8 +138,16 @@ window.onload = function () {
 
 
 }
+document.body.insertAdjacentHTML("afterbegin", '<div style="position: fixed; top: 0;right: 0;width: 2vh;height: 100vh;background: rgba(255, 255, 255, 0.199); margin: 0;padding: 0;box-sizing: border-box; z-index: 9999;"><div id="scrollamt" style="background: white; width:100%; height: 0;"></div></div>')
 
+function resizescroll() {
+                const scrollPosition = window.scrollY;
+                const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
+                document.getElementById("scrollamt").style.height = `${scrollPosition / scrollableHeight * 100}%`;
+        }
+window.addEventListener('scroll', resizescroll);
 
+window.addEventListener('resize', resizescroll);
 
 function russian() {
     document.getElementById("langel-wip").innerText = "[не работает...]";
