@@ -44,8 +44,8 @@
     0% {
     }
     50% {
-    color: rgb(142, 43, 255);
-    filter:drop-shadow(0px 0px 4px #c053ff);
+    color: rgb(177, 43, 255);
+    filter:drop-shadow(0px 0px 4px #ca6fff);
     }
     100% {
 
@@ -77,14 +77,14 @@
 }
 .sigmahover2 {
     all:unset;
-    color: rgb(183, 0, 255);
+    color: rgb(206, 83, 255);
     animation: dimerto1 2s infinite ease-in-out;
     transition: filter 0.1s ease-in-out;
 }
 .sigmahover2:hover {
-    color: rgb(136, 0, 199) !important; cursor: grab;
+    color: rgb(174, 0, 255) !important; cursor: grab;
         
-    filter:drop-shadow(0px 0px 4px rgb(255, 200, 98)) !important;
+    filter:drop-shadow(0px 0px 4px rgb(162, 0, 255)) !important;
     transition: filter 0.1s ease-in-out;
 }
 .sigmaxxx {
