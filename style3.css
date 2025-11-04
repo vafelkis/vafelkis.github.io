@@ -20,31 +20,11 @@ html {
 
         
 }
-.sigmahover {
-    all:unset;
-    color: rgb(146, 213, 255);
-    transition: filter 0.1s ease-in-out;
-}
-.sigmahover:hover {
-    color: #4dbbff; cursor: grab;
-    filter:drop-shadow(0px 0px 4px rgb(84, 84, 255));
-    transition: filter 0.1s ease-in-out;
-        
-}
+
+
 .crossed
 {
     all:unset; text-decoration:line-through; text-decoration-thickness: 3px;
-}
-.sigmahover1 {
-    all:unset;
-    color: rgb(255, 212, 132);
-    transition: filter 0.1s ease-in-out;
-}
-.sigmahover1:hover {
-    color: rgb(255, 187, 0); cursor: grab;
-        
-    filter:drop-shadow(0px 0px 4px rgb(255, 200, 98));
-    transition: filter 0.1s ease-in-out;
 }
 
 .n {
