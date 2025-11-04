@@ -56,7 +56,7 @@ html {
     color:lightblue;
 }
 .lightblue:hover {
-    color: blue;
+    color: rgb(0, 119, 255);
     cursor: grab;
 }
 

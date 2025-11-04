@@ -38,6 +38,13 @@ html {
     background-size: 50px;
     background-repeat: repeat;
 }
+.sigmahoverlore
+{
+    color: #c300ff;
+}
+.sigmahoverlore:hover {
+    color:#8000a7
+}
 
 * {
     font-family: "Mc2";
