@@ -37,6 +37,13 @@ html {
     background-size: 50px;
     background-repeat: repeat;
 }
+.sigmahovershopz
+{
+    color: #ffa929;
+}
+.sigmahovershopz:hover {
+    color:#d87a00
+}
 
 * {
     font-family: "Mc2";
