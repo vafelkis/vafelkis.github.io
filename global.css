@@ -17,6 +17,76 @@
     font-style: italic;
     text-shadow: 0px 0px 3px white, 0px 0px 6px white;
 }
+@keyframes dimerto {
+    0% {
+    }
+    50% {
+        filter:drop-shadow(0px 0px 4px rgb(84, 172, 255));
+        color: rgb(36, 211, 255);
+    }
+    100% {
+
+    }
+}
+@keyframes dimerto2 {
+    0% {
+    }
+    50% {
+    color: rgb(255, 221, 159);
+    filter:drop-shadow(0px 0px 4px #ffc353);
+    }
+    100% {
+
+    }
+}
+
+@keyframes dimerto1 {
+    0% {
+    }
+    50% {
+    color: rgb(142, 43, 255);
+    filter:drop-shadow(0px 0px 4px #c053ff);
+    }
+    100% {
+
+    }
+}
+.sigmahover {
+    all:unset;
+    color: rgb(146, 213, 255);
+    animation: dimerto 1s infinite ease-in-out;
+    transition: filter 0.1s ease-in-out;
+}
+.sigmahover:hover {
+    color: #4dbbff !important; cursor: grab;
+    filter:drop-shadow(0px 0px 4px rgb(84, 84, 255)) !important;
+    transition: filter 0.1s ease-in-out;
+        
+}
+.sigmahover1 {
+    all:unset;
+    color: rgb(255, 212, 132);
+    animation: dimerto2 2s infinite ease-in-out;
+    transition: filter 0.1s ease-in-out;
+}
+.sigmahover1:hover {
+    color: rgb(255, 187, 0) !important; cursor: grab;
+        
+    filter:drop-shadow(0px 0px 4px rgb(255, 200, 98)) !important;
+    transition: filter 0.1s ease-in-out;
+}
+.sigmahover2 {
+    all:unset;
+    color: rgb(183, 0, 255);
+    animation: dimerto1 2s infinite ease-in-out;
+    transition: filter 0.1s ease-in-out;
+}
+.sigmahover2:hover {
+    color: rgb(136, 0, 199) !important; cursor: grab;
+        
+    filter:drop-shadow(0px 0px 4px rgb(255, 200, 98)) !important;
+    transition: filter 0.1s ease-in-out;
+}
 .sigmaxxx {
   animation: sigmazc 1s forwards; /* Keep final state */
 }

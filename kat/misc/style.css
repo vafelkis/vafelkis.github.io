@@ -40,13 +40,6 @@ html {
     background-size: 100%;
     background-repeat: repeat;
 }
-.sigmahover
-{
-    color: #ffa929;
-}
-.sigmahover:hover {
-    color:#d87a00
-}
 
 * {
     font-family: "95w";
