@@ -277,3 +277,6 @@ input[type="radio"]:checked
     font-weight: bold; /* Optional, specify weight */
     font-style: italic;  /* Optional, specify style */
 }
+html {
+    padding-bottom: env(safe-area-inset-bottom);
+}
