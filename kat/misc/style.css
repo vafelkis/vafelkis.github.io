@@ -9,6 +9,9 @@ body {
     background-attachment: scroll !important;
     /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
 }
+html {
+    padding: 20px;
+}
 table {
     text-align: center;
     justify-content: center;
@@ -43,6 +46,7 @@ html {
 
 * {
     font-family: "95w";
+    text-shadow: 2px 2px 0px rgb(81, 0, 128), -2px -2px 0px rgb(14, 0, 138);
     position: relative;
     color: white;
     background: none;
