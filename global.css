@@ -45,7 +45,7 @@
     }
     50% {
     color: rgb(200, 106, 255);
-    filter:drop-shadow(0px 0px 4px #ca6fff);
+    filter:drop-shadow(0px 0px 4px #a200ff);
     }
     100% {
 
@@ -55,37 +55,37 @@
     all:unset;
     color: rgb(146, 213, 255);
     animation: dimerto 1s infinite ease-in-out;
-    transition: filter 0.1s ease-in-out;
+    transition: filter color 0.1s ease-in-out;
 }
 .sigmahover:hover {
     color: #4dbbff !important; cursor: grab;
     filter:drop-shadow(0px 0px 4px rgb(84, 84, 255)) !important;
-    transition: filter 0.1s ease-in-out;
+    transition: filter color 0.1s ease-in-out;
         
 }
 .sigmahover1 {
     all:unset;
     color: rgb(255, 212, 132);
     animation: dimerto2 2s infinite ease-in-out;
-    transition: filter 0.1s ease-in-out;
+    transition: filter color 0.1s ease-in-out;
 }
 .sigmahover1:hover {
     color: rgb(255, 187, 0) !important; cursor: grab;
         
     filter:drop-shadow(0px 0px 4px rgb(255, 200, 98)) !important;
-    transition: filter 0.1s ease-in-out;
+    transition: filter color 0.1s ease-in-out;
 }
 .sigmahover2 {
     all:unset;
     color: rgb(206, 83, 255);
-    animation: dimerto1 2s infinite ease-in-out;
-    transition: filter 0.1s ease-in-out;
+    animation: dimerto1 2.6s infinite ease-in-out;
+    transition: filter color 0.1s ease-in-out;
 }
 .sigmahover2:hover {
     color: rgb(174, 0, 255) !important; 
         
     filter:drop-shadow(0px 0px 4px rgb(162, 0, 255)) !important;
-    transition: filter 0.1s ease-in-out;
+    transition: filter color 0.1s ease-in-out;
 }
 .sigmaxxx {
   animation: sigmazc 1s forwards; /* Keep final state */
