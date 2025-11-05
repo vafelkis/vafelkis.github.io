@@ -17,6 +17,12 @@
     font-style: italic;
     text-shadow: 0px 0px 3px white, 0px 0px 6px white;
 }
+*[style*="rgbAnimation"] {
+will-change: color, text-shadow;
+}
+*[style*="rgbimg"] {
+will-change: filter;
+}
 @keyframes rgbAnimation {
                 0% {
                         color: rgb(255, 41, 41);
@@ -103,11 +109,13 @@
 }
 .sigmahover {
     all:unset;
+      will-change: color, filter;
     color: rgb(146, 213, 255);
     animation: dimerto 1s infinite ease-in-out;
     transition: filter color 0.1s ease-in-out;
 }
 .sigmahover:hover {
+      will-change: color, filter;
     color: #4dbbff !important; cursor: grab;
     filter:drop-shadow(0px 0px 4px rgb(84, 84, 255)) !important;
     transition: filter color 0.1s ease-in-out;
@@ -116,6 +124,7 @@
 .sigmahover1 {
     all:unset;
     color: rgb(255, 212, 132);
+      will-change: color, filter;
     animation: dimerto2 2s infinite ease-in-out;
     transition: filter color 0.1s ease-in-out;
 }
@@ -123,6 +132,7 @@
     color: rgb(255, 187, 0) !important; cursor: grab;
         
     filter:drop-shadow(0px 0px 4px rgb(255, 200, 98)) !important;
+      will-change: color, filter;
     transition: filter color 0.1s ease-in-out;
 }
 
@@ -130,12 +140,14 @@
     all:unset;
     color: rgb(206, 83, 255);
     animation: dimerto1 2.6s infinite ease-in-out;
+      will-change: color, filter;
     transition: filter color 0.1s ease-in-out;
 }
 .sigmahover2:hover {
     color: rgb(174, 0, 255) !important; 
         
     filter:drop-shadow(0px 0px 4px rgb(162, 0, 255)) !important;
+      will-change: color, filter;
     transition: filter color 0.1s ease-in-out;
 }
 .sigmaxxx {
