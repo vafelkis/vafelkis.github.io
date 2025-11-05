@@ -29,6 +29,13 @@ body {
                 z-index: 2;
         }
 
+.sigmahovernewz
+{
+    color: #ffa929;
+}
+.sigmahovernewz:hover {
+    color:#d87a00
+}
 /*.covered:hover {
     filter: none;
     transition: filter 1s;
