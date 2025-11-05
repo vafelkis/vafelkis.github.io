@@ -27,6 +27,10 @@ html {
     filter: drop-shadow(
     0 0 4px currentColor);
 }
+*[style*="rgbAnimation"]:hover, .rgbadd:hover {
+    filter: drop-shadow(
+    0 0 4px currentColor) brightness(0.8);
+}
 .crossed
 {
     all:unset; text-decoration:line-through; text-decoration-thickness: 3px;
