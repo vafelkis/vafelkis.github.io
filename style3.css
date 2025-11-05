@@ -21,7 +21,12 @@ html {
         
 }
 
-
+*[style*="rgbAnimation"], .rgbadd {
+    all: unset;
+    color: white;
+    filter: drop-shadow(
+    0 0 4px currentColor);
+}
 .crossed
 {
     all:unset; text-decoration:line-through; text-decoration-thickness: 3px;
