@@ -19,9 +19,19 @@ table {
     background-color: rgba(0, 0, 0, 0.479);
 }
 td,th {
-    outline: 3px rgb(89, 0, 124) solid;
+    outline: 4px rgb(89, 0, 124) solid;
     padding: 5px;
     font-size: 24px;
+}
+.shadow {
+    filter: drop-shadow(4px 4px 0 black);
+    border: rgba(25, 0, 39, 0.493) 3px solid;
+}
+table tr:nth-child(even) {
+  background: linear-gradient(45deg, rgba(128, 0, 128, 0.37), rgba(32, 0, 92, 0.308));
+}
+table tr:nth-child(odd) {
+  background: rgba(0, 0, 0, 0.301); 
 }
 ol {
     text-align: left;
@@ -45,8 +55,8 @@ html {
 }
 
 * {
-    font-family: "95w";
-    text-shadow: 2px 2px 0px rgb(81, 0, 128), -2px -2px 0px rgb(14, 0, 138);
+    font-family: "95w", "w95", "w95fa";
+    text-shadow: 2px 2px 0px rgb(81, 0, 128), -2px -2px 0px rgb(14, 0, 138), 0 0 8px white !important;
     position: relative;
     color: white;
     background: none;
