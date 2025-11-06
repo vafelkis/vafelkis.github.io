@@ -36,7 +36,9 @@ table tr:nth-child(odd) {
 ol {
     text-align: left;
 }
-
+.sigmahover2:hover {
+cursor:grab;
+}
 .overlay {
       position: fixed;
       top: 0;
