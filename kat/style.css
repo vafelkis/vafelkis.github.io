@@ -27,7 +27,9 @@ html {
     background-size: 100px;
     background-repeat: repeat;
 }
-
+.sigmahover1:hover {
+    cursor: grab;
+}
 * {
     font-family: "Minecraft";
     position: relative;
