@@ -41,10 +41,17 @@ html {
 }
 .card1:hover {
     
-    background: rgba(0, 0, 0, 0.342);
+    background: rgba(255, 0, 0, 0.342);
+    animation: rgbimg 5s linear;
+    transition: animation, filter, background 3s;
+    filter: drop-shadow(0 0 5px white);
     border-radius: 20px;
     box-shadow: 0 0 10px black;
-    transition: background 0.2s ease-in-out, border-radius 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.card1 {
+    transition: animation, filter, background 3s;
+    border-radius: 20px;
 }
 .scaledpl {
     width: clamp(300px, 20vw, 1000px);
