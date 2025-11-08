@@ -42,7 +42,7 @@ html {
 .card1:hover {
     
     background: rgba(255, 0, 0, 0.342);
-    animation: rgbimg 5s linear;
+    animation: rgbimg 5s linear infinite;
     transition: animation, filter, background 3s;
     filter: drop-shadow(0 0 5px white);
     border-radius: 20px;
