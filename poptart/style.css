@@ -16,9 +16,6 @@ body {
 html {
     background-image: url("../coolleaf.gif") !important;
 }
-.sigmahover1:hover, .sigmahover:hover, .sigmahover2:hover {
-    cursor:grab
-}
 /* .gallerydiv img {*/
 /*   width: 70%;*/
 /*   height: 100%;*/
