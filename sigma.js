@@ -7,10 +7,10 @@ const src = srcs[Math.floor(Math.random() * srcs.length)];
 function reset()
 {
 
-document.getElementById("quote").innerText = quote;
 document.getElementById("logo").setAttribute("src", src);
+document.getElementById("quote").innerText = quote;
 
 }
 
-document.getElementById("quote").innerText = quote;
 document.getElementById("logo").setAttribute("src", src);
+document.getElementById("quote").innerText = quote;
