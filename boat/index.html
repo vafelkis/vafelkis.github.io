@@ -66,7 +66,14 @@ KATS [previously supposed to be "Solars"], 16 KATS:1 Vucic Social Credit, meanin
 currently only approved servers [currently, base comust, sveicarija, bacair reserch facility] have full unwaivered support with no major limitations, some boat's features might be limited or unavailable outside of these servers. currently, membership for such servers is not on the way, nor is it ever planned.
 <h2>ff [funfact]</h2>
 hi sigmas. you wont believe this, but fireworks were fired on boat's 1st birthday. they werent ours, but yknow. STILLA FUN FACT :P i guess fate loves boat or sum. i mean, who cant love boat?
-<br><br><table  style=" width: 90%; text-align: center; margin: 0 auto;">
+<h2>boat moments of all time</h2>
+<div id="containerx" style="width: min-content; margin: 0 auto; height: 550px; filter:drop-shadow(0 0 8px black);" class="theshizz"><img id="3blyat" src="../20230624_150218.png" style="max-width: 90vw; height: 400px; object-fit:cover; overflow:hidden; border: orange solid 5px; "><br><div style="margin: 0 auto;"><div style="all:unset; filter:drop-shadow(3px 3px 0 black); margin: -15px 0 -30px 0;"><img src="../star.gif"
+                                style="height: 30px;"><img src="../star.gif"
+                                style="height: 30px;"><img src="../star.gif"
+                                style="height: 30px;"><img src="../star.gif"
+                                style="height: 30px;"><img src="../star.gif"
+                                style="height: 30px;"></div><div style="margin: -15px 0 -5px 0;" id="1blyat" >мне похуй, я мопс.</div><div id="2blyat" style="color: #d3d3d3; font-size: 65%; text-align: left;">mne pohuj ja mops.</div></div></div>
+<br><table  style=" width: 90%; text-align: center; margin: 0 auto;">
                                 <tr>
                                         <th>update</th><th>planned</th><th>notes</th>
                                 </tr>
@@ -92,6 +99,33 @@ hi sigmas. you wont believe this, but fireworks were fired on boat's 1st birthda
 <a class="orangehover" href="https://basecomust.github.io" style="font-size: 25px !important;">basecomust website :) / vucic's home</a>
 </body> 
 <script src="../katcanintospace.js"></script>
+<script>
+const elements = [["../photos/boat1.png", "the rise. 😧💥", `<img src="../photos/hmm.png" style="height: 20px; vertical-align:middle;"> sigma boi innit, this is where the iconic boat started the conquest of the world hehee. :)` ],["../photos/boat2.png", "boat being corupt 😧", "clowning on us for not being rich enuf, and also calling us hobos n shi 🙄🙄... also, WHY ARE THERE BLACK BABIES? n fckin NINJA TURTLEZ IN THIS HO???? 🐢" ],["../photos/boat3.png", "99% of gmeblers quit befor their berak.", "mr. pancake gambling away totally legal amoutns of kats in slots, until he wins the RAREST jackpot available, refunding him for everything. this was wwild... also dont ask why there are fckin skibidi toilets everywhere!!!!" ],["../photos/boat4.png", `boat being boat m8. <img src="../skull23.png" style="height: 30px; vertical-align:middle; filter:drop-shadow(3px 3px 0 black);">`, "ninjas eating... black babies?????? WHY AM I NOTICING A DAMN PATTERN 💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀💀 мне похуй, я мопс." ],["../photos/boat5.png", `<i>"👱‍♀️ all roads lead to blondies."</i>`, `not much to explain. blondes are mostly a joke on dis server [site, jeez im high 🍃💨], pls find the <a class="sigmahover2 href="/poptart">katwiki</a> for the backstory:P But here are blondes [unironically] mentioned in gboat! 👱‍♀️👱‍♀️👱‍♀️👱‍♀️👱‍♀️👱‍♀️👱‍♀️🌠🌠🌠🌠😊😊😊🥶 <i>also why tf is the bot called sexmas- nvm man. nvm. 😭😭🙄</i>` ]];
+let oneblyat = document.getElementById("1blyat");
+let twoblyat = document.getElementById("2blyat");
+let containerx = document.getElementById("containerx");
+let threeblyat = document.getElementById("3blyat");
+let a = 0;
+function cycleContent() {
+        if (a >= elements.length)
+{
+        a=0;
+}
+        const rndm = elements[a]; 
+        containerx.style.opacity = 0;
+
+          setTimeout(() => {
+            oneblyat.innerHTML = rndm[1];
+            twoblyat.innerHTML = rndm[2];
+            threeblyat.setAttribute("src", rndm[0]);
+            containerx.style.opacity = 1;
+          }, 1000); 
+        a++;
+  setTimeout(cycleContent, 7500); 
+}
+
+cycleContent();
+</script>
 
 
 </html> 
