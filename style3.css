@@ -16,7 +16,7 @@ html {
 }
 
 .card1 {
-        transition: background 0.2s ease-in-out, border-radius 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        transition: background 0.2s ease, border-radius 0.2s ease, box-shadow 0.2s ease;
 
         
 }
@@ -47,7 +47,7 @@ html {
     filter: drop-shadow(0 0 5px white);
     border-radius: 20px;
     box-shadow: 0 0 10px black;
-    transition: background 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    transition: background 0.2s ease, box-shadow 0.2s ease;
 }
 .card1 {
     transition: animation, filter, background 3s;
