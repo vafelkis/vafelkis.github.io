@@ -6,6 +6,9 @@ body {
     
     /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
 }
+html {
+    padding: 20px;
+}
 
 /* .gallerydiv img {*/
 /*   width: 70%;*/
@@ -17,6 +20,7 @@ tr, td {
     outline-offset: -1px;
     background-color: rgba(128, 94, 0, 0.37);
     padding: 5px;
+    font-size: 24px !important; 
     
 }
 th{
@@ -34,7 +38,7 @@ th{
 }
 * {
     font-family: "Comic Sans MS";
-    font-size: 100%;
+    font-size: 28px;
     color: white;
     background: none;
     text-shadow: black 3px 3px;
@@ -48,4 +52,5 @@ h4,
 h5,
 h6 {
     margin-bottom: 0px !important;
+    font-size: 125%;
 }
