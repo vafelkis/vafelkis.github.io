@@ -114,9 +114,6 @@ will-change: filter;
     animation: dimerto 1s infinite ease;
     transition: filter color 0.1s ease;
 }
-.grab {
-
-}
 .grab:hover {
     cursor: grab;
 }
