@@ -352,7 +352,7 @@ input[type="radio"]:checked
     font-family: "Minecraft";
     font-size: 60px;
     pointer-events: none; /* so it doesn’t block clicks */
-    animation: splashPulse 2s ease infinite;
+    animation: splashPulse 2s ease-in-out infinite;
     user-select: none;
     white-space: nowrap;
     z-index: 2;
