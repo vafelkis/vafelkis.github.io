@@ -59,7 +59,11 @@ html {
     color: rgb(0, 119, 255);
     cursor: grab;
 }
-
+p {
+    margin: 0;
+    padding: 0;
+}
+/* incase you want to revert to oldschool style dates, remove this p thing*/
 
 * {
     font-family: "Comic Sans MS";
