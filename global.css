@@ -112,7 +112,7 @@ will-change: filter;
     0% {
     }
     50% {
-    color: rgb(255, 59, 59);
+    color: rgb(255, 0, 0);
     filter:drop-shadow(0px 0px 4px #ff0000);
     }
     100% {
@@ -166,14 +166,14 @@ will-change: filter;
 }
 .sigmahover3 {
     all:unset;
-    color: rgb(255, 80, 80);
+    color: rgb(180, 0, 0);
     animation: dimerto3 2.6s infinite ease;
       will-change: color, filter;
     transition: filter color 0.1s ease;
 }
 .sigmahover3:hover {
     color: rgb(255, 0, 0) !important; 
-    filter:drop-shadow(0px 0px 4px rgb(165, 0, 0)) !important;
+    filter:drop-shadow(0px 0px 4px rgb(204, 0, 0)) !important;
       will-change: color, filter;
     transition: filter color 0.1s ease;
 }
