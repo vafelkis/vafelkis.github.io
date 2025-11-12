@@ -113,7 +113,7 @@ will-change: filter;
     }
     50% {
     color: rgb(255, 0, 0);
-    filter:drop-shadow(0px 0px 4px #ff0000);
+    filter:drop-shadow(0px 0px 4px #700000);
     }
     100% {
 
