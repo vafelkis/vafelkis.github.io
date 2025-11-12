@@ -37,8 +37,8 @@ ol {
     text-align: left;
 }
 li {
-    text-shadow: unset;
-    color: unset;
+    text-shadow: unset !important;
+    color: unset !important;
 }
 .overlay {
       position: fixed;
