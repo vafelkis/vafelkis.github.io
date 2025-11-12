@@ -36,6 +36,10 @@ table tr:nth-child(odd) {
 ol {
     text-align: left;
 }
+li {
+    text-shadow: unset !important;
+    color: unset !important;
+}
 .overlay {
       position: fixed;
       top: 0;
