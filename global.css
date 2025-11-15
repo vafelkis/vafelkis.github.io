@@ -178,7 +178,7 @@ will-change: filter;
     transition: filter color 0.1s ease;
 }
 .sigmaxxx {
-  animation: sigmazc 1s forwards; /* Keep final state */
+  animation: sigmazc 1s forwards; 
 }
 @keyframes sigmazc {
   from {
@@ -283,12 +283,12 @@ input[type="radio"]:checked
 
 @font-face {
     font-family: 'Minecraft';
-    /* Name you choose for your font */
+    
     src: url('/Minecraftchmc-dBlX.ttf') format('truetype');
     font-weight: normal;
-    /* Optional, specify weight */
+    
     font-style: normal;
-    /* Optional, specify style */
+    
 }
 @font-face {
     font-family: '95w';
@@ -298,22 +298,22 @@ input[type="radio"]:checked
 }
 @font-face {
     font-family: '7seg';
-    /* Name you choose for your font */
+    
     src: url('/Segment7Standard.otf') format('opentype');
     font-weight: normal;
-    /* Optional, specify weight */
+    
     font-style: normal;
-    /* Optional, specify style */
+    
 }
 
 @font-face {
     font-family: 'merriweather';
-    /* Name you choose for your font */
+    
     src: url('/Merriweather-Regular.ttf') format('truetype');
     font-weight: normal;
-    /* Optional, specify weight */
+    
     font-style: normal;
-    /* Optional, specify style */
+    
 }
 
 @font-face {
@@ -373,7 +373,7 @@ input[type="radio"]:checked
     left: 60%;
     font-family: "Minecraft";
     font-size: 60px;
-    pointer-events: none; /* so it doesn’t block clicks */
+    pointer-events: none; 
     animation: splashPulse 2s ease-in-out infinite;
     user-select: none;
     white-space: nowrap;
@@ -408,34 +408,58 @@ input[type="radio"]:checked
 }
 
 @font-face {
-    font-family: 'VCR OSD Mono'; /* Name you choose for your font */
+    font-family: 'VCR OSD Mono'; 
     src: url('/VCR_OSD_MONO.ttf') format('truetype');
-    font-weight: normal; /* Optional, specify weight */
-    font-style: normal;  /* Optional, specify style */
+    font-weight: normal; 
+    font-style: normal;  
 }
 @font-face {
-    font-family: 'Comic Sans MS'; /* Name you choose for your font */
+    font-family: 'Comic Sans MS'; 
     src: url('/Comic Sans MS.ttf') format('truetype');
-    font-weight: normal; /* Optional, specify weight */
-    font-style: normal;  /* Optional, specify style */
+    font-weight: normal; 
+    font-style: normal;  
 }
 @font-face {
-    font-family: 'Comic Sans MS'; /* Name you choose for your font */
+    font-family: 'Comic Sans MS'; 
     src: url('/COMICI.TTF') format('truetype');
-    font-weight: normal; /* Optional, specify weight */
-    font-style: italic;  /* Optional, specify style */
+    font-weight: normal; 
+    font-style: italic;  
 }
 @font-face {
-    font-family: 'Comic Sans MS'; /* Name you choose for your font */
+    font-family: 'Comic Sans MS'; 
     src: url('/COMICBD.TTF') format('truetype');
-    font-weight: bold; /* Optional, specify weight */
-    font-style: normal;  /* Optional, specify style */
+    font-weight: bold; 
+    font-style: normal;  
 }
 @font-face {
-    font-family: 'Comic Sans MS'; /* Name you choose for your font */
+    font-family: 'Comic Sans MS'; 
     src: url('/COMICZ.TTF') format('truetype');
-    font-weight: bold; /* Optional, specify weight */
-    font-style: italic;  /* Optional, specify style */
+    font-weight: bold; 
+    font-style: italic;  
+}
+@font-face {
+    font-family: 'Helvetica'; 
+    src: url('/hel.TTF') format('truetype');
+    font-weight: normal; 
+    font-style: normal;  
+}
+@font-face {
+    font-family: 'Helvetica'; 
+    src: url('/helita.TTF') format('truetype');
+    font-weight: normal; 
+    font-style: italic;  
+}
+@font-face {
+    font-family: 'Helvetica'; 
+    src: url('/helbold.TTF') format('truetype');
+    font-weight: bold; 
+    font-style: normal;  
+}
+@font-face {
+    font-family: 'Helvetica'; 
+    src: url('/helboldita.TTF') format('truetype');
+    font-weight: bold; 
+    font-style: italic;  
 }
 html {
     padding-bottom: env(safe-area-inset-bottom);
