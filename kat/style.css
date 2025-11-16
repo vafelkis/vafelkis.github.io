@@ -22,7 +22,7 @@ body {
       background-color: rgba(0, 0, 0, 0.5); /* Dark overlay with 50% opacity */
     }
 html {
-    background-image: url("../chisel.png") !important;
+    background-image: url("/chisel.png") !important;
     z-index: 0;
     background-size: 100px;
     background-repeat: repeat;

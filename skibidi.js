@@ -6,6 +6,6 @@ function skibidi()
     {
         selected = katlogo[Math.floor(Math.random() * katlogo.length)];
     }
-        document.getElementById("katrewkatelogo").setAttribute("src", "../"*(window.location.pathname.split("/").length) + selected);
+        document.getElementById("katrewkatelogo").setAttribute("src", "/"*(window.location.pathname.split("/").length) + selected);
 }
 window.onreset = skibidi();

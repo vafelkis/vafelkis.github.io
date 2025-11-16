@@ -13,7 +13,7 @@ body {
 }
 
 html {
-    background-image: url("../../4.gif") !important;
+    background-image: url("/4.gif") !important;
 }
 
 /* .gallerydiv img {*/

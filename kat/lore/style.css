@@ -33,7 +33,7 @@ table {
       background: linear-gradient(180deg,rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.9) 100%);
     }
 html {
-    background-image: url("../../crying_obsidian.png") !important;
+    background-image: url("/crying_obsidian.png") !important;
     z-index: 0;
     background-size: 50px;
     background-repeat: repeat;
