@@ -80,8 +80,8 @@ window.onload = function () { // Example event date
     console.log(noetter);
     if (noetter > 19 || noetter < 5) {
         console.log("oui baguette bonjour")
-        document.getElementById("altbodyhtml").style.backgroundImage = "url('nightwatchtower.gif')";
-        document.getElementById("altbodyhtml").style.setProperty('background-image', 'url("nightwatchtower.gif")', 'important');
+        document.getElementById("altbodyhtml").style.backgroundImage = "url('/nightwatchtower.gif')";
+        document.getElementById("altbodyhtml").style.setProperty('background-image', 'url("/nightwatchtower.gif")', 'important');
     }
     //for (elementx of document.getElementsByClassName("datex")) {
     //  console.log(elementx);
@@ -184,9 +184,9 @@ if (txtaud.innerText.trim() !== "")
         }
     else {
         let wtv = txtaud.getAttribute("src");
-        if (wtv === "../2abc.png")
+        if (wtv === "/2abc.png")
         {
-            txtaud.setAttribute("src", "../2abc_ntsc.png");
+            txtaud.setAttribute("src", "/2abc_ntsc.png");
         }
     }
     
@@ -202,9 +202,9 @@ function stopmsc() {
         }
         else {
         let wtv = txtaud.getAttribute("src");
-        if (wtv === "../2abc.png")
+        if (wtv === "/2abc.png")
         {
-            txtaud.setAttribute("src", "../2abc_ntsc.png");
+            txtaud.setAttribute("src", "/2abc_ntsc.png");
         }
     }
     } else {
@@ -215,9 +215,9 @@ function stopmsc() {
         }
         else {
         let wtv = txtaud.getAttribute("src");
-        if (wtv === "../2abc_ntsc.png")
+        if (wtv === "/2abc_ntsc.png")
         {
-            txtaud.setAttribute("src", "../2abc.png");
+            txtaud.setAttribute("src", "/2abc.png");
         }
     }
     }
