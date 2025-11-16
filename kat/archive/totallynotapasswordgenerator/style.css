@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color:white;
+}
+#haram {
+    text-align: center !important;
+    font-size: 40px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+#hell {
+    font-size: 200px;
+}
+input {
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+    color: white;
+    background-color: black;
+    border-color: white;
+    text-align: center;
+    transform: translate(150%, 300%);
+    border-radius: 16px;
+    font-family: Helvetica;
+}
+
+div {
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+    text-shadow: 
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #fff;
+    text-align: center;
+    transform: translate(0%, 300%);
+    font-family: Helvetica;
+}

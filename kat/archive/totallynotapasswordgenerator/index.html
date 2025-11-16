@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title></title>
+</head>
+<script>
+    var chars = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t",
+        "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O",
+        "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "0", "3", "4", "5", "6", "7", "8", "9",
+        "[", "]", ";", ".", "!", "@", "#", "$", "%", "^", "&", "*", "(", "-", "+", "\\", "/", "?", "`", "~", "=", "}", "{", "<", ">", ":"
+    ];
+
+
+    async function e(e) {
+        document.body.innerHTML = "<div><span id=\"span\"></span></div>";
+        var p = document.getElementById("span");
+        var bitch = p.innerText;
+        for (var i = 0; i < 24; i++) {
+            for (var j = 0; j < 5; j++) {
+
+                var r = Math.floor(Math.random() * chars.length);
+                p.innerText = "".concat(bitch).concat(chars[r]);
+                await sleep(25);
+
+            }
+            bitch = p.innerText;
+        }
+    };
+
+    const sleep = (delay) => {
+        return new Promise((resolve) => {
+            setTimeout(resolve, delay);
+        });
+    }
+</script>
+
+
+<body>
+
+    <input title="ok" type="button" value="Generate!" id="generate" onclick="e(Event)">
+
+
+</body>
+
+</html>
