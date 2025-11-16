@@ -1,0 +1,495 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
+p {
+    transition: font-size 2s linear;
+    transition: letter-spacing 2s linear;
+    font-family: sans-serif;
+    outline-style: outset;
+    outline-color: orange;
+    outline-width: 2px;
+}
+
+.introduction {
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+    min-height: 100%;
+    background-color: white;
+    color: black;
+}
+
+/* .introduction::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    background-color: white;
+    width: 55%;
+    height: 100%;
+    transform: translate(-1%, 40%);
+}
+
+.introduction::after {
+    content: '';
+    display: block;
+    transform: translate(85%, 60%);
+    position: absolute;
+    border-radius: 100% 50%;
+    background-color: black;
+    width: 55%;
+    z-index: -1;
+    height: 100%;
+} */
+
+.thing {
+    background-color: white;
+    scrollbar-width: 0;
+    color: black
+}
+
+#discordlogo,
+#redditlogo,
+#youtubelogo,
+#twitterlogo,
+#twitchlogo {
+    margin: 10px;
+    background-color: white;
+    text-shadow: black 2px 2px 2px;
+    color: black;
+    scrollbar-width: 0;
+}
+
+#discordlogo:hover {
+    color: #5865F2;
+    scrollbar-width: 0;
+    text-shadow: #5865F2 2px 2px 2px;
+}
+
+#redditlogo:hover {
+    color: #FF5700;
+    scrollbar-width: 0;
+    text-shadow: #FF5700 2px 2px 2px;
+}
+
+#youtubelogo:hover {
+    color: #FF0000;
+    scrollbar-width: 0;
+    text-shadow: #FF0000 2px 2px 2px;
+}
+
+#twitterlogo:hover {
+    color: #1DA2F2;
+    scrollbar-width: 0;
+    text-shadow: #1DA2F2 2px 2px 2px;
+}
+
+#twitchlogo:hover {
+    color: #6441a5;
+    scrollbar-width: 0;
+    text-shadow: #6441a5 2px 2px 2px;
+}
+
+.spoiler {
+    background-color: transparent;
+    transition: font-size 2s linear;
+
+    transition: filter 0.1s linear;
+    text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #fff,
+        0 0 80px #fff,
+        0 0 90px #fff,
+        0 0 100px #fff,
+        0 0 150px #fff;
+    filter: blur(4px);
+    background-color: transparent;
+}
+
+.federal {
+    background-color: transparent;
+    transition: font-size 2s linear;
+    text-shadow: 2px 2px 2px black;
+    color: black;
+}
+
+.federal:hover {
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    cursor: pointer;
+
+}
+
+.spoiler:hover {
+    transition: font-size 2s linear;
+    transition: filter 0.5s linear;
+    filter: blur(0px);
+
+
+}
+
+.spoiler2 {
+    background-color: transparent;
+    color: black;
+    transition: font-size 2s linear;
+    text-shadow: 2px 2px 2px black;
+    transition: filter 0.1s linear;
+    filter: blur(10px);
+    font-size: 20px;
+}
+
+.yes {
+    opacity: 100% !important;
+    filter: drop-shadow(2px 2px 2px black);
+    background-color: transparent !important;
+}
+
+.spoiler2:hover {
+    transition: font-size 2s linear;
+    color: black;
+    transition: filter 0.5s linear;
+    filter: blur(0px);
+
+}
+
+.tooltip:hover .tooltiptext {
+    transition: opacity 0.1s linear, transform 0.1s linear;
+    opacity: 100%;
+    z-index: 999;
+    transform: scale(1);
+}
+
+.tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    z-index: 999;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    z-index: 99;
+    border-color: white transparent transparent transparent;
+}
+
+.tooltip .tooltiptext {
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    transition: opacity 0.1s linear, transform 0.1s linear;
+    opacity: 0%;
+    filter: drop-shadow(3px 3px 3px black);
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    font-family: Helvetica;
+    font-weight: bold;
+    width: 100px;
+    transform: scale(0);
+    background-color: white;
+    position: absolute;
+    z-index: 999;
+    padding: 5px;
+    color: black;
+    border-radius: 6px;
+    transform-origin: 50% 100%;
+}
+
+.tooltip {
+    position: relative;
+    z-index: 999;
+
+    display: inline-block;
+}
+
+
+/* div {
+    transition: font-size 2s linear;
+    transition: transform 0.5s ease, color 0.5s ease;
+}
+
+div:hover {
+    transition: font-size 2s linear;
+    transition: transform 1s linear, color 3s ease;
+     transform: rotateX(180deg); 
+    color: orange;
+} */
+
+input[type=text] {
+    transition: font-size 2s linear;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: xx-large;
+    font-family: Helvetica;
+    background-image: radial-gradient(red, yellow, purple);
+    font-weight: bold;
+}
+
+input[type=number] {
+    transition: font-size 2s linear;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+input[type=email] {
+    transition: font-size 2s linear;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    font-family: Helvetica;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+
+input[type=url] {
+    transition: font-size 2s linear;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, black, orange, white, green, red, pink, blue);
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type=slider] {
+    transition: font-size 2s linear;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, white, black);
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input[type=password] {
+    transition: font-size 2s linear;
+    border: 2px solid linear-gradient(to right, black, white);
+    border-radius: 4px;
+    background-image: linear-gradient(to right, white, black);
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+}
+
+input[type=date] {
+    transition: font-size 2s linear;
+    border: 2px solid linear-gradient(to right, black, white);
+    border-radius: 4px;
+    background-image: linear-gradient(to right, white, black);
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+table,
+th,
+td {
+    transition: font-size 2s linear;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+#interestingdiv {
+    transition: font-size 2s linear;
+    background-color: darkblue;
+    transition: transform 3s ease, border-radius 3s ease, border-style 3s ease, filter 3s ease, opacity 3s ease-out;
+    width: 100px;
+    height: 100px;
+}
+
+#interestingdiv:hover {
+    transition: font-size 2s linear;
+    transition: transform 5s ease, border-radius 5s ease, border-style 5s ease, filter 5s ease, opacity 10s ease-in;
+    transform: translate(1820px, 0px);
+    border-radius: 50% 100%;
+    border-style: solid;
+    border-color: radial-gradient(red, yellow, purple);
+    ;
+    filter: saturate(0%);
+    opacity: 0%;
+
+}
+
+input[type=text] {
+    transition: font-size 2s linear;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-family: Helvetica;
+    background-image: radial-gradient(red, yellow, purple);
+    font-weight: bold;
+}
+
+input[type=text]:focus {
+    transition: font-size 2s linear;
+    background-color: orange;
+    color: white;
+    background-image: conic-gradient(red, green, blue);
+    text-shadow: 3px 3px black;
+}
+
+h1 {
+    transition: font-size 2s linear;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+/* ::-webkit-scrollbar {
+    width: 0;  
+    background: transparent; 
+} */
+
+h1:hover {
+    transition: font-size 2s linear;
+    word-spacing: 20px
+}
+
+.spoiler3 {
+    transition: background-color 0.2s linear, color 0.2s linear, text-shadow 0.2s linear;
+
+    
+    background-color: black;
+    color: black;
+    text-shadow: 0px 0px 0px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica;
+    border-radius: 6px;
+}
+
+.spoiler3:hover {
+    transition: background-color 0.2s linear, color 0.2s linear, text-shadow 0.2s linear;
+    cursor: pointer;
+    background-color: gray;
+    text-shadow: 0px 0px 0px;
+    color: gray;
+
+}
+
+* {
+
+
+    overflow-x: auto;
+    /* overflow-y: auto; */
+    transition: font-size 2s linear;
+    background-color: #161616;
+    color: white;
+    /* text-shadow: 5px 5px black; */
+    text-shadow: 6px 6px 5px black;
+
+}
+
+p:hover {
+    transition: font-size 2s linear;
+    transition: letter-spacing 2s linear;
+    text-transform: lowercase;
+
+    letter-spacing: 6px;
+
+}
+
+a:link {
+    transition: font-size 2s linear;
+    color: red;
+    text-decoration-color: orange;
+    text-decoration-line: none;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 50;
+    font-style: italic;
+}
+
+img {
+    transition: font-size 2s linear;
+    opacity: 0.5;
+}
+
+img:hover {
+    transition: font-size 2s linear;
+    opacity: 1.0;
+}
+
+h2 {
+    transition: font-size 2s linear;
+    font-family: Helvetica, sans-serif;
+}
+
+#vakar {
+    transition: font-size 2s linear;
+    transition: letter-spacing 2s linear;
+    font-family: Impact, sans-serif;
+    letter-spacing: 6px;
+}
+
+a:visited {
+    transition: font-size 2s linear;
+    color: yellow;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+    text-decoration-style: wavy;
+    font-size: 50px;
+    text-decoration-thickness: 50;
+    font-weight: bold;
+}
+
+a:hover {
+    transition: font-size 2s linear;
+    transition: letter-spacing 2s linear;
+    color: green;
+    text-decoration-line: overline;
+    scrollbar-width: 0;
+    text-decoration-color: blue;
+    text-decoration-style: dashed;
+    font-size: 50px;
+    text-decoration-thickness: 50;
+    letter-spacing: 10px;
+    font-variant: small-caps;
+}
+
+#mybuton {
+    transition: font-size 2s linear;
+    font-size: 120px;
+    background-color: #6a9f4c;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    font-weight: bold;
+    color: white;
+}
+
+*::selection {
+    transition: font-size 2s linear;
+    color: orange;
+    font-size: 50px;
+    background-color: transparent;
+}
+
+a:active {
+    transition: font-size 2s linear;
+    color: orange;
+    text-decoration-color: pink;
+    text-decoration-line: line-through;
+    text-decoration-style: double;
+    text-decoration-thickness: 50;
+}
+
+
+#myawesomediv {
+    transition: font-size 2s linear;
+    text-align: center;
+    background-color: #111111;
+    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
+}
