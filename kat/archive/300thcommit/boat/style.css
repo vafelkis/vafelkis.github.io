@@ -1,0 +1,76 @@
+html,
+body {
+    height: 100%;
+    padding: 20px;
+    margin: 20px;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: scroll !important;
+    /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
+}
+
+html {
+    background-image: url("/ka8zh5tqwc991.gif") !important;
+}
+/* .gallerydiv img {*/
+/*   width: 70%;*/
+/*   height: 100%;*/
+/*   font-size: 100%;*/
+/* }*/
+.scrolldiv {
+      width: 100%;
+      overflow: hidden;
+      background: rgb(255, 0, 0);
+      color: white;
+      white-space: nowrap;
+      box-sizing: border-box;
+    }
+    .scrolltext {
+      display: inline-block;
+      padding-left: 100%;
+      color: white;
+      font-family: "VCR OSD Mono";
+      text-shadow: black 3px 3px;
+      animation: scroll-left 60s linear infinite;
+    }
+
+    @keyframes scroll-left {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+
+
+.scaledpl {
+    width: clamp(300px, 20vw, 1000px);
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+}
+.flag {
+    box-shadow: -2px 2px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
+    outline: 1px black solid;
+}
+* {
+    font-family: "Comic Sans MS";
+    font-size: 130%;
+    color: white;
+    background: none;
+    text-shadow: black 3px 3px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0px !important;
+}
