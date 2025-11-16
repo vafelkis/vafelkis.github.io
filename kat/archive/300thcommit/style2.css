@@ -1,0 +1,53 @@
+html,
+body {
+    height: 100%;
+    padding: 20px;
+    margin: 20px;
+    
+    background-repeat:repeat;
+    background-attachment: scroll !important;
+    /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
+}
+html { 
+    background-image: url("/nyanshitrealtalk.gif") !important;
+}
+.sigma {
+    text-align: center;
+}
+sub {
+    font-size: 50% !important;
+}
+i {
+    font-size: 85% !important;
+}
+ol,ul {
+    margin-left: 20px;
+    font-size: 69%;
+}
+code {
+    background-color: rgb(0, 17, 53);
+    border: 3px solid rgb(0, 9, 29);
+    border-radius: 5px;
+    font-size: 85%;
+}
+.aqua {
+    color: aqua !important;
+    text-shadow:none !important;
+    font-size: 85% !important;
+}
+.green {
+    color: rgb(232, 255, 100) !important;
+    font-size: 85% !important;
+    text-shadow:none !important;
+}
+*,h2,h1,h3,h4,h5 {
+    font-family: "VCR OSD Mono";
+    font-size: 130%; 
+    color: white;
+    background: none;
+    text-shadow: black 3px 3px;
+    text-align: left;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin-bottom: 0px !important;
+}

@@ -47,7 +47,7 @@ function sigma(href) {
     va.currentTime = 0;
     va.play();
     va.onended = function () {
-        window.location.assign("https://vafelkis.github.io" + href);
+        window.location.assign(window.location.origin + href);
     };
 
 }
