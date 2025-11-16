@@ -51,7 +51,7 @@ li {
       background: linear-gradient(180deg,rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.7) 100%);
     }
 html {
-    background-image: url("../../gl2.gif") !important;
+    background-image: url("/gl2.gif") !important;
     z-index: 0;
     background-size: 100%;
     background-repeat: repeat;

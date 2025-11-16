@@ -14,7 +14,7 @@ body {
     margin: 20px;
 }
 html {
-    background-image: url("../coolleaf.gif") !important;
+    background-image: url("/coolleaf.gif") !important;
 }
 /* .gallerydiv img {*/
 /*   width: 70%;*/
