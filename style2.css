@@ -1,8 +1,7 @@
 html,
 body {
     height: 100%;
-    padding: 20px;
-    margin: 20px;
+    
     
     background-repeat:repeat;
     background-attachment: scroll !important;
@@ -41,7 +40,8 @@ code {
     font-size: 85% !important;
     text-shadow:none !important;
 }
-
+html { padding: 20px;
+    margin: 20px;}
 *,h2,h1,h3,h4,h5 {
     font-family: "VCR OSD Mono";
     font-size: 130%; 
