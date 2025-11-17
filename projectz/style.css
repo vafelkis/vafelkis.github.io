@@ -16,6 +16,9 @@ html {
     text-shadow: black 3px 3px;
     z-index: 2;
 }
+.cent {
+    text-align: center;
+}
 .photonormal {
     width: 60%;
     border: 5px rgb(55, 0, 128) solid;
