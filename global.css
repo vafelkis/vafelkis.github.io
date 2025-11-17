@@ -343,6 +343,13 @@ input[type="radio"]:checked
 }
 
 @font-face {
+    font-family: '04b03';
+    src: url('/04b03.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Mc2';
     src: url('/MINECRAFTREGULAR-BMG3.OTF') format('opentype');
     font-weight: 400;
