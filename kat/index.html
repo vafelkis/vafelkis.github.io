@@ -103,7 +103,7 @@
                                 links in other pages. [they are easter eggs/secrets]</span>
                         <br>
 
-                        <p id="sigmaxh" style="padding-top: 10px;">katrewkate</p>
+                        <p id="sigmaxh" style="padding-top: 10px; pointer-events: none;">katrewkate</p>
                         <p style="bottom: -35px; margin: 0 0 0 0 !important; padding: 0 0 0 0 !important;"><i>est.
                                         2007</i></p><br><br>
                 </div>
@@ -1178,13 +1178,18 @@
         <div style="font-size: 50px; text-align: center;">you've reached the end. youve dug to china bro. thanks for gettin this far <3 :)
         </div>
 </body>
-
-<script>window.addEventListener('scroll', function () {
+<script>
+document.addEventListener("keydown", function (event) {
+  if (event.key.toLowerCase() === "f") {
+    const sound = new Audio("/tnt.mp3");
+    sound.play();
+  }
+});
+window.addEventListener('scroll', function () {
                 const background = document.getElementById('background');
                 const scrollPosition = window.scrollY;
                 background.style.transform = `translateY(-${scrollPosition * 0.25}px)`;
-        });</script>
-<script>
+        });
         let element = document.getElementById("thespinnything");
         let sigmakat = [
                 "sigma",
@@ -1211,7 +1216,7 @@
         window.addEventListener('load', () => {
                 setInterval(aifm, 1000);
         });
-</script>
+        </script>
 <script src="/sigma.js"></script>
 <script src="/katcanintospace.js"></script> 
 
