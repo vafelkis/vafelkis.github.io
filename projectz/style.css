@@ -6,7 +6,7 @@ body {
     
 }
 html {
-    background-color: rgb(7, 29, 0) !important;
+    background-color: #071d00 !important;
     z-index: 0;
 }
 
@@ -28,8 +28,8 @@ html {
 #second {
     font-family: "04b03";
     color: white;
-    background: url('/nft.gif');
-    background-size: cover;
+    background: url('/nft.gif') repeat;
+    background-size:contain;
     background-position: top center;
     width: 100%;
     margin: 0 !important;
