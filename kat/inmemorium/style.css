@@ -23,6 +23,18 @@ td,th {
     padding: 5px;
     font-size: 24px;
 }
+.if {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    flex: 0 0 200px;
+    border: rgba(49, 0, 82, 0.308) 5px solid; 
+}
+.ytd {
+    filter: drop-shadow(0 0 10px rgb(120, 0, 136))  !important;
+}
+.if:hover {
+    background: rgba(0, 0, 0, 0.4); 
+}
 .shadow {
     filter: drop-shadow(4px 4px 0 black);
     border: rgba(25, 0, 39, 0.493) 3px solid;
