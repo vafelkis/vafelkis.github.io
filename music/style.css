@@ -17,6 +17,15 @@ html {
     margin: 20px;
 }
 
+.if {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 8px;
+    flex: 0 0 300px;
+    border: rgba(49, 0, 82, 0.308) 5px solid; 
+}
+.if:hover {
+    background: rgba(0, 0, 0, 0.4); 
+}
 /* .gallerydiv img {*/
 /*   width: 70%;*/
 /*   height: 100%;*/
@@ -44,5 +53,5 @@ h3,
 h4,
 h5,
 h6 {
-    margin-bottom: 0px !important;
+    margin: 0px;
 }
