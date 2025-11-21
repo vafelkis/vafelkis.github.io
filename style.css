@@ -41,10 +41,6 @@ html {
     text-align: center;
     position: relative;
 }
-.orangehover:hover {
-    color:lightblue;
-    cursor:grab;
-}
 .orangez {
     color:#ffe2b7;
 }
