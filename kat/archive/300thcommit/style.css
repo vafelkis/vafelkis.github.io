@@ -23,10 +23,6 @@ html {
     text-align: center;
     position: relative;
 }
-.orangehover:hover {
-    color:lightblue;
-    cursor:grab;
-}
 .lightblue {
     color:lightblue;
 }

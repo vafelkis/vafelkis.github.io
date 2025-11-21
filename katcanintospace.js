@@ -49,7 +49,6 @@ function sigma(href) {
     va.onended = function () {
         window.location.assign(window.location.origin + href);
     };
-
 }
 // Function to display time since event
 function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null, language = null) {

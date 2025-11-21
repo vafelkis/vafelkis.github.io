@@ -30,7 +30,7 @@
     <meta name="theme-color" data-react-helmet="true" content="#00378f">
     <meta content="https://vafelkis.github.io/googel.png" property="og:image" >
     <link rel="preload" href="/katcanintospace.js" as="script">
-</head> <!-- Google tag (gtag.js) -->
+</head> 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-JLYDY4XYZW"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -40,7 +40,10 @@
   gtag('config', 'G-JLYDY4XYZW');
 </script>
 
-<body>
+<body> <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=G-JLYDY4XYZW"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
     <audio id="swoosh" src="/Sharpswoosh.mp3" style="display: none;"></audio>
     <style>
         code {
@@ -49,8 +52,8 @@
             white-space: normal;
         }
     </style>
-    <a class="orangehover" onclick="sigma('/')">home</a> | <a class="orangehover" onclick="sigma('/boat')">boat</a> | <a
-        class="orangehover" onclick="sigma('/misc')">misc</a></a><br>
+    <a class="orangehover" href="/" onclick="sigma('/'); return false;">home</a> | <a class="orangehover" href="/boat/" onclick="sigma('/boat/'); return false;">boat</a> | <a
+        class="orangehover" href="/misc/" onclick="sigma('/misc/'); return false;">misc</a></a><br>
     <audio id="msc" src="/Nyan Cat [original].mp3" style="display: none;" loop></audio>
     <a id="stopmsc" onclick="stopmsc()">pres this for cool surprise, very kewl]]</a>
     <div class="acoustic"><b>"you are nigerian broccoli"></b><br>-pancakr</div>
@@ -124,8 +127,8 @@
             will be managed by vucicbot's owner [who i believe will take good care of the users that visit this site],
             however it is still wise to follow basic internet safety rules. :)
             <hr style="height: 5px; background-color:rgba(0, 0, 0, 0.425); outline: none; border: none;">for more
-            information, pls check the <br><a class="orangehover"
-                onclick="sigma('/poptart')"">poptart page</a><br>anyhow, we do not condone or anyhow associate ourselves with any political ideology :)<hr style="
+            information, pls check the <br><a class="sigmahover grab"
+                href="/poptart/" onclick="sigma('/poptart/'); return false;" style="font-size: 150%;">poptart page</a><br>anyhow, we do not condone or anyhow associate ourselves with any political ideology :)<hr style="
                 height: 5px; background-color:rgba(0, 0, 0, 0.425); outline: none; border: none;">goodbye, hope you had
                 a nice stay here! :)<br>have a nice stay and enjoy the partner site! :D
         </div>
