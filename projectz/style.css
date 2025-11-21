@@ -31,6 +31,10 @@ html {
 .orangehover {
     color: rgb(111, 255, 98) !important;
 }
+#scrollthing {
+    color: white !important;
+    font-family: "04b03" !important;
+}
 .orangehover:hover {
     color: rgb(180, 255, 180) !important;
 }
