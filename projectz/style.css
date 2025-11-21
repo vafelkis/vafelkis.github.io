@@ -28,6 +28,12 @@ html {
 .orangeglo {
     filter: drop-shadow(0 0 6px rgb(255, 221, 149)) drop-shadow(3px 3px 0 orange) drop-shadow(-3px -3px orange) !important;
 }
+.orangehover {
+    color: rgb(111, 255, 98) !important;
+}
+.orangehover:hover {
+    color: rgb(180, 255, 180) !important;
+}
 #second {
     font-family: "04b03" !important;
     color: white;
