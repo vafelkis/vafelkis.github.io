@@ -45,6 +45,7 @@ function sigma(href) {
     const va = document.getElementById("swoosh")
 
     va.currentTime = 0;
+    va.volume = 0.4;
     va.play();
     va.onended = function () {
         window.location.assign(window.location.origin + href);
