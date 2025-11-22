@@ -1,2 +1,5 @@
+name: "🌌 katsite!"
+description: "visit this site for free cokiez, women, cococola, vodka, and much more! 🍪🧑🏻‍🍳"
+url: "https://vafelkis.github.io"
 plugins:
   - jekyll-sitemap
