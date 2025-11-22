@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://katsite.github.io/sitemap.xml
+Sitemap: https://vafelkis.github.io/sitemap.xml
