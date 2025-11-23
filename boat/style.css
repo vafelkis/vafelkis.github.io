@@ -30,6 +30,30 @@ th{
     padding: 5px;
     
 }
+@keyframes lol {
+    from {
+        max-height: 0;
+    }
+    to {
+         max-height: 4000px;
+         opacity: 1;
+    }
+}
+#ripsimzupdatah {
+    margin: 0 auto;
+    width: 95%;
+    padding: 10px 0 5px 0;
+}
+#ripsimzupdatah * {
+    font-size: 18px !important;
+}
+#ripsimzupdatah tr {
+        background: rgba(255, 246, 116, 0.226);
+}
+#ripsimzupdatah tr:nth-child(even) {
+    background: rgba(255, 0, 0, 0.37); 
+}
+.redout * { background: rgb(124, 0, 0); outline: 3px solid rgb(155, 0, 0); }
 .scaledpl {
     width: clamp(300px, 20vw, 1000px);
     height: auto;

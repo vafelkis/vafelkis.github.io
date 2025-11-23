@@ -119,6 +119,17 @@ will-change: filter;
 
     }
 }
+@keyframes dimerto4 {
+    0% {
+    }
+    50% {
+    color: rgb(255, 255, 255);
+    filter:drop-shadow(0px 0px 4px #ffffff);
+    }
+    100% {
+
+    }
+}
 .sigmahover {
     all:unset;
       will-change: color, filter;
@@ -177,6 +188,19 @@ will-change: filter;
 .sigmahover3:hover {
     color: rgb(255, 70, 70) !important; 
     filter:drop-shadow(0px 0px 4px rgb(121, 0, 0)) !important;
+      will-change: color, filter;
+    transition: filter color 0.1s ease;
+}
+.sigmahover3 {
+    all:unset;
+    color: rgb(226, 226, 226);
+    animation: dimerto4 2.6s infinite ease;
+      will-change: color, filter;
+    transition: filter color 0.1s ease;
+}
+.sigmahover3:hover {
+    color: rgb(255, 255, 255) !important; 
+    filter:drop-shadow(0px 0px 4px rgb(255, 255, 255)) !important;
       will-change: color, filter;
     transition: filter color 0.1s ease;
 }
