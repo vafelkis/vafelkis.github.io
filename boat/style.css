@@ -1,13 +1,14 @@
 html,
 body {
-    background-image: url("/ka8zh5tqwc991.gif") !important;
-    background-size: contain;
+    
     justify-content: center;
     
     /*background: linear-gradient(45deg, rgba(54, 0, 153, 1) 0%, rgba(0, 0, 0, 255) 100%);*/
 }
 html {
     padding: 20px;
+    background-image: url("/ka8zh5tqwc991.gif") !important;
+    background-size: contain;
 }
 
 /* .gallerydiv img {*/
