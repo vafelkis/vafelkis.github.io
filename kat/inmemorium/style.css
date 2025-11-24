@@ -27,10 +27,12 @@ td,th {
     background: rgba(0, 0, 0, 0.2);
     padding: 8px;
     flex: 0 0 200px;
+    gap: 5px;
     border: rgba(49, 0, 82, 0.308) 5px solid; 
 }
 .ytd {
     filter: drop-shadow(0 0 10px rgb(120, 0, 136))  !important;
+    border: 3px purple solid;
 }
 .if:hover {
     background: rgba(0, 0, 0, 0.4); 
