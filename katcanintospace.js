@@ -138,7 +138,8 @@ window.onload = function () {
     //}
     //}
     console.log("sigma");
-    document.getElementById("splash").innerText = stext;
+    let splash = document.getElementById("splash");
+    splash.innerText = stext;
     date1 = document.getElementById("date1");
     date2 = document.getElementById("date2");
 
