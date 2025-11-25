@@ -39,6 +39,9 @@ html {
     padding: 20px;
     margin: 20px;
 }
+.mz {
+    position: absolute; width: 300px; object-fit: contain; outline: 5px rgb(102, 0, 0) solid;
+}
 .sigmahoverlore
 {
     color: #c300ff;
