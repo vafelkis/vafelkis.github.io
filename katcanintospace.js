@@ -17,20 +17,17 @@ function calculateTimeSinceEvent(eventDate, endDate = null) {
     if (endDate != null) {
         now = new Date(endDate);
     }
-    // Check if the event date is valid
     if (isNaN(event.getTime())) {
         console.error("Invalid event date");
         return;
     }
-    // Calculate the differences
     let years = now.getFullYear() - event.getFullYear();
     let months = now.getMonth() - event.getMonth();
     let days = now.getDate() - event.getDate();
 
-    // Adjust if needed (for months and days)
     if (days < 0) {
         months--;
-        const previousMonth = new Date(now.getFullYear(), now.getMonth(), 0); // Last day of the previous month
+        const previousMonth = new Date(now.getFullYear(), now.getMonth(), 0); 
         days += previousMonth.getDate();
     }
 
