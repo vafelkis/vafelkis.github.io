@@ -243,7 +243,7 @@ function english() {
         elemnt.innerText = "since";
     }
     document.getElementById("russianbut").innerText = "русский";
-    document.getElementById("lithuanianbut").innerText = "lietuvių"; //
+    document.getElementById("lithuanianbut").innerText = "lietuvių"; 
 
 
 
@@ -263,7 +263,7 @@ function startclock() {
         hour: '2-digit',
         minute: '2-digit',
         second: '2-digit',
-        hour12: false // 24-hour format
+        hour12: false 
     });
     const [date, time] = nowvln.split(', ');
     const [day, month, year] = date.split('/');
