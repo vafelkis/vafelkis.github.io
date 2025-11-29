@@ -51,11 +51,9 @@ function sigma(href) {
         window.location.assign(window.location.origin + href);
     };
 }
-// Function to display time since event
 function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null, language = null) {
     const time = calculateTimeSinceEvent(eventDate, endEventDate);
 
-    // If the event date is invalid, exit early
     if (!time) return;
     const { years, months, days } = time;
     if (language == null) {
@@ -286,7 +284,6 @@ const txtaud = document.getElementById("stopmsc");
 
 function playmsc() {
     setTimeout(function () {
-        // Code you want to run after 5 seconds
         audio.play();
     }, 5000);
     if (txtaud.innerText.trim() !== "") {
