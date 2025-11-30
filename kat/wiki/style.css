@@ -66,9 +66,6 @@ html {
     text-shadow: black 3px 3px;
     z-index: 2;
 }
-.sigmahover3 {
-    text-shadow: none !important;
-}
 body {
     font-size: 40px;
 }
