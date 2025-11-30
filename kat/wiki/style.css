@@ -69,11 +69,26 @@ html {
 body {
     font-size: 40px;
 }
-h1 {
-
-    margin: 0 !important; 
+h1,h2,h3,h4,h5,h6 {
+margin: 0 !important; 
     gap: 0 !important;
     padding: 0 !important;
+}
+hr {
+    width: 80%;
+    border: none;
+    height: 4px;
+    margin: 8px 0 4px 0;
+    background: linear-gradient(45deg, rgb(92, 0, 153), transparent)
+}
+h1 {
+
     text-align: center;
-    font-size: 140%;
+        font-size: 140%;
+
+}
+h2 {
+
+        font-size: 120%;
+
 }
