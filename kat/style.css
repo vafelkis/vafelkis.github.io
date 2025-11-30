@@ -33,6 +33,41 @@ hr {
     height: 4px;
     color: transparent;
 }
+.sigmaxx {
+                        width: 95%;
+                        object-fit: contain;
+                        margin: 0 auto;
+                        display: flex;
+                        padding: 0;
+    transition: border, box-shadow, width, 0.2s ease-in-out;
+                        margin-bottom: -35px;
+                }
+.sigmaxx:hover {
+    transition: border, box-shadow, width, 0.2s ease-in-out;
+        width: 97%;
+        box-shadow: black 0 0 10px;
+}
+                .xxvc {
+                        text-align: center;
+                        padding: 0;
+                        margin: 0;
+                        font-size: 80%;
+                        line-height: 25px;
+                        padding-bottom: 8px;
+                        transition: filter 0.3s ease;
+                }
+                .xxvc:hover {
+                    filter: drop-shadow(0 0 5px white);
+                        transition: filter 0.3s ease;
+                }
+
+                .spansx {
+                        grid-column: span 3;
+                }
+
+                .someitem {
+                        flex: 1 1 calc(33.333% - 5px);
+                }
 .summer {
 
     all:unset;
