@@ -8,7 +8,7 @@ document.body.insertAdjacentHTML("afterbegin", `
     </a><div id="quote">some fancy ahh quote here 🤓</div></div>`);
 
 reset();
-document.body.insertAdjacentHTML("afterbegin", "<style>#topmessage {  position: fixed !important;  top: 0 !important;  left: 0 !important;  width: 100% !important;  background: lightblue !important;  color: white !important;  text-align: center !important;  padding: 0px !important;  z-index: 999 !important;  font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext' style=\"font-size: 25px; font-family: 'Comic Sans MS' !important;\" id='topbannerad' >BING CHILLINGGGGGG ❄️❄️🌨️🏂🏻🎿🍧 THE TIME OF YEAR HAS ARRIVED, XMAS IS HEREE!!!!!!1!!1! WHAT TO EXPECT? NO IDEA! HOW ABOUT YOU FIND OUT LATER? 💞 MERRY CHRISTMAS AND HAPPY 1ST OF DECEMBER! :)</div></div>");
+document.body.insertAdjacentHTML("afterbegin", "<style>#topmessage {  position: fixed !important;  top: 0 !important;  left: 0 !important;  width: 100% !important;  background: lightblue !important;  color: white !important;  text-align: center !important;  padding: 0px !important;  z-index: 999 !important;  font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext' style=\"font-size: 25px !important; font-family: 'Comic Sans MS' !important;\" id='topbannerad' >BING CHILLINGGGGGG ❄️❄️🌨️🏂🏻🎿🍧 THE TIME OF YEAR HAS ARRIVED, XMAS IS HEREE!!!!!!1!!1! WHAT TO EXPECT? NO IDEA! HOW ABOUT YOU FIND OUT LATER? 💞 MERRY CHRISTMAS AND HAPPY 1ST OF DECEMBER! :)</div></div>");
 
 const fmt = Intl.DateTimeFormat({ timeZone: 'Europe/Vilnius' });
 function calculateTimeSinceEvent(eventDate, endDate = null) {
