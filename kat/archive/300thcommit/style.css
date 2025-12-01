@@ -35,7 +35,7 @@ html {
     font-family: 'VCR OSD Mono'; /* Name you choose for your font */
     src: url('VCR_OSD_MONO.ttf') format('truetype');
     font-weight: normal; /* Optional, specify weight */
-    font-style: normal;  /* Optional, specify style */
+    font-style: normal;/* Optional, specify style */
 }
 @keyframes splashPulse {
   0%, 100% {
@@ -59,11 +59,11 @@ html {
     font-family: 'Comic Sans MS'; /* Name you choose for your font */
     src: url('Comic Sans MS.ttf') format('truetype');
     font-weight: normal; /* Optional, specify weight */
-    font-style: normal;  /* Optional, specify style */
+    font-style: normal;/* Optional, specify style */
 }
   .splash {
     position: absolute;
-    bottom: 6rem;     /* position above the link */
+    bottom: 6rem;   /* position above the link */
     left: 45%;
     transform: translate(-5%, -10%) rotate(30deg) scale(0.6);
     color: yellow;
