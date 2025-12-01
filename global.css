@@ -222,7 +222,7 @@ will-change: filter;
 input[type="checkbox"] 
 {
     background-image: url("/chkdef.png");
-    appearance: none;      
+    appearance: none;    
     filter: drop-shadow(3px 3px 0px black );
     height: 20px;
     width: 20px;
@@ -239,7 +239,7 @@ input[type="checkbox"]:checked
 input[type="radio"] 
 {
     background-image: url("/chkdef.png");
-    appearance: none;      
+    appearance: none;    
     height: 20px;
     filter: drop-shadow(3px 3px 0px black );
     width: 20px;
@@ -273,7 +273,7 @@ input[type="radio"]:checked
                 align-items: center; 
                 
                 justify-content: center; 
-                gap: 4px;   
+                gap: 4px; 
                 background: #ffab2d; 
                 text-decoration: none !important; 
                 text-decoration-line: none !important; 
@@ -447,55 +447,55 @@ input[type="radio"]:checked
     font-family: 'VCR OSD Mono'; 
     src: url('/VCR_OSD_MONO.ttf') format('truetype');
     font-weight: normal; 
-    font-style: normal;  
+    font-style: normal;
 }
 @font-face {
     font-family: 'Comic Sans MS'; 
     src: url('/Comic Sans MS.ttf') format('truetype');
     font-weight: normal; 
-    font-style: normal;  
+    font-style: normal;
 }
 @font-face {
     font-family: 'Comic Sans MS'; 
     src: url('/COMICI.TTF') format('truetype');
     font-weight: normal; 
-    font-style: italic;  
+    font-style: italic;
 }
 @font-face {
     font-family: 'Comic Sans MS'; 
     src: url('/COMICBD.TTF') format('truetype');
     font-weight: bold; 
-    font-style: normal;  
+    font-style: normal;
 }
 @font-face {
     font-family: 'Comic Sans MS'; 
     src: url('/COMICZ.TTF') format('truetype');
     font-weight: bold; 
-    font-style: italic;  
+    font-style: italic;
 }
 @font-face {
     font-family: 'Helvetica'; 
     src: url('/hel.TTF') format('truetype');
     font-weight: normal; 
-    font-style: normal;  
+    font-style: normal;
 }
 @font-face {
     font-family: 'Helvetica'; 
     src: url('/helita.TTF') format('truetype');
     font-weight: normal; 
-    font-style: italic;  
+    font-style: italic;
 }
 @font-face {
     font-family: 'Helvetica'; 
     src: url('/helbold.TTF') format('truetype');
     font-weight: bold; 
-    font-style: normal;  
+    font-style: normal;
 }
 @font-face {
     font-family: 'Helvetica'; 
     src: url('/helboldita.TTF') format('truetype');
     font-weight: bold; 
-    font-style: italic;  
+    font-style: italic;
 }
 html {
     padding-bottom: env(safe-area-inset-bottom);

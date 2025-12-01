@@ -96,7 +96,7 @@ hr {
     background-size: 600px;
 }
 .imgtext {
-    all:unset;  text-shadow: none; font-weight: bold; filter: drop-shadow(3px 3px 0 black);
+    all:unset;text-shadow: none; font-weight: bold; filter: drop-shadow(3px 3px 0 black);
 }
 .wintah {
     all:unset;
