@@ -29,6 +29,20 @@ td,th {
     flex: 0 0 200px;
     border: rgba(49, 0, 82, 0.308) 5px solid; 
 }
+.flx {
+    display:flex; 
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.flx1{
+    flex: 0 0 210px;
+}
+.flx2 {
+    flex: 1;
+    padding: 10px;
+    margin: 0 0 20px 0;
+}
 .ytd {
     filter: drop-shadow(0 0 10px rgb(120, 0, 136))  !important;
     border: 3px purple solid;
