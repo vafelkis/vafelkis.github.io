@@ -38,6 +38,21 @@ td,th {
 .flx1{
     flex: 0 0 210px;
 }
+.item {
+    display:flex; 
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.116);
+    padding: 10px 10px 0 10px;
+    flex: 1 1 1;
+    border: 3px rgba(255, 255, 255, 0.288) solid;
+}
+.item:hover {
+ filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.315));
+    background: rgba(255, 255, 255, 0.295);
+    border: 3px rgba(255, 255, 255, 0.521) solid;
+}
 .flx2 {
     flex: 1;
     padding: 10px;
