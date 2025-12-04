@@ -14,3 +14,5 @@ document.getElementById("quote").innerText = quote;
 
 document.getElementById("logo").setAttribute("src", src);
 document.getElementById("quote").innerText = quote;
+
+document.getElementById("imgbg").style.backgroundImage = `url(${src})`;

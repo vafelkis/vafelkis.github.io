@@ -74,6 +74,12 @@ margin: 0 !important;
     gap: 0 !important;
     padding: 0 !important;
 }
+.cent {
+    margin: 10px 0 10px 0;
+}
+.ei {
+    font-size: 75%;
+}
 hr {
     width: 80%;
     border: none;

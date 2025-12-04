@@ -178,6 +178,9 @@ will-change: filter;
       will-change: color, filter;
     transition: filter color 0.1s ease;
 }
+.cent {
+    text-align: center;
+}
 .sigmahover3 {
     all:unset;
     color: rgb(219, 0, 0);
