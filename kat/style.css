@@ -111,7 +111,6 @@ html {
     background-image: url("/chisel.png") !important;
     z-index: 0;
     padding: 20px;
-    margin: 20px;
     background-size: 100px;
     background-repeat: repeat;
 }

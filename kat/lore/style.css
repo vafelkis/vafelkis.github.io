@@ -37,7 +37,6 @@ html {
     background-size: 50px;
     background-repeat: repeat;
     padding: 20px;
-    margin: 20px;
 }
 .szv {
     object-fit: contain !important; width: 75%; text-align: center; vertical-align:middle;
