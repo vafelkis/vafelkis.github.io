@@ -79,6 +79,9 @@ tr {
     font-family: "ArialPixel";
     color: white;
 }
+.emoji {
+    filter: drop-shadow(3px 3px 0 black); height: 30px; vertical-align: middle; 
+}
 h1 {
 
     margin: 0 !important; 
