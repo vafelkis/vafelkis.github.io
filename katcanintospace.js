@@ -5,9 +5,33 @@ document.body.insertAdjacentHTML("afterbegin", `
     <div id="loading" style="position:fixed; scroll:none; display:flex; height: 100%; width: 100%; left: 0; top:0; background: linear-gradient(45deg, #010b29c2 0%, #010b2993 100%); z-index:99999999; text-align: center; font-family: 'Comic Sans MS'; font-size: 24px; line-height: 40px">
     <div style="margin: auto auto; font-size:150%" ><img src="/Katvodkalogoalt.png" style="width: 20%; object-fit: contain; filter: drop-shadow(3px 3px 0 black)" id="logo"><br>loading...<br>
     <a style="all:unset; font-size: 80%">do not panic if it looks stuck / site looks broken.<br>the website will look incomplete, while loading.<div style="opacity:0.5; font-size:16px; width: 75%; margin: 0 auto; line-height: 20px">in the case of it freezing, and you see that nothing is loading, please refresh the page. if it still does not work, well... then youre cooked.😭 nah but fr, pls contact katrewkate@gmail.com, or if you can access the poptart page (https:/vafelkis.github.io/poptart) then contact from there please! this pleasant [or horibbel.. :(] experience, has been brought to you by katrewkate/katdustries incorioaprtped induastries in some offshore country that no one knows about ! 
-    </a><div id="quote">some fancy ahh quote here 🤓</div></div>`);
+    </a><div id="quote">some fancy ahh quote here 🤓</div><div style="width: 100%; margin: 15px 0 0 0; height: 10px; outline: white 4px solid; background:transparent;"><div id="loadinz" style="background:linear-gradient(45deg, white, pink); width:0%; height:100%;"></div></div>`);
 
 reset();
+document.addEventListener("DOMContentLoaded", () => {
+    const images = document.querySelectorAll("img");
+    const total = images.length;
+
+    let loaded = 0;
+
+    const progressBar = document.getElementById("loadinz");
+
+    const update = () => {
+        loaded++;
+        const percent = Math.round((loaded / total) * 100);
+
+        progressBar.style.width = percent + "%";
+    };
+
+    images.forEach(img => {
+        if (img.complete) {
+            update();
+        } else {
+            img.addEventListener("load", update);
+            img.addEventListener("error", update); 
+        }
+    }); 
+});
 document.body.insertAdjacentHTML("afterbegin", "<style>#topmessage {  position: fixed !important;top: 0 !important;left: 0 !important;width: 100% !important;background: lightblue !important;color: white !important;text-align: center !important;padding: 0px !important;z-index: 999 !important;font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext' style=\"font-size: 20px !important; font-family: 'Comic Sans MS' !important;\" id='topbannerad' >BING CHILLINGGGGGG ❄️❄️🌨️🏂🏻🎿🍧 THE TIME OF YEAR HAS ARRIVED, XMAS IS HEREE!!!!!!1!!1! WHAT TO EXPECT? NO IDEA! HOW ABOUT YOU FIND OUT LATER? 💞 MERRY CHRISTMAS AND HAPPY 1ST OF DECEMBER! :)</div></div>");
 
 const fmt = Intl.DateTimeFormat({ timeZone: 'Europe/Vilnius' });
