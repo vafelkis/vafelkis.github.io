@@ -22,6 +22,9 @@ html {
 .cent {
     margin: 8px 0 8px 0;
 }
+.dph {
+    filter: drop-shadow(3px 3px 4px rgba(0, 0, 0, 0.644)) !important;
+}
 .photonormal {
     width: 60%;
     filter: drop-shadow(0 0 10px rgb(0, 0, 141)) drop-shadow(3px 3px 0 rgb(0, 132, 255)) drop-shadow(-3px -3px 0 rgb(0, 132, 255));
