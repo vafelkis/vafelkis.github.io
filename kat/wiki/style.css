@@ -59,14 +59,13 @@ html {
 
 * {
     font-family: "95w", "w95", "w95fa";
-    text-shadow: 2px 2px 0px rgb(81, 0, 128), -2px -2px 0px rgb(14, 0, 138), 0 0 8px white !important;
     position: relative;
     color: white;
     background: none;
-    text-shadow: black 3px 3px;
     z-index: 2;
 }
 body {
+    text-shadow: 2px 2px 0px rgb(81, 0, 128), -2px -2px 0px rgb(14, 0, 138), 0 0 8px white !important;
     font-size: 40px;
 }
 h1,h2,h3,h4,h5,h6 {
