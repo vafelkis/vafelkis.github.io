@@ -346,7 +346,7 @@ function stopmsc(before = null, after = null) {
     }
 }
 const glyphs =
-"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789#$%&*+=@^";
+"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЫЭЮЯабвгдежзийклмнопрстуфхцчшщыэюяΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρστυφχψω0123456789#$%&*+=?@^";
 document.querySelectorAll(".obf").forEach(el => {
   const length = el.textContent.length;
 
@@ -356,5 +356,5 @@ document.querySelectorAll(".obf").forEach(el => {
       out += glyphs[Math.floor(Math.random() * glyphs.length)];
     }
     el.textContent = out;
-  }, 67);
+  }, 112);
 });
