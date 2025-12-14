@@ -2,15 +2,15 @@ let date1 = document.getElementById("date1");
 let date2 = document.getElementById("date2");
 
 document.body.insertAdjacentHTML("afterbegin", `
-    <div id="loading" style="position:fixed; scroll:none; display:flex; height: 100%; width: 100%; left: 0; top:0; background: linear-gradient(45deg, #010b29c2 0%, #010b2993 100%); z-index:99999999; text-align: center; font-family: 'Comic Sans MS'; font-size: 24px; line-height: 40px">
+    <div id="loading" style="position:fixed; scroll:none; display:flex; height: 100%; width: 100%; left: 0; top:0; background: linear-gradient(45deg, #010b29c2 0%, #010b2993 100%); z-index:99999999; text-align: center; font-family: 'Comic Sans MS' !important; font-size: 24px; line-height: 40px">
     <div style="margin: auto auto; font-size:150%" ><img src="/Katvodkalogoalt.png" style="width: 20%; object-fit: contain; filter: drop-shadow(3px 3px 0 black)" id="logo"><br>loading...<br>
     <a style="all:unset; font-size: 80%">do not panic if it looks stuck / site looks broken.<br>the website will look incomplete, while loading.<div style="opacity:0.5; font-size:16px; width: 75%; margin: 0 auto; line-height: 20px">in the case of it freezing, and you see that nothing is loading, please refresh the page. if it still does not work, well... then youre cooked.😭 nah but fr, pls contact katrewkate@gmail.com, or if you can access the poptart page (https:/vafelkis.github.io/poptart) then contact from there please! this pleasant [or horibbel.. :(] experience, has been brought to you by katrewkate/katdustries incorioaprtped induastries in some offshore country that no one knows about ! 
     </a><div id="quote">some fancy ahh quote here 🤓</div><div style="width: 100%; margin: 15px 0 0 0; height: 10px; outline: white 4px solid; background:transparent;"><div id="loadinz" style="background:linear-gradient(45deg, white, pink); width:0%; height:100%;"></div></div>`);
 
 document.body.insertAdjacentHTML("afterbegin", `
-    <div id="warningxxx" style="position:fixed; scroll:none; height: 155px; width: 200px; left: 0; bottom:0; background: rgba(255,255,255,0.2); border: 3px rgba(255,255,255,0.2) solid; z-index:99999999; text-align: center; font-family: 'Comic Sans MS'; font-size: 12px; line-height: 18px">
-    <div style="margin: auto auto" ><img src="/katlogowhite.png" style="width: 75px; object-fit: contain; filter: drop-shadow(3px 3px 0 black)"><br>warning :D<br>
-    <a style="all:unset; font-size: 80%">the site will likely experience a bit of stagnation, as im personally in a bad spot, so yea, sorry!<br>check these pages for more information: <div class="sigmahover1 grab" onclick="sigma('/poptart/'); return false">poptart</div> / <div class="sigmahover1 grab" onclick="sigma('/kat/wiki/'); return false">wiki</div></div>`);
+    <div id="warningxxx" style="all:initial; position:fixed; scroll:none; height: 155px; width: 200px; left: 0; bottom:0; background: rgba(255,255,255,0.2); border: 3px rgba(255,255,255,0.2) solid; z-index:99999999; text-align: center; font-family: 'Comic Sans MS' !important; font-size: 12px !important; line-height: 18px; text-shadow: none !important; filter: none !important;">
+    <div style="margin: auto auto; text-shadow: 3px 3px 0 black; font-family: 'Comic Sans MS' !important; font-size: 16px"  ><img src="/katlogowhite.png" style="width: 75px; object-fit: contain; filter: drop-shadow(3px 3px 0 black)"><br>warning :D<br>
+    <a style="all:unset; font-size: 12px; font-family: 'Comic Sans MS' !important; text-shadow: 3px 3px 0 black">the site will likely experience a bit of stagnation, as im personally in a bad spot, so yea, sorry!<br>check these pages for more information: <div class="sigmahover1 grab" onclick="sigma('/poptart/'); return false">poptart</div> / <div class="sigmahover1 grab" onclick="sigma('/kat/wiki/'); return false">wiki</div></div>`);
 
 reset();
 document.addEventListener("DOMContentLoaded", () => {
