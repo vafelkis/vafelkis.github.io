@@ -372,7 +372,23 @@ input[type="radio"]:checked
         transform: translateX(-100%);
     }
 }
-
+@keyframes real {
+    0% {
+        opacity: unset;
+    }
+    50% {
+        opacity: unset;
+    }
+    50% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: unset;
+    }
+}
 @font-face {
     font-family: 'Minecraft';
     
