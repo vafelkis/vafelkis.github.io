@@ -6,6 +6,52 @@ body {
     
     
 }
+* {
+    image-rendering: pixelated; /*idk wat any of these do, or i do, but i just dont understand fully*/
+text-rendering: geometricPrecision;
+-webkit-font-smoothing: none;
+-moz-osx-font-smoothing: grayscale;
+}
+.interlace {
+  filter: contrast(1.05) saturate(1.1);
+  position: relative;
+}
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin:0;
+    text-align: center; 
+}
+#sa::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: inherit; 
+  filter: blur(2px);   
+  transform: scaleX(1.5); 
+  transform-origin: center;
+  mix-blend-mode:soft-light; 
+  opacity: 0.2;
+  z-index: 10;
+}
+.interlace::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(
+  to bottom,
+  rgba(255,0,0,0.4) 0px,
+  rgba(0,255,0,0.4) 2px,
+  rgba(0,0,255,0.4) 4px
+);
+  pointer-events: none;
+  mix-blend-mode: color-burn;
+  z-index: 500;
+}
+
 @keyframes sx {
     from { background-position-x: 0;}
     to { background-position-x: 900px;}
