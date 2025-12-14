@@ -9,8 +9,8 @@ document.body.insertAdjacentHTML("afterbegin", `
 
 document.body.insertAdjacentHTML("afterbegin", `
     <div id="warningxxx" style="all:initial; position:fixed; scroll:none; height: 155px; width: 200px; left: 0; bottom:0; background: rgba(255,255,255,0.2); border: 3px rgba(255,255,255,0.2) solid; z-index:99999999; text-align: center; font-family: 'Comic Sans MS' !important; font-size: 12px !important; line-height: 18px; text-shadow: none !important; filter: none !important;">
-    <div style="margin: auto auto; text-shadow: 3px 3px 0 black; font-family: 'Comic Sans MS' !important; font-size: 16px"  ><img src="/katlogowhite.png" style="width: 75px; object-fit: contain; filter: drop-shadow(3px 3px 0 black)"><br>warning :D<br>
-    <a style="all:unset; font-size: 12px; font-family: 'Comic Sans MS' !important; text-shadow: 3px 3px 0 black">the site will likely experience a bit of stagnation, as im personally in a bad spot, so yea, sorry!<br>check these pages for more information: <div class="sigmahover1 grab" onclick="sigma('/poptart/'); return false">poptart</div> / <div class="sigmahover1 grab" onclick="sigma('/kat/wiki/'); return false">wiki</div></div>`);
+    <div style="margin: auto auto; text-shadow: 3px 3px 0 black !important; font-family: 'Comic Sans MS' !important; font-size: 16px"  ><img src="/katlogowhite.png" style="width: 75px; object-fit: contain; filter: drop-shadow(3px 3px 0 black) !important"><br>warning :D<br>
+    <a style="all:unset; font-size: 12px; font-family: 'Comic Sans MS' !important; text-shadow: 3px 3px 0 black !important">the site will likely experience a bit of stagnation, as im personally in a bad spot, so yea, sorry!<br>check these pages for more information: <div class="sigmahover1 grab" onclick="sigma('/poptart/'); return false">poptart</div> / <div class="sigmahover1 grab" onclick="sigma('/kat/wiki/'); return false">wiki</div></div>`);
 
 reset();
 document.addEventListener("DOMContentLoaded", () => {
