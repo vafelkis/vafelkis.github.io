@@ -175,7 +175,9 @@ will-change: filter;
       will-change: color, filter;
     transition: filter color 0.1s ease;
 }
-
+.inh {
+    all:inherit;
+}
 .sigmahover2 {
     all:unset;
     color: rgb(206, 83, 255);
@@ -241,10 +243,10 @@ will-change: filter;
         filter: invert(1) drop-shadow(0 0 5px rgb(255, 174, 0)) blur(1px) hue-rotate(277deg);
     }
     80% {
-        
+
     } 
     90% {
-filter: invert(1)
+filter: invert(1);
     }
     100% {
         background-color: black;

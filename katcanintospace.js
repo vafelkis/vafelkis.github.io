@@ -7,6 +7,11 @@ document.body.insertAdjacentHTML("afterbegin", `
     <a style="all:unset; font-size: 80%">do not panic if it looks stuck / site looks broken.<br>the website will look incomplete, while loading.<div style="opacity:0.5; font-size:16px; width: 75%; margin: 0 auto; line-height: 20px">in the case of it freezing, and you see that nothing is loading, please refresh the page. if it still does not work, well... then youre cooked.😭 nah but fr, pls contact katrewkate@gmail.com, or if you can access the poptart page (https:/vafelkis.github.io/poptart) then contact from there please! this pleasant [or horibbel.. :(] experience, has been brought to you by katrewkate/katdustries incorioaprtped induastries in some offshore country that no one knows about ! 
     </a><div id="quote">some fancy ahh quote here 🤓</div><div style="width: 100%; margin: 15px 0 0 0; height: 10px; outline: white 4px solid; background:transparent;"><div id="loadinz" style="background:linear-gradient(45deg, white, pink); width:0%; height:100%;"></div></div>`);
 
+document.body.insertAdjacentHTML("afterbegin", `
+    <div id="warningxxx" style="position:fixed; scroll:none; height: 155px; width: 200px; left: 0; bottom:0; background: rgba(255,255,255,0.2); border: 3px rgba(255,255,255,0.2) solid; z-index:99999999; text-align: center; font-family: 'Comic Sans MS'; font-size: 12px; line-height: 18px">
+    <div style="margin: auto auto" ><img src="/katlogowhite.png" style="width: 75px; object-fit: contain; filter: drop-shadow(3px 3px 0 black)"><br>warning :D<br>
+    <a style="all:unset; font-size: 80%">the site will likely experience a bit of stagnation, as im personally in a bad spot, so yea, sorry!<br>check these pages for more information: <div class="sigmahover1 grab" onclick="sigma('/poptart/'); return false">poptart</div> / <div class="sigmahover1 grab" onclick="sigma('/kat/wiki/'); return false">wiki</div></div>`);
+
 reset();
 document.addEventListener("DOMContentLoaded", () => {
     const images = document.querySelectorAll("img");
@@ -28,9 +33,9 @@ document.addEventListener("DOMContentLoaded", () => {
             update();
         } else {
             img.addEventListener("load", update);
-            img.addEventListener("error", update); 
+            img.addEventListener("error", update);
         }
-    }); 
+    });
 });
 document.body.insertAdjacentHTML("afterbegin", "<style>#topmessage {  position: fixed !important;top: 0 !important;left: 0 !important;width: 100% !important;background: lightblue !important;color: white !important;text-align: center !important;padding: 0px !important;z-index: 999 !important;font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext' style=\"font-size: 20px !important; font-family: 'Comic Sans MS' !important;\" id='topbannerad' >BING CHILLINGGGGGG ❄️❄️🌨️🏂🏻🎿🍧 THE TIME OF YEAR HAS ARRIVED, XMAS IS HEREE!!!!!!1!!1! WHAT TO EXPECT? NO IDEA! HOW ABOUT YOU FIND OUT LATER? 💞 MERRY CHRISTMAS AND HAPPY 1ST OF DECEMBER! :)</div></div>");
 
@@ -51,7 +56,7 @@ function calculateTimeSinceEvent(eventDate, endDate = null) {
 
     if (days < 0) {
         months--;
-        const previousMonth = new Date(now.getFullYear(), now.getMonth(), 0); 
+        const previousMonth = new Date(now.getFullYear(), now.getMonth(), 0);
         days += previousMonth.getDate();
     }
 
@@ -107,8 +112,8 @@ function displayTimeSinceEvent(eventDate, elementId = null, endEventDate = null,
 const bish = ["whoever reads is 'coustic", "check out Pancair Development Faciltes!", "dont forget to checkout vucic", "have you went to misc?", "good things start with b, boat, blyat.. bodka, bilnius!", "Bilnius", "eurobeat in the 26", "aproved by gogel", "bbbbbb", "welcome to the real world.", "do not support andrwe tate", "ba bla bla bla", "YAPPPPPPPPPP", "welcome from 1984", "if you read, you gey.", "check out new shi bro.", "live, laugh, love vlc", "sigma reader", "wtf bro", "HAHAHAHA", "welcome to amsterdam", "gretting to pacnkar in canda. :)", "Also checkout... huh?", "bro, hi!", "ni-ninja!", "\"sigma site ong fr\""]
 const stext = bish[Math.floor(Math.random() * bish.length)];
 
-window.onload = function () { 
-    
+window.onload = function () {
+
     for (element of document.getElementsByClassName("dateagodays")) {
         console.log(element.id);
         el = document.getElementById(`${element.id}-agoel`)
@@ -165,17 +170,18 @@ window.onload = function () {
 
 }
 if (!window.location.href.includes("vafelkis.github.io/newz")) {
-document.body.insertAdjacentHTML("afterbegin", '<div id="scrollthing" style="position: fixed; top: 0;right: 0;z-index:9999999;width: 1vw;height: 100vh;background: linear-gradient(180deg, rgba(255, 255, 255, 0.19) 80%, rgba(255, 255, 255, 0.56) 100%); margin: 0;padding: 0;box-sizing: border-box; z-index: 9999"><div id="scrollamt" style="background: linear-gradient(45deg, rgba(255,179,186,0.8), rgba(255,223,186,0.8), rgba(255,255,186,0.8), rgba(186,255,201,0.8), rgba(186,225,255,0.8), rgba(201,186,255,0.8), rgba(255,186,255,0.8)); outline: 2px rgba(255, 255, 255, 0.57) solid; outline-offset:-2px; background-size: cover; opacity: 0.7; width:100%; height: 0"></div><div style="position:absolute; transform: rotate(90deg); font-size:1vw; left: 0.55vw; transform-origin: center left; pointer-events: none; white-space: nowrap; cursor:unset">hi, imagine not being able to raed this... WAIT. DONT SCROLL!</div></div>') }
+    document.body.insertAdjacentHTML("afterbegin", '<div id="scrollthing" style="position: fixed; top: 0;right: 0;z-index:9999999;width: 1vw;height: 100vh;background: linear-gradient(180deg, rgba(255, 255, 255, 0.19) 80%, rgba(255, 255, 255, 0.56) 100%); margin: 0;padding: 0;box-sizing: border-box; z-index: 9999"><div id="scrollamt" style="background: linear-gradient(45deg, rgba(255,179,186,0.8), rgba(255,223,186,0.8), rgba(255,255,186,0.8), rgba(186,255,201,0.8), rgba(186,225,255,0.8), rgba(201,186,255,0.8), rgba(255,186,255,0.8)); outline: 2px rgba(255, 255, 255, 0.57) solid; outline-offset:-2px; background-size: cover; opacity: 0.7; width:100%; height: 0"></div><div style="position:absolute; transform: rotate(90deg); font-size:1vw; left: 0.55vw; transform-origin: center left; pointer-events: none; white-space: nowrap; cursor:unset">hi, imagine not being able to raed this... WAIT. DONT SCROLL!</div></div>')
+}
 const scrollbar = document.getElementById('scrollamt');
 const scrollthing = document.getElementById('scrollthing');
 
 function resizescroll() {
-                const scrollPosition = window.scrollY;
-                const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
-                scrollbar.style.height = `${scrollPosition / scrollableHeight * 100}%`;
-        }
+    const scrollPosition = window.scrollY;
+    const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
+    scrollbar.style.height = `${scrollPosition / scrollableHeight * 100}%`;
+}
 window.addEventListener('scroll', resizescroll);
-scrollthing.addEventListener('click', function(event) {
+scrollthing.addEventListener('click', function (event) {
     const rect = scrollthing.getBoundingClientRect();
     const y = event.clientY - rect.top;
     const scrollableHeight = document.documentElement.scrollHeight - window.innerHeight;
@@ -264,7 +270,7 @@ function english() {
         elemnt.innerText = "since";
     }
     document.getElementById("russianbut").innerText = "русский";
-    document.getElementById("lithuanianbut").innerText = "lietuvių"; 
+    document.getElementById("lithuanianbut").innerText = "lietuvių";
 
 
 
@@ -284,7 +290,7 @@ function startclock() {
         hour: '2-digit',
         minute: '2-digit',
         second: '2-digit',
-        hour12: false 
+        hour12: false
     });
     const [date, time] = nowvln.split(', ');
     const [day, month, year] = date.split('/');
@@ -346,15 +352,15 @@ function stopmsc(before = null, after = null) {
     }
 }
 const glyphs =
-"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЫЭЮЯабвгдежзийклмнопрстуфхцчшщыэюяΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρστυφχψω0123456789#$%&*+=?@^";
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЫЭЮЯабвгдежзийклмнопрстуфхцчшщыэюяΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρστυφχψω0123456789#$%&*+=?@^";
 document.querySelectorAll(".obf").forEach(el => {
-  const length = el.textContent.length;
+    const length = el.textContent.length;
 
-  setInterval(() => {
-    let out = "";
-    for (let i = 0; i < length; i++) {
-      out += glyphs[Math.floor(Math.random() * glyphs.length)];
-    }
-    el.textContent = out;
-  }, 112);
+    setInterval(() => {
+        let out = "";
+        for (let i = 0; i < length; i++) {
+            out += glyphs[Math.floor(Math.random() * glyphs.length)];
+        }
+        el.textContent = out;
+    }, 112);
 });
