@@ -218,6 +218,12 @@ will-change: filter;
       will-change: color, filter;
     transition: filter color 0.1s ease;
 }
+.obf {
+  line-height: 1em;
+  font-family: monospace;
+  white-space: pre; 
+
+}
 .sigmahover5 {
     all:unset;
     color: rgb(204, 204, 204);
