@@ -1,0 +1,56 @@
+html,
+body {
+    height: 100%;
+    padding:0;
+    margin: 0;
+    color:white;
+    font-size: 24px;
+    font-family: 'IBMVGA';
+    
+}
+@keyframes sx {
+    from { background-position-x: 0;}
+    to { background-position-x: 900px;}
+}
+#sa {
+    padding: 10px;
+    background: url('/darkgritty.png');
+    background-size: 900px;
+     text-shadow: black 3px 3px, 0 0 3px white;
+    animation: sx 90s infinite linear;
+}
+@keyframes flicker {
+    0% {
+color: rgb(206, 206, 206);
+    }
+    33% {
+
+color: rgba(255, 255, 255, 0.719);
+    }
+    50% {
+color: white;
+        }
+        60% {
+            color:transparent;
+        }
+        70% {
+            color:white;
+        }
+        75% {
+            color:transparent;
+        }
+        80% {
+color: rgba(255, 255, 255, 0.76);
+        }
+        100% {
+color: rgb(138, 138, 138);
+        }
+}
+.but {
+    
+}
+* {
+    position: relative;
+    background: none;
+    z-index: 2;
+}

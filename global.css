@@ -250,6 +250,7 @@ filter: invert(1);
     }
     100% {
         background-color: black;
+        mix-blend-mode:color-dodge;
     }
 }
 .glt {
@@ -376,6 +377,15 @@ input[type="radio"]:checked
     font-family: 'Minecraft';
     
     src: url('/Minecraftchmc-dBlX.ttf') format('truetype');
+    font-weight: normal;
+    
+    font-style: normal;
+    
+}
+@font-face {
+    font-family: 'IBMVGA';
+    
+    src: url('/PxPlus_IBM_VGA_8x16.ttf') format('truetype');
     font-weight: normal;
     
     font-style: normal;
