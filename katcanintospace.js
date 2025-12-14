@@ -345,3 +345,16 @@ function stopmsc(before = null, after = null) {
         }
     }
 }
+const glyphs =
+"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789#$%&*+=@^";
+document.querySelectorAll(".obf").forEach(el => {
+  const length = el.textContent.length;
+
+  setInterval(() => {
+    let out = "";
+    for (let i = 0; i < length; i++) {
+      out += glyphs[Math.floor(Math.random() * glyphs.length)];
+    }
+    el.textContent = out;
+  }, 67);
+});
