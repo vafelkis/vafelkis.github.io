@@ -220,7 +220,6 @@ will-change: filter;
 }
 .obf {
   line-height: 1em;
-  font-family: monospace;
   white-space: pre; 
 
 }
