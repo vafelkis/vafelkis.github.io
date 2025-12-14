@@ -38,6 +38,9 @@ html {
     background-repeat: repeat;
     padding: 20px;
 }
+.shdw {
+    filter:drop-shadow(4px 4px 0 black);
+}
 .szv {
     object-fit: contain !important; width: 75%; text-align: center; vertical-align:middle;
 }
