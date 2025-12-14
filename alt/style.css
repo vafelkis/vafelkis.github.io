@@ -46,9 +46,24 @@ color: rgba(255, 255, 255, 0.76);
 color: rgb(138, 138, 138);
         }
 }
-.but {
-    
+@keyframes rip {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+        visibility: hidden;
+    }
 }
+@keyframes ripz {
+    from {
+        background: black;
+    }
+    to {
+background: rgba(0, 0, 0, 0.664);
+    }
+}
+
 * {
     position: relative;
     background: none;
