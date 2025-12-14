@@ -3,9 +3,7 @@ body {
     height: 100%;
     padding:0;
     margin: 0;
-    color:white;
-    font-size: 24px;
-    font-family: 'IBMVGA';
+    
     
 }
 @keyframes sx {
@@ -18,6 +16,10 @@ body {
     background-size: 900px;
      text-shadow: black 3px 3px, 0 0 3px white;
     animation: sx 90s infinite linear;
+    color:white;
+    font-size: 24px;
+    font-family: 'IBMVGA';
+    font-weight: 1000;
 }
 @keyframes flicker {
     0% {
