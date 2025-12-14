@@ -189,6 +189,7 @@ will-change: filter;
       will-change: color, filter;
     transition: filter color 0.1s ease;
 }
+
 .cent {
     text-align: center;
 }
@@ -212,6 +213,9 @@ will-change: filter;
       will-change: color, filter;
     transition: filter color 0.1s ease;
 }
+.pre {
+    white-space: pre;
+}
 .sigmahover4:hover {
     color: rgb(255, 255, 255) !important; 
     filter:drop-shadow(0px 0px 4px rgb(255, 255, 255)) !important;
@@ -222,6 +226,32 @@ will-change: filter;
   line-height: 1em;
   white-space: pre; 
 
+}
+@keyframes glitch {
+    0% {
+        color: red !important; 
+    }
+    10% {
+        color: blue !important; 
+    }
+    15% {
+        color: green !important;
+    }
+    50% {
+        filter: invert(1) drop-shadow(0 0 5px rgb(255, 174, 0)) blur(1px) hue-rotate(277deg);
+    }
+    80% {
+        
+    } 
+    90% {
+filter: invert(1)
+    }
+    100% {
+        background-color: black;
+    }
+}
+.glt {
+    animation: glitch 3s steps(3) infinite;
 }
 .sigmahover5 {
     all:unset;
