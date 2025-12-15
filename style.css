@@ -9,6 +9,7 @@ body {
 }
 html { 
     background-image: url("source.gif") !important;
+    overflow-x:hidden;
 }
 @keyframes glowingpulse {
   0% {

@@ -11,6 +11,7 @@ body {
 text-rendering: geometricPrecision;
 -webkit-font-smoothing: none;
 -moz-osx-font-smoothing: grayscale;
+position:relative;
 }
 .interlace {
   filter: contrast(1.05) saturate(1.1);
@@ -21,19 +22,10 @@ h1,h2,h3,h4,h5,h6 {
     margin:0;
     text-align: center; 
 }
-#sa::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  background: inherit; 
-  filter: blur(2px);   
-  transform: scaleX(1.5); 
-  transform-origin: center;
-  mix-blend-mode:soft-light; 
-  opacity: 0.2;
-  z-index: 10;
+#saz {
+    position:relative;
 }
+
 .interlace::before {
   content: "";
   position: absolute;
@@ -63,8 +55,13 @@ h1,h2,h3,h4,h5,h6 {
      text-shadow: black 3px 3px, 0 0 3px white;
     animation: sx 90s infinite linear;
     color:white;
+    overflow: hidden;
+    
     font-size: 24px;
+    min-width: 98vw;
+    min-height: 100vh;
     font-family: 'IBMVGA';
+    z-index: 2;
     font-weight: 1000;
 }
 @keyframes flicker {
@@ -112,8 +109,3 @@ background: rgba(0, 0, 0, 0.664);
     }
 }
 
-* {
-    position: relative;
-    background: none;
-    z-index: 2;
-}
