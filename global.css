@@ -227,7 +227,7 @@ will-change: filter;
 .obf {
   line-height: 1em;
   white-space: pre; 
-
+    font-family: 'IBMVGA' !important;
 }
 @keyframes glitch {
     0% {
