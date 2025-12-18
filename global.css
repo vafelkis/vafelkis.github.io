@@ -229,6 +229,9 @@ will-change: filter;
   white-space: pre; 
     font-family: 'IBMVGA' !important;
 }
+.rgb {
+    animation: rgbimg 3s linear infinite;
+}
 @keyframes glitch {
     0% {
         color: red !important; 
