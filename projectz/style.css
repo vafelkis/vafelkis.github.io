@@ -19,6 +19,33 @@ html {
 .lowop {
     opacity: 0.3;
 }
+.packgal {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1%; }
+
+.packgal img {
+    transition: filter 0.2s ease, width 0.2s ease;
+    width: 98%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    filter: grayscale(0.5);
+}.packgal img:hover {
+    transition: filter 0.2s ease, width 0.2s ease;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    filter: grayscale(0) brightness(1.2) contrast(1.2);
+}
+#sungal img {
+ border: 3px orange solid;
+}
+#musgal img {
+ border: 3px rgb(255, 60, 0) solid;
+}
+#blugal img {
+ border: 3px rgb(0, 89, 255) solid;
+}
 .cent {
     margin: 8px 0 8px 0;
 }
