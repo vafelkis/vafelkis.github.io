@@ -47,7 +47,7 @@
   cursor:default;
 }
 #btm {
-    position: absolute; bottom:0; left:0; text-align: center; width: 100vw; height: 30px; color:white;
+    position: absolute; bottom:0; left:0; text-align: center; width: 100vw; height: 30px; color:white; padding:5px;
 }
 #ok:hover {
     background: rgba(0, 0, 0, 0.473); color:rgba(255, 255, 255, 0.733); border: 3px rgba(255, 255, 255, 0.267) solid; cursor: grab;
@@ -58,8 +58,8 @@
     <div style="display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh"><img id="img" src="/BeamNG.drive.x64 2024-04-05 19-38-09.png" style="max-width: 98vw; max-height: 98vh; object-fit:contain"></div>
-    <div id="btm"><div style="font-family: 'IBMVGA'; font-size: 16px;" id="txt">fak you</div></div>
+  height: 100vh"><img id="img" src="/BeamNG.drive.x64 2024-04-05 19-38-09.png" style="max-width: 98vw; max-height: 98vh; object-fit:contain; border: 3px rgba(255, 255, 255, 0.267) solid"></div>
+    <div id="btm"><div style="font-family: 'IBMVGA'; font-size: 26px; pointer-events: none" id="txt">fak you</div></div>
 </body>
 <script>
   const params = new URLSearchParams(window.location.search);
@@ -67,7 +67,8 @@
   let btm = document.getElementById("txt");
   let img = document.getElementById("img");
   img.setAttribute("src", src);
-  btm.innerText = src;
+  const ind = src.split("/");
+  btm.innerText = ind[ind.length-1];
   
 </script>
 <script src="/sigma.js"></script>
