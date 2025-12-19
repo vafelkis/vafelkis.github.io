@@ -108,6 +108,7 @@ tr {
 .dwn {
     width: 98%;
     padding-top: 5px;
+    filter: drop-shadow(3px 3px black);
 }
 #loading {
     font-family: "ArialPixel";
