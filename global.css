@@ -378,18 +378,19 @@ input[type="radio"]:checked
 @keyframes real {
     0% {
         opacity: unset;
+        pointer-events:all;
     }
-    50% {
-        opacity: unset;
-    }
-    50% {
+    10% {
         opacity: 0;
+        pointer-events: none;
     }
     90% {
         opacity: 0;
+        pointer-events: none;
     }
     100% {
         opacity: unset;
+        pointer-events:all;
     }
 }
 @font-face {
