@@ -46,6 +46,9 @@ html {
 #blugal img {
  border: 3px rgb(0, 89, 255) solid;
 }
+#fckgal img {
+ border: 3px rgb(225, 0, 255) solid;
+}
 .cent {
     margin: 8px 0 8px 0;
 }
@@ -109,6 +112,9 @@ tr {
     width: 98%;
     padding-top: 5px;
     filter: drop-shadow(3px 3px black);
+}
+.vda {
+    line-height: 30px;
 }
 .dwn:hover {
     filter: drop-shadow(3px 3px black) brightness(0.8);
