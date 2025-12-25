@@ -365,7 +365,10 @@ input[type="radio"]:checked
     text-shadow: black 3px 3px;
     animation: scroll-left 45s linear infinite;
 }
-
+.lowop {
+    all:unset;
+    opacity: 0.3;
+}
 @keyframes scroll-left {
     0% {
         transform: translateX(0%);
