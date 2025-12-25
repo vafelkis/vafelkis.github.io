@@ -103,10 +103,6 @@ hr {
     color: rgb(0, 217, 255);
     font-weight: bold;
 }
-.lowop {
-    all:unset;
-    opacity: 0.3;
-}
 html {
     background-image: url("/chisel.png") !important;
     z-index: 0;
