@@ -16,9 +16,6 @@ html {
     text-shadow: black 3px 3px;
     z-index: 2;
 }
-.lowop {
-    opacity: 0.3;
-}
 .packgal {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
