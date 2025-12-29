@@ -10,6 +10,9 @@ html {
     animation: sigma 240s linear forwards;
     background-attachment: scroll !important;
 }
+body {
+    overflow: hidden !important;
+}
 @keyframes sigma {
     from {
         background-position-y: 0px;
