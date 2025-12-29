@@ -15,7 +15,7 @@ html {
         background-position-y: 0px;
     }
     to {
-        background-position-y: -300vh;
+        background-position-y: -300vw;
     }
 }
 .red {
@@ -32,10 +32,10 @@ html {
 }
 @keyframes aha {
     from {
-        bottom: -620vh;
+        bottom: -350vw;
     }
     to {
-        bottom: 120vh;
+        bottom: 80vw;
     }
 
 }
