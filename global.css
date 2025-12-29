@@ -195,6 +195,14 @@ will-change: filter;
 .cent {
     text-align: center;
 }
+.eps {
+    background: black;
+    color: black;
+    text-shadow: none;
+}
+.eps2 {
+    background: rgb(160, 0, 0);
+}
 .sigmahover3 {
     all:unset;
     color: rgb(219, 0, 0);
@@ -207,6 +215,9 @@ will-change: filter;
     filter:drop-shadow(0px 0px 4px rgb(121, 0, 0)) !important;
       will-change: color, filter;
     transition: filter color 0.1s ease;
+}
+.uns {
+    all:unset;
 }
 .sigmahover4 {
     all:unset;
@@ -364,6 +375,10 @@ input[type="radio"]:checked
     color: white;
     text-shadow: black 3px 3px;
     animation: scroll-left 45s linear infinite;
+}
+.linet {
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
 }
 .lowop {
     all:unset;
