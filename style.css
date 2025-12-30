@@ -28,10 +28,22 @@ html {
 
   }
 }
-
+@keyframes toheritwasworthit {
+    from
+    { 
+        background-position-x: 0;
+    }
+    to {
+        background-position-x: 50px;
+    }
+}
 .flag {
     box-shadow: -2px 2px black, 0px 0px 3px black, 0px 0px 3px black, 0px 0px 3px black;
     outline: 1px black solid;
+}
+.sng {
+    height: 50px; 
+    filter: drop-shadow(0px 0px 4px white);
 }
 #slavaboat {
     font-family: "Comic Sans MS";

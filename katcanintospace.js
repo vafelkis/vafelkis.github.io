@@ -153,7 +153,7 @@ window.onload = function () {
 
 
 
-    setInterval(startclock, 500);
+    setInterval(startclock, 1000);
     let maythernggods = new Date();
     let noetter = maythernggods.getHours();
     console.log(noetter);
@@ -295,6 +295,9 @@ function english() {
     displayTimeSinceEvent(new Date("2022-05-30"), 'bccreationdateago', null, "en");
 }
 
+let donottakeshroomz = document.getElementById("2026cont");
+let widthchangenx = document.getElementById("sigma1993");
+
 function startclock() {
     const nowvln = new Date().toLocaleString('en-GB', {
         timeZone: 'Europe/Vilnius',
@@ -318,6 +321,22 @@ function startclock() {
         date2.innerText = time;
     }
     console.log(`${year}-${month}-${day}` + " " + time)
+    recheckcount();
+}
+function recheckcount()
+{
+    const now = new Date(new Date().toLocaleString('en-US', { timeZone: 'Europe/Vilnius' }));
+    const current = new Date(now);
+
+    const startOfYear = new Date(current.getFullYear(), 0, 1);
+    const endOfYear = new Date(current.getFullYear() + 1, 0, 1);
+
+    const percent = (((current - startOfYear) / (endOfYear - startOfYear)) * 100).toFixed(4);
+    donottakeshroomz.innerHTML = `<img src="/pinkhearts.gif"
+            class="sng"> ${startOfYear.getFullYear()}... watafak?! <img src="/pinkhearts.gif"
+            class="sng">`;
+    widthchangenx.style.width = `${percent}%`;
+    widthchangenx.innerText = `${percent}%`;
 
 }
 const audio = document.getElementById("msc");
