@@ -203,6 +203,9 @@ will-change: filter;
 .eps2 {
     background: rgb(160, 0, 0);
 }
+.ht {
+    font-size: 50%;
+}
 .sigmahover3 {
     all:unset;
     color: rgb(219, 0, 0);
