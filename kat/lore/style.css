@@ -41,6 +41,12 @@ html {
 .shdw {
     filter:drop-shadow(4px 4px 0 black);
 }
+.leave {
+    flex: 0 0 32%;
+}
+.gflost {
+    width: 100%; object-fit: contain; outline: 3px rgb(72, 0, 75) solid;
+}
 .lowop {
     all:unset;
     opacity:0.3;
