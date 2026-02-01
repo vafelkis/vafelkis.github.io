@@ -55,15 +55,19 @@ html {
 }
 .orangez {
     color:#ffe2b7;
+    font-size: unset;
 }
 .orangez:hover {
     color: rgb(255, 204, 65);
+    font-size: unset;
     cursor: grab;
 }
 .lightblue {
+    font-size: unset;
     color:lightblue;
 }
 .lightblue:hover {
+    font-size: unset;
     color: rgb(0, 119, 255);
     cursor: grab;
 }
