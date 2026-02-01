@@ -323,8 +323,7 @@ function startclock() {
     console.log(`${year}-${month}-${day}` + " " + time)
     recheckcount();
 }
-function recheckcount()
-{
+function recheckcount() {
     const now = new Date(new Date().toLocaleString('en-US', { timeZone: 'Europe/Vilnius' }));
     const current = new Date(now);
 
@@ -341,6 +340,63 @@ function recheckcount()
 }
 const audio = document.getElementById("msc");
 const txtaud = document.getElementById("stopmsc");
+function startahkurwa(startDate) {
+    const target = startDate instanceof Date
+        ? startDate.getTime()
+        : new Date(startDate).getTime();
+
+    const el = document.getElementById("ahkurwa");
+    let complete = false;
+    let flashing = false;
+    const col = el.style.color || "red";
+
+    function flash() {
+        el.style.color = "transparent";
+        setTimeout(() => {
+            el.style.color = col;
+        }, 500);
+    }
+
+    function startFlashing() {
+        if (flashing) return;
+        flashing = true;
+        flash();
+        setInterval(flash, 1000);
+    }
+
+    function tick() {
+        if (complete) {
+            startFlashing();
+            return;
+        }
+
+        const now = Date.now();
+        let diff = Math.floor((target - now) / 1000);
+
+        if (diff <= 0) {
+            diff = 0;
+            complete = true;
+        }
+
+        const days = Math.floor(diff / 86400);
+        diff %= 86400;
+        const hours = Math.floor(diff / 3600);
+        diff %= 3600;
+        const minutes = Math.floor(diff / 60);
+        const seconds = diff % 60;
+
+        el.innerText =
+            String(days).padStart(2, "0") + " " +
+            String(hours).padStart(2, "0") + " " +
+            String(minutes).padStart(2, "0") + " " +
+            String(seconds).padStart(2, "0");
+    }
+
+    tick();
+    setInterval(tick, 1000);
+}
+
+
 
 function playmsc() {
     setTimeout(function () {
