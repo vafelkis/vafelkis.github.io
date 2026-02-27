@@ -1,0 +1,12 @@
+{
+  "global": {
+    "enabled": true,
+    "message": "All projects running normally, personal ones are paused!"
+  },
+  "projects": {
+    "order1-mtdc": {
+      "enabled": true,
+      "message": "None, go to https://katrewkate.com/ for more information!"
+    }
+  }
+}
