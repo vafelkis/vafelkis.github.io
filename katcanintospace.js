@@ -7,12 +7,12 @@ if (typeof ignoreloading === 'undefined' || !ignoreloading) {
     <a style="all:unset; font-size: 80%">do not panic if it looks stuck / site looks broken.<br>the website will look incomplete, while loading.<div style="opacity:0.5; font-size:16px; width: 75%; margin: 0 auto; line-height: 20px">in the case of it freezing, and you see that nothing is loading, please refresh the page. if it still does not work, well... then youre cooked.😭 nah but fr, pls contact katrewkate@proton.me, or if you can access the poptart page (https:/vafelkis.github.io/poptart) then contact from there please! this pleasant [or horibbel.. :(] experience, has been brought to you by katrewkate/katdustries incorioaprtped induastries in some offshore country that no one knows about ! 
     </a><div id="quote">some fancy ahh quote here 🤓</div><div style="width: 100%; margin: 15px 0 0 0; height: 10px; outline: white 4px solid; background:transparent;"><div id="loadinz" style="background:linear-gradient(45deg, white, pink); width:0%; height:100%;"></div></div>`);
 }
-if (typeof ignoremsg === 'undefined' || !ignoremsg) {
-    document.body.insertAdjacentHTML("afterbegin", `
-    <div id="warningxxx" style="all:initial; color:white; position:fixed; mix-blend-mode:color-dodge; scroll:none; height: 155px; width: 200px; left: 0; bottom:0; background: rgba(255,255,255,0.2); border: 3px rgba(255,255,255,0.2) solid; z-index:99999999; text-align: center; font-family: 'Comic Sans MS' !important; font-size: 12px !important; line-height: 18px; text-shadow: none !important; filter: none !important; animation: 30s real infinite linear">
-    <div style="margin: auto auto; text-shadow: 3px 3px 0 black !important;  color:white; font-family: 'Comic Sans MS' !important; font-size: 16px"  ><img src="/katlogowhite.png" style="width: 75px; object-fit: contain; filter: drop-shadow(3px 3px 0 black) !important"><br>warning :D<br>
-    <a style="all:unset; font-size: 12px;  color:white; font-family: 'Comic Sans MS' !important; text-shadow: 3px 3px 0 black !important">the site will likely experience a bit of stagnation, as im personally in a bad spot, so yea, sorry!<br>check these pages for more information: <div class="sigmahover1 grab" onclick="sigma('/poptart/'); return false">poptart</div> / <div class="sigmahover1 grab" onclick="sigma('/kat/wiki/'); return false">wiki</div></div>`);
-}
+//if (typeof ignoremsg === 'undefined' || !ignoremsg) {
+//    document.body.insertAdjacentHTML("afterbegin", `
+//    <div id="warningxxx" style="all:initial; color:white; position:fixed; mix-blend-mode:color-dodge; scroll:none; height: 155px; width: 200px; left: 0; bottom:0; background: rgba(255,255,255,0.2); border: 3px rgba(255,255,255,0.2) solid; z-index:99999999; text-align: center; font-family: 'Comic Sans MS' !important; font-size: 12px !important; line-height: 18px; text-shadow: none !important; filter: none !important; animation: 30s real infinite linear">
+//    <div style="margin: auto auto; text-shadow: 3px 3px 0 black !important;  color:white; font-family: 'Comic Sans MS' !important; font-size: 16px"  ><img src="/katlogowhite.png" style="width: 75px; object-fit: contain; filter: drop-shadow(3px 3px 0 black) !important"><br>warning :D<br>
+//    <a style="all:unset; font-size: 12px;  color:white; font-family: 'Comic Sans MS' !important; text-shadow: 3px 3px 0 black !important">the site will likely experience a bit of stagnation, as im personally in a bad spot, so yea, sorry!<br>check these pages for more information: <div class="sigmahover1 grab" onclick="sigma('/poptart/'); return false">poptart</div> / <div class="sigmahover1 grab" onclick="sigma('/kat/wiki/'); return false">wiki</div></div>`);
+//}
 reset();
 document.addEventListener("DOMContentLoaded", () => {
     const images = document.querySelectorAll("img");
@@ -48,10 +48,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
-if (typeof ignoretop === 'undefined' || !ignoretop) {
-
-    document.body.insertAdjacentHTML("afterbegin", "<style>#topmessage {  position: fixed !important;top: 0 !important;left: 0 !important;width: 100% !important;background: linear-gradient(45deg, red, darkred) !important;color: white !important;text-align: center !important;padding: 0px !important;z-index: 999 !important;font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext' style=\"font-size: 20px !important; font-family: 'Comic Sans MS' !important;\" id='topbannerad' >All projects are currently paused. Please refer to the following pages for more information: <a href='/kat/' class='sigmahover1 grab'>/kat/ page</a>, <a href='/kat/lore/' class='sigmahover1 grab'>/kat/lore/ page</a>, <a href='/newz/' class='sigmahover1 grab'>/newz/ page</a>, <a href='/kat/wiki/' class='sigmahover1 grab'>/kat/wiki/ page</a>; particularly November / December months, and Eurobeat/Buckshot era events. Thank you for the support and understanding and have a great day! :)</div></div>");
-}
+//if (typeof ignoretop === 'undefined' || !ignoretop) {
+//
+//    document.body.insertAdjacentHTML("afterbegin", "<style>#topmessage {  position: fixed !important;top: 0 !important;left: 0 !important;width: 100% !important;background: linear-gradient(45deg, red, darkred) !important;color: white !important;text-align: center !important;padding: 0px !important;z-index: 999 !important;font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext' style=\"font-size: 20px !important; font-family: 'Comic Sans MS' !important;\" id='topbannerad' >All projects are currently paused. Please refer to the following pages for more information: <a href='/kat/' class='sigmahover1 grab'>/kat/ page</a>, <a href='/kat/lore/' class='sigmahover1 grab'>/kat/lore/ page</a>, <a href='/newz/' class='sigmahover1 grab'>/newz/ page</a>, <a href='/kat/wiki/' class='sigmahover1 grab'>/kat/wiki/ page</a>; particularly November / December months, and Eurobeat/Buckshot era events. Thank you for the support and understanding and have a great day! :)</div></div>");
+//}
 const fmt = Intl.DateTimeFormat({ timeZone: 'Europe/Vilnius' });
 function calculateTimeSinceEvent(eventDate, endDate = null) {
     let now = new Date();
