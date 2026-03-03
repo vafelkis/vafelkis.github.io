@@ -56,7 +56,12 @@ html {
     background-size: 100%;
     background-repeat: repeat;
 }
-
+ul,ol {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
 * {
     font-family: "95w", "w95", "w95fa";
     position: relative;
@@ -86,6 +91,9 @@ hr {
     height: 4px;
     margin: 8px 0 4px 0;
     background: linear-gradient(45deg, rgb(92, 0, 153), transparent)
+}
+.spc {
+    margin: 3px 0 0 0;
 }
 h1 {
 
