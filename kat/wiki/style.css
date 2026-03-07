@@ -23,6 +23,12 @@ td,th {
     padding: 5px;
     font-size: 24px;
 }
+.hh1 {
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
 .shadow {
     filter: drop-shadow(4px 4px 0 black);
     border: rgba(25, 0, 39, 0.493) 3px solid;
