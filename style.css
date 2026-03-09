@@ -59,6 +59,10 @@ html {
 }
 .sixseven {
     font-size: 20px !important;
+    background: linear-gradient(90deg,transparent,rgba(255, 255, 255, 0.575),transparent);
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 5px;
 }
 .orangez:hover {
     color: rgb(255, 204, 65);

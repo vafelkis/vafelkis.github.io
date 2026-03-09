@@ -23,6 +23,35 @@ will-change: color, text-shadow;
 *[style*="rgbimg"] {
 will-change: filter;
 }
+.bhr {
+    color: white; background-color: rgba(255, 255, 255, 0.253); height: 3px;
+    border: none; border-radius: 20px;
+}
+@keyframes imggli {
+    0% {
+        filter: brightness(100)
+    }   
+    10% {
+        filter: brightness(-100)
+    }
+    15% {
+    }
+    50% {
+        filter: drop-shadow(0 0 5px rgb(255, 174, 0)) blur(1px);
+    }
+    80% {
+
+    } 
+    90% {
+filter: invert(1);
+    }
+    100% {
+        background-color: black;
+        mix-blend-mode:color-burn;
+        filter: blur(4px);
+        opacity: 0.2;
+    }
+}
 @keyframes rgbAnimation {
                 0% {
                         color: rgb(255, 41, 41);
