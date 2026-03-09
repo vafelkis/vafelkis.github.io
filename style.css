@@ -57,6 +57,9 @@ html {
     color:#ffe2b7;
     font-size: unset;
 }
+.sixseven {
+    font-size: 20px !important;
+}
 .orangez:hover {
     color: rgb(255, 204, 65);
     font-size: unset;
