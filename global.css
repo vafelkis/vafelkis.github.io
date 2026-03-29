@@ -537,6 +537,35 @@ input[type="radio"]:checked
     font-weight: 400;
     font-style: italic;
 }
+
+
+
+@font-face {
+    font-family: 'vafspacemono';
+    src: url('/SpaceMono-Regular.ttf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'vafspacemono';
+    src: url('/SpaceMono-Bold.ttf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'vafspacemono';
+    src: url('/SpaceMono-Italic.ttf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'vafspacemono';
+    src: url('/SpaceMono-BoldItalic.ttf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+
   .splash {
     position:absolute;
     display:flex;

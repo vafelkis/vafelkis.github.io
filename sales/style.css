@@ -1,0 +1,22 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+html {
+    background: repeating-linear-gradient(45deg, black , rgb(8, 8, 8) 80px, black 160px) !important;
+    z-index: 0;
+}
+
+* {
+    position: relative;
+    background: none;
+    text-shadow: black 3px 3px;
+    color: white;
+    font-family: 'vafspacemono';
+    font-weight: bold;
+    text-shadow: 3px 3px 0 black;
+    z-index: 2;
+}
