@@ -6,17 +6,29 @@ body {
     
 }
 html {
-    background: repeating-linear-gradient(45deg, black , rgb(8, 8, 8) 80px, black 160px) !important;
+    background: url("/gl2.gif");
+    background-size: 100%;
     z-index: 0;
 }
-
+.snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    background: url('/dust4.gif');
+    background-size: 600px;
+    pointer-events: none;
+    mix-blend-mode: screen !important;
+}
 * {
     position: relative;
     background: none;
     text-shadow: black 3px 3px;
     color: white;
-    font-family: 'vafspacemono';
+    font-family: 'ArialNova';
     font-weight: bold;
+    font-size: 25px;
     text-shadow: 3px 3px 0 black;
-    z-index: 2;
 }
