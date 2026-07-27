@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 if (typeof ignoretop === 'undefined' || !ignoretop) {
 
-    document.body.insertAdjacentHTML("afterbegin", "<style>#topmessage {  position: fixed !important;top: 0 !important;left: 0 !important;width: 100% !important;background: linear-gradient(45deg, red, darkred) !important;color: white !important;text-align: center !important;padding: 0px !important;z-index: 999 !important;font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext' style=\"font-size: 20px !important; font-family: 'Comic Sans MS' !important;\" id='topbannerad' >this site will likely be updated after exam season and graduation, as katrewkate is currently on the edge of finishing school. stay tuned and check the appropriate pages for more information.</div></div>");
+    document.body.insertAdjacentHTML("afterbegin", "<style>#topmessage {  position: fixed !important;top: 0 !important;left: 0 !important;width: 100% !important;background: linear-gradient(45deg, black, purple) !important;color: white !important;text-align: center !important;padding: 0px !important;z-index: 999 !important;font-size: 20px !important;}</style><div class='scrolldiv' id='topmessage'><div class='scrolltext' style=\"font-size: 20px !important; font-family: 'Comic Sans MS' !important;\" id='topbannerad' >website has been updated majorly to reflect new outlooks and eras and stages of life. thank you for visiting! welcome back!</div></div>");
 }
 const fmt = Intl.DateTimeFormat({ timeZone: 'Europe/Vilnius' });
 function calculateTimeSinceEvent(eventDate, endDate = null) {
