@@ -21,6 +21,17 @@ header {
 img {
     margin: 0; padding: 0;
 }
+.f {
+    width: 100% !important;
+    height: max-content !important;
+}
+hr {
+    width: 75%;
+    color:#ffffff80;
+    background: #ffffff86;
+    height: 3px;
+    border: white 2px solid;
+}
 .jabl {
      margin: 10px; float: left !important; width: 300px;
 }
